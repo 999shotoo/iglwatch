@@ -314,7 +314,7 @@ export const episodes = [
         "duration": "1hr 14min",
         "guests": ["Poonam Pandey", "Vidit Chess", "Vivek Magic"],
         "hosts": ["Samay Raina", "Balraj"],
-        "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730790/673c72318e5120e67620d7fc_yDbg3SGQ2DQ-HD-p-800_s8pcey.webp",
+        "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777749080/1cOceNLaWja6KI2b6t0PNnBtxBd_stycfn.jpg",
         "downloadLink": "https://drive.usercontent.google.com/download?id=1RtacSVIIJsgtVVtgtodDzFC8b3Ioc-qG&export=download&confirm=t&uuid=4cc14845-0085-4c8b-bb9e-f7935ead31ea",
         "servers": [
             {
@@ -705,7 +705,7 @@ export const episodes = [
         "duration": "1hr 04min",
         "guests": ["Ashish", "Ranveer", "Jaspreet", "Apoorva"],
         "hosts": ["Samay Raina"],
-        "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731085/photo_vg0vaw.avif",
+        "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777748956/taMh8nV934ZwA8euEJc3P36koPg_uaj8o9.jpg",
         "downloadLink": "https://drive.usercontent.google.com/download?id=13AvE38Ex2T6tP5VFRHO9RbryBW2q5de8&export=download&confirm=t&uuid=1ae7f0dd-c4e4-4c1c-a4f0-ab2d83cf817d",
         "servers": [
             {
@@ -926,7 +926,7 @@ export const spotlite = [
         "id": "indias-got-latent-bonus-ep-6-ft--ranveer",
         "title": "INDIA'S GOT LATENT ｜ BONUS EP 06 ft. Ashish, Ranveer, Jaspreet, Apoorva",
         "description": "Guests Ashish, Ranveer, Jaspreet, Apoorva join Samay to hilariously critique India's latent talents. The most talked-about episode with fiery exchanges and unexpected revelations.",
-        "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731085/photo_vg0vaw.avif",
+        "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777748956/taMh8nV934ZwA8euEJc3P36koPg_uaj8o9.jpg",
         "video_url": "https://res.cloudinary.com/dxds9rnrf/video/upload/v1777746450/igl-1_r7s4no.webm"
     },
     {
@@ -940,7 +940,7 @@ export const spotlite = [
         "id": "indias-got-latent-ep-08-ft--aslipoonampandey-viditc",
         "title": "INDIA'S GOT LATENT ｜ EP 08 ft. aslipoonampandey viditchess vivekmagic",
         "description": "Watch the hilariously talented contestants perform in front of the judges panel featuring Raftaar.",
-        "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730790/673c72318e5120e67620d7fc_yDbg3SGQ2DQ-HD-p-800_s8pcey.webp",
+        "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777749080/1cOceNLaWja6KI2b6t0PNnBtxBd_stycfn.jpg",
         "video_url": "https://res.cloudinary.com/dxds9rnrf/video/upload/v1777746445/igl-3_b3w4v9.webm"
     },
 ]
