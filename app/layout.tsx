@@ -6,6 +6,7 @@ import { poppins } from "@/lib/fonts";
 import { PageTransition } from "@/components/page-transition";
 import { Footer } from "@/components/footer";
 import { siteConfig } from "@/lib/config";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -15,8 +16,8 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "India's Got Latent", "Samay Raina", "Balraj", "Standup Comedy", "Indian Comedy", "Talent Show", 
-    "Latent Talent", "Comedy Show", "Tanmay Bhat", "Raghu Ram", "Kunal Kamra", "Aashish Solanki", 
+    "India's Got Latent", "Samay Raina", "Balraj", "Standup Comedy", "Indian Comedy", "Talent Show",
+    "Latent Talent", "Comedy Show", "Tanmay Bhat", "Raghu Ram", "Kunal Kamra", "Aashish Solanki",
     "Gaurav Kapoor", "India's Got Latent Episodes", "Watch India's Got Latent"
   ],
   authors: [{ name: `${siteConfig.name} Archive` }],
@@ -89,6 +90,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
