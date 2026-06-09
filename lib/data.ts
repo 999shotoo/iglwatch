@@ -19,7 +19,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/TZNHT4aZ0"
+                "link": "https://abyssplayer.com/TZNHT4aZ0"
             },
             {
                 "id": "stream-tape",
@@ -78,7 +78,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/bRAG8O-OG"
+                "link": "https://abyssplayer.com/bRAG8O-OG"
             },
             {
                 "id": "stream-tape",
@@ -124,7 +124,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/1Q9DHXL6p"
+                "link": "https://abyssplayer.com/1Q9DHXL6p"
             },
             {
                 "id": "lulu-stream",
@@ -163,7 +163,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/CMU3HvOH5"
+                "link": "https://abyssplayer.com/CMU3HvOH5"
             },
             {
                 "id": "lulu-stream",
@@ -203,7 +203,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/WrTNqP3K_"
+                "link": "https://abyssplayer.com/WrTNqP3K_"
             },
             {
                 "id": "lulu-stream",
@@ -243,7 +243,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/sR_yg7jYi"
+                "link": "https://abyssplayer.com/sR_yg7jYi"
             },
             {
                 "id": "lulu-stream",
@@ -282,7 +282,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/wTEJBL8O6"
+                "link": "https://abyssplayer.com/wTEJBL8O6"
             },
             {
                 "id": "lulu-stream",
@@ -321,7 +321,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/ViQCKxOVm"
+                "link": "https://abyssplayer.com/ViQCKxOVm"
             },
             {
                 "id": "lulu-stream",
@@ -360,7 +360,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/ZWldnMdOY"
+                "link": "https://abyssplayer.com/ZWldnMdOY"
             },
             {
                 "id": "lulu-stream",
@@ -399,7 +399,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/7psVHOYNo"
+                "link": "https://abyssplayer.com/7psVHOYNo"
             },
             {
                 "id": "lulu-stream",
@@ -439,7 +439,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/-mqYLB-rl"
+                "link": "https://abyssplayer.com/-mqYLB-rl"
             },
             {
                 "id": "lulu-stream",
@@ -478,7 +478,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/plhJ-zdZo"
+                "link": "https://abyssplayer.com/plhJ-zdZo"
             },
             {
                 "id": "lulu-stream",
@@ -517,7 +517,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/aIKxhVTwA"
+                "link": "https://abyssplayer.com/aIKxhVTwA"
             },
             {
                 "id": "lulu-stream",
@@ -556,7 +556,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/m650uFrUE"
+                "link": "https://abyssplayer.com/m650uFrUE"
             },
             {
                 "id": "lulu-stream",
@@ -595,7 +595,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/1HmnqcvJl"
+                "link": "https://abyssplayer.com/1HmnqcvJl"
             },
             {
                 "id": "lulu-stream",
@@ -634,7 +634,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/96wZsRBFn"
+                "link": "https://abyssplayer.com/96wZsRBFn"
             },
             {
                 "id": "lulu-stream",
@@ -673,7 +673,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/wlRaq4a1S"
+                "link": "https://abyssplayer.com/wlRaq4a1S"
             },
             {
                 "id": "lulu-stream",
@@ -712,7 +712,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/92ffqA8XB"
+                "link": "https://abyssplayer.com/92ffqA8XB"
             },
             {
                 "id": "lulu-stream",
@@ -751,7 +751,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/JSNy6R1-d"
+                "link": "https://abyssplayer.com/JSNy6R1-d"
             },
             {
                 "id": "lulu-stream",
@@ -790,7 +790,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/Vqp0HZXNk"
+                "link": "https://abyssplayer.com/Vqp0HZXNk"
             },
             {
                 "id": "lulu-stream",
@@ -829,7 +829,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/2b7B_gScv"
+                "link": "https://abyssplayer.com/2b7B_gScv"
             },
             {
                 "id": "lulu-stream",
@@ -868,7 +868,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/xdYelwH6W"
+                "link": "https://abyssplayer.com/xdYelwH6W"
             },
             {
                 "id": "lulu-stream",
@@ -913,7 +913,7 @@ export const episodes = [
                 "id": "abyss",
                 "name": "abyss",
                 "type": "iframe",
-                "link": "https://short.icu/kG2IM7-nH"
+                "link": "https://abyssplayer.com/kG2IM7-nH"
             }
         ],
         "metadata": { "keywords": ["Samay Raina", "Stand-up Comedy", "Special", "Full Special"], "tags": ["stand-up", "comedy", "special", "full-length"], "genre": "Stand-up Comedy" }
