@@ -9,16 +9,16 @@ import { episodes } from "@/lib/data";
 
 export default function WatchClient({ episode }: { episode: any }) {
   const router = useRouter();
-  const [selectedServer, setSelectedServer] = useState(episode.servers[0]);
+  const hasServers = !!episode.servers && episode.servers.length > 0;
+  const [selectedServer, setSelectedServer] = useState(hasServers ? episode.servers[0] : null);
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
 
   const getEpisodeLabel = (eps_no: string | number) => {
-    const str = String(eps_no).toLowerCase();
-    if (str.includes('bonus') || str.includes('exclusive') || str.includes('discarded') || str.includes('deleted') || str === 'special') {
-      return String(eps_no).replace('-', ' ').toUpperCase();
+    if (typeof eps_no === 'number') {
+      return `EPISODE ${String(eps_no).padStart(2, '0')}`;
     }
-    return `EPISODE ${String(eps_no).padStart(2, '0')}`;
+    return String(eps_no).replace(/-/g, ' ').toUpperCase();
   };
 
   // Get 6 suggestions, excluding the current episode
@@ -48,21 +48,35 @@ export default function WatchClient({ episode }: { episode: any }) {
 
           {/* Player Container */}
           <div className="relative -mx-4 sm:mx-0 w-auto sm:w-full aspect-video rounded-none sm:rounded-xl md:rounded-2xl overflow-hidden bg-black sm:border border-y border-border sm:shadow-lg group">
-            {!isIframeLoaded && (
-              <div className="absolute inset-0 flex items-center justify-center bg-card z-10">
+            {hasServers ? (
+              <>
+                {!isIframeLoaded && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-card z-10">
+                    <div className="flex flex-col items-center gap-4">
+                      <div className="w-8 h-8 border-2 border-muted border-t-primary rounded-full animate-spin" />
+                      <span className="text-[10px] md:text-xs font-medium tracking-widest text-muted-foreground uppercase">Connecting...</span>
+                    </div>
+                  </div>
+                )}
+                <iframe
+                  src={selectedServer!.link}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className={`absolute inset-0 w-full h-full border-0 transition-opacity duration-1000 ${isIframeLoaded ? 'opacity-100' : 'opacity-0'}`}
+                  onLoad={() => setIsIframeLoaded(true)}
+                />
+              </>
+            ) : (
+              <div className="absolute inset-0 flex items-center justify-center bg-card z-10 text-center p-8">
                 <div className="flex flex-col items-center gap-4">
-                  <div className="w-8 h-8 border-2 border-muted border-t-primary rounded-full animate-spin" />
-                  <span className="text-[10px] md:text-xs font-medium tracking-widest text-muted-foreground uppercase">Connecting...</span>
+                  <Server className="w-12 h-12 text-muted-foreground/50" />
+                  <div>
+                    <h3 className="text-base font-semibold text-foreground">No Sources Available</h3>
+                    <p className="text-sm text-muted-foreground mt-1">Video link will be added soon</p>
+                  </div>
                 </div>
               </div>
             )}
-            <iframe
-              src={selectedServer.link}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className={`absolute inset-0 w-full h-full border-0 transition-opacity duration-1000 ${isIframeLoaded ? 'opacity-100' : 'opacity-0'}`}
-              onLoad={() => setIsIframeLoaded(true)}
-            />
           </div>
 
           {/* Server Selection */}
@@ -71,26 +85,30 @@ export default function WatchClient({ episode }: { episode: any }) {
               <Server className="w-3.5 h-3.5 md:w-4 md:h-4 text-muted-foreground" />
               <h3 className="text-[10px] md:text-xs font-bold text-muted-foreground uppercase tracking-[0.2em]">Select Source</h3>
             </div>
-            <div className="flex flex-wrap gap-2.5 md:gap-3">
-              {episode.servers.map((server: any) => (
-                <button
-                  key={server.id}
-                  onClick={() => {
-                    if (selectedServer.id !== server.id) {
-                      setIsIframeLoaded(false);
-                      setSelectedServer(server);
-                    }
-                  }}
-                  className={`px-3 py-2 md:px-4 md:py-2.5 rounded-lg text-[10px] md:text-xs font-bold tracking-widest uppercase transition-all duration-300 flex items-center gap-2 ${selectedServer.id === server.id
-                    ? "bg-primary text-primary-foreground shadow-md scale-[1.02]"
-                    : "bg-muted/50 text-muted-foreground border border-border hover:border-primary/50 hover:text-foreground hover:bg-muted"
-                    }`}
-                >
-                  <Play className={`w-3 h-3 md:w-3.5 md:h-3.5 transition-colors ${selectedServer.id === server.id ? "fill-primary-foreground" : "fill-transparent"}`} />
-                  {server.name}
-                </button>
-              ))}
-            </div>
+            {hasServers ? (
+              <div className="flex flex-wrap gap-2.5 md:gap-3">
+                {episode.servers.map((server: any) => (
+                  <button
+                    key={server.id}
+                    onClick={() => {
+                      if (selectedServer && selectedServer.id !== server.id) {
+                        setIsIframeLoaded(false);
+                        setSelectedServer(server);
+                      }
+                    }}
+                    className={`px-3 py-2 md:px-4 md:py-2.5 rounded-lg text-[10px] md:text-xs font-bold tracking-widest uppercase transition-all duration-300 flex items-center gap-2 ${selectedServer && selectedServer.id === server.id
+                      ? "bg-primary text-primary-foreground shadow-md scale-[1.02]"
+                      : "bg-muted/50 text-muted-foreground border border-border hover:border-primary/50 hover:text-foreground hover:bg-muted"
+                      }`}
+                  >
+                    <Play className={`w-3 h-3 md:w-3.5 md:h-3.5 transition-colors ${selectedServer && selectedServer.id === server.id ? "fill-primary-foreground" : "fill-transparent"}`} />
+                    {server.name}
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-muted-foreground text-center py-4">No sources available yet</p>
+            )}
           </div>
         </div>
 

@@ -22,24 +22,6 @@ export const episodes = [
                 "link": "https://abyssplayer.com/TZNHT4aZ0"
             },
             {
-                "id": "stream-tape",
-                "name": "Streamtape",
-                "type": "iframe",
-                "link": "https://streamtape.com/e/9kKryKVr2KhaXPY/"
-            },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/9cu608l5vrpy"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k4JqKOK6JVTtE4FwtPI"
-            },
-            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -81,24 +63,6 @@ export const episodes = [
                 "link": "https://abyssplayer.com/bRAG8O-OG"
             },
             {
-                "id": "stream-tape",
-                "name": "Streamtape",
-                "type": "iframe",
-                "link": "https://streamtape.com/e/JXKO0RrV7OI6vD/"
-            },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/lbmvmxhqiq1j"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k76hGGIjTebQl5FwtPE"
-            },
-            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -126,19 +90,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/1Q9DHXL6p"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/7pyrq4fp7nsv"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=kswStR2CKsRo9NFwtPG"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -165,19 +117,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/CMU3HvOH5"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/eurkvu30fpf4"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k39zmUl70MFtgYFwvpA"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -205,19 +145,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/WrTNqP3K_"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/2uodhm9z9kzy"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k5TLeYJu6e27Z1FwGPq"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -245,19 +173,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/sR_yg7jYi"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/ex1w9t6vj6fa"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k3u0CCTnmo4fWZFwvpC"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -284,19 +200,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/wTEJBL8O6"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/3x6tjg441n2g"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k6sPyDUYvz22odFwvpE"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -323,19 +227,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/ViQCKxOVm"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/zt0i0gfomz48"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k6rieD3p5iPJ1WFwwQA"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -362,19 +254,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/ZWldnMdOY"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/db2rnrbu2a0r"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k5NBOfquFHIdFIFwwQC"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -401,19 +281,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/7psVHOYNo"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/rrdnndvra8gd"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k6OWN8CUExVbXqFwwQE"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -441,19 +309,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/-mqYLB-rl"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/psrhdxyhc7tq"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k71DIwhkqnU2WTFwGPu"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -480,19 +336,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/plhJ-zdZo"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/25ubv0raxkt2"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k2h6faFCM9jG3CFwGPs"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -519,19 +363,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/aIKxhVTwA"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/39340zisjjy2"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k1EMpXBmp4SKJ5FwXHS"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -558,19 +390,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/m650uFrUE"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/6u3cv3w6qoc9"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k3vXF9hdOkKEQtFwLdw"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -597,19 +417,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/1HmnqcvJl"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/jtk2tg0lcgm8"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k7jeaai4eSvFl1FwMTy"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -636,19 +444,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/96wZsRBFn"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/f13729ajtzjb"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k6ELoKS54joHY0FwMTA"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -675,19 +471,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/wlRaq4a1S"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/mv9oee8eapo1"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k46FlTfvzXPbGUFwXHQ"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -713,12 +497,6 @@ export const episodes = [
                 "name": "abyss",
                 "type": "iframe",
                 "link": "https://abyssplayer.com/92ffqA8XB"
-            },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/813s65tbz100"
             },
             {
                 "id": "gd-2",
@@ -753,19 +531,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/JSNy6R1-d"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/pf6hdn9mspft"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k7ldYAjLZPXRGJFy2dE"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -792,19 +558,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/Vqp0HZXNk"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/98utvrcgjqqp"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k4K4yUMoVhynfhFy2dA"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -831,19 +585,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/2b7B_gScv"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/cb0avupuej0x"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k4wTX9Hpufs8D7Fy2dC"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -870,19 +612,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/xdYelwH6W"
             },
-            {
-                "id": "lulu-stream",
-                "name": "lulu stream",
-                "type": "iframe",
-                "link": "https://luluvdo.com/e/dkp3o31f81fu"
-            },
-            {
-                "id": "daily-motion",
-                "name": "daily-motion",
-                "type": "iframe",
-                "link": "https://geo.dailymotion.com/player.html?video=k4h4YKhiGyak7RFxTZG"
-            },
-            {
+                        {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -918,6 +648,406 @@ export const episodes = [
         ],
         "metadata": { "keywords": ["Samay Raina", "Stand-up Comedy", "Special", "Full Special"], "tags": ["stand-up", "comedy", "special", "full-length"], "genre": "Stand-up Comedy" }
 
+    },
+    {
+        "id": "indias-got-latent-s2-ep-01-ft--alia-bhatt-sharvari",
+        "season": 2,
+        "eps_no": 1,
+        "title": "INDIA'S GOT LATENT S2 EP1 ft. Alia Bhatt, Sharvari, Ashish Solanki",
+        "description": "Alia Bhatt and Sharvari join Samay Raina for the Season 2 premiere of India's Got Latent, where aspiring performers get hilariously judged by the panel. A star-studded season opener packed with laughs and unforgettable moments.",
+        "duration": "Not specified",
+        "guests": ["Alia Bhatt", "Sharvari", "Ashish Solanki"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/eHTXQW58WhA/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "youtube",
+                "name": "youtube",
+                "type": "iframe",
+                "link": "https://www.youtube.com/embed/eHTXQW58WhA"
+            },
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/Oad3d4ArAWtZ3vM/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/0q9lzkt0cbl3"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Alia Bhatt", "Sharvari"], "tags": ["episode", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-ep-02-ft--harssh-limbachiya-kiku-sharda",
+        "season": 2,
+        "eps_no": 2,
+        "title": "INDIA'S GOT LATENT S2 EP2 ft. Harssh Limbachiya, Kiku Sharda, Chandan Prabhakar",
+        "description": "Harssh Limbachiya, Kiku Sharda, and Chandan Prabhakar join Samay Raina to hilariously critique India's latent talents. Watch aspiring performers get judged in this entertaining Season 2 episode.",
+        "duration": "Not specified",
+        "guests": ["Harssh Limbachiya", "Kiku Sharda", "Chandan Prabhakar"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/c35fpGWqXnk/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "youtube",
+                "name": "youtube",
+                "type": "iframe",
+                "link": "https://www.youtube.com/embed/c35fpGWqXnk"
+            },
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/ad1qK1p1eJCxxOm/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/re4r0q3u7hat"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Kiku Sharda", "Chandan Prabhakar"], "tags": ["episode", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-ep-03-ft--raghu-ram-vishal-dadlani",
+        "season": 2,
+        "eps_no": 3,
+        "title": "INDIA'S GOT LATENT S2 EP3 ft. Raghu Ram, Vishal Dadlani, Tanmay Bhat, Yashraj",
+        "description": "Raghu Ram, Vishal Dadlani, Tanmay Bhat, and Yashraj join Samay Raina to hilariously critique India's latent talents. A comedy-packed Season 2 episode with incredible performances.",
+        "duration": "53m 43s",
+        "guests": ["Raghu Ram", "Vishal Dadlani", "Tanmay Bhat", "Yashraj"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/aSR1tndcaLE/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "youtube",
+                "name": "youtube",
+                "type": "iframe",
+                "link": "https://www.youtube.com/embed/aSR1tndcaLE"
+            },
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/zwkV901w3whYYBA/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/88b6qttib5mv"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Raghu Ram", "Tanmay Bhat", "Vishal Dadlani"], "tags": ["episode", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-ep-04-ft--karan-aujla-tanmay-bhat",
+        "season": 2,
+        "eps_no": 4,
+        "title": "INDIA'S GOT LATENT S2 EP4 ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "description": "Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua join Samay Raina to hilariously critique India's latent talents. An entertaining Season 2 episode with amazing performances.",
+        "duration": "53m 53s",
+        "guests": ["Karan Aujla", "Tanmay Bhat", "Gurleen Pannu", "Rahul Dua"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/B6NVvtIz9_Q/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "youtube",
+                "name": "youtube",
+                "type": "iframe",
+                "link": "https://www.youtube.com/embed/B6NVvtIz9_Q"
+            },
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/vpldkwQKX7i4rGR/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/7c9ionbzj3rz"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Karan Aujla", "Tanmay Bhat", "Rahul Dua"], "tags": ["episode", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-ep-05-ft--orry-archana-puran-singh",
+        "season": 2,
+        "eps_no": 5,
+        "title": "INDIA'S GOT LATENT S2 EP5 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri",
+        "description": "Orry, Archana Puran Singh, Sharon Verma, and Nishant Suri join Samay Raina to hilariously critique India's latent talents. A fun-filled Season 2 episode with laughs and entertainment.",
+        "duration": "50min",
+        "guests": ["Orry", "Archana Puran Singh", "Sharon Verma", "Nishant Suri"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i.ytimg.com/vi/VJ9VC9OqdAA/hqdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "youtube",
+                "name": "youtube",
+                "type": "iframe",
+                "link": "https://www.youtube.com/embed/VJ9VC9OqdAA"
+            },
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/Oad3d4ArAWtZ3vM/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/ccynh742ej0q"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Orry", "Archana Puran Singh"], "tags": ["episode", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-ep-06-ft--varun-dhawan-samay-raina",
+        "season": 2,
+        "eps_no": 6,
+        "title": "INDIA'S GOT LATENT S2 EP6 ft. Varun Dhawan, Medha Shankar, Nishant Tanwar, Sharon Verma",
+        "description": "Varun Dhawan, Medha Shankar, Nishant Tanwar, and Sharon Verma join Samay Raina for an unforgettable Season 2 episode packed with laughs, live standup comedy, and chaotic talent.",
+        "duration": "43min",
+        "guests": ["Varun Dhawan", "Medha Shankar", "Nishant Tanwar", "Sharon Verma"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i.ytimg.com/vi/WE1zey_q8Ak/hqdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "Streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/7Xv29GoVrrIAjRV/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/soctgp4evu1s"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Varun Dhawan", "Medha Shankar"], "tags": ["episode", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    // {
+    //     "id": "indias-got-latent-s2-bts-01-ft--alia-bhatt",
+    //     "season": 2,
+    //     "eps_no": "BTS 01",
+    //     "title": "BTS 01 | ft. Alia Bhatt, Sharvari, Ashish Solanki",
+    //     "description": "Behind the scenes from India's Got Latent Season 2 featuring Alia Bhatt, Sharvari, and Ashish Solanki. Unseen moments and candid chaos from the premiere shoot.",
+    //     "duration": "17min 35s",
+    //     "guests": ["Alia Bhatt", "Sharvari", "Ashish Solanki"],
+    //     "hosts": ["Samay Raina"],
+    //     "thumbnail": "https://indiassgottlatent.freeforall.dev/img/4z062p.webp",
+    //     "downloadLink": "",
+    //     "servers": [],
+    //     "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Alia Bhatt"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
+    // },
+    // {
+    //     "id": "indias-got-latent-s2-bts-02-ft--chandan-prabhakar",
+    //     "season": 2,
+    //     "eps_no": "BTS 02",
+    //     "title": "BTS 02 | ft. Chandan Prabhakar, Harssh Limbachyaa, Kiku Sharda",
+    //     "description": "Behind the scenes from India's Got Latent Season 2 featuring Chandan Prabhakar, Harssh Limbachyaa, and Kiku Sharda. Unseen moments from the sets.",
+    //     "duration": "15min 13s",
+    //     "guests": ["Chandan Prabhakar", "Harssh Limbachyaa", "Kiku Sharda"],
+    //     "hosts": ["Samay Raina"],
+    //     "thumbnail": "https://indiassgottlatent.freeforall.dev/img/pfHrIXiqI4w.webp",
+    //     "downloadLink": "",
+    //     "servers": [],
+    //     "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Kiku Sharda"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
+    // },
+    // {
+    //     "id": "indias-got-latent-s2-bts-03-ft--raghu-ram",
+    //     "season": 2,
+    //     "eps_no": "BTS 03",
+    //     "title": "BTS 03 | ft. Raghu Ram, Tanmay Bhat, Vishal Dadlani",
+    //     "description": "Behind the scenes from India's Got Latent Season 2 featuring Raghu Ram, Tanmay Bhat, and Vishal Dadlani. Candid moments and unfiltered fun.",
+    //     "duration": "10min",
+    //     "guests": ["Raghu Ram", "Tanmay Bhat", "Vishal Dadlani"],
+    //     "hosts": ["Samay Raina"],
+    //     "thumbnail": "https://indiassgottlatent.freeforall.dev/img/eOIrKDKVZqE.webp",
+    //     "downloadLink": "",
+    //     "servers": [],
+    //     "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Raghu Ram"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
+    // },
+
+
+
+
+    {
+        "id": "indias-got-latent-s2-bts-04-ft--karan-aujla",
+        "season": 2,
+        "eps_no": "BTS 04",
+        "title": "Latent BTS ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "description": "Behind the scenes from India's Got Latent Season 2 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua. Exclusive backstage moments.",
+        "duration": "14min 48s",
+        "guests": ["Karan Aujla", "Tanmay Bhat", "Gurleen Pannu", "Rahul Dua"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/JpYbltLq2cs/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/p7MJopZ0A1IWPA/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/gilkk9yygich"
+            }
+         ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Karan Aujla"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-bonus-ep-01-ft--raghav-juyal",
+        "season": 2,
+        "eps_no": "Bonus EP 1",
+        "title": "S2 Bonus EP1 | ft. Raghav Juyal, Munawar, Niharika NM, Rohan Joshi",
+        "description": "Season 2 bonus episode featuring Raghav Juyal, Munawar, Niharika NM, and Rohan Joshi. Exclusive moments and extra laughs from India's Got Latent.",
+        "duration": "57min 14s",
+        "guests": ["Raghav Juyal", "Munawar", "Niharika NM", "Rohan Joshi"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/q8amKPDt_iY/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/mqqbDwD03eCMpR/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/5mgc3j45opzu"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Bonus", "Raghav Juyal"], "tags": ["bonus", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-bonus-ep-02-ft--badshah",
+        "season": 2,
+        "eps_no": "Bonus EP 2",
+        "title": "S2 Bonus EP2 | ft. Badshah, Sourav Joshi, Harssh Limbachiyaa, Rajat Sood",
+        "description": "Season 2 bonus episode featuring Badshah, Sourav Joshi, Harssh Limbachiyaa, and Rajat Sood. Extra chaos and exclusive behind-the-scenes fun.",
+        "duration": "40min",
+        "guests": ["Badshah", "Sourav Joshi", "Harssh Limbachiyaa", "Rajat Sood"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/otawyZaOxvs/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/vr7ZZyRm7mI49Yw/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/oaauifqz3acu"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Bonus", "Badshah"], "tags": ["bonus", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-bonus-clip-01-ft--karan-aujla",
+        "season": 2,
+        "eps_no": "Bonus Clip 01",
+        "title": "Latent BONUS CLIP ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "description": "Bonus clip from India's Got Latent Season 2 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua. A short extra dose of latent energy.",
+        "duration": "8min 23s",
+        "guests": ["Karan Aujla", "Tanmay Bhat", "Gurleen Pannu", "Rahul Dua"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/rI-Cj3Kitx4/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/qvKV1vxrGvcyb8/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/zn6eoi74illp"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Bonus Clip", "Karan Aujla"], "tags": ["bonus", "clip", "season-2", "comedy"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-still-alive-mumbai-documentary",
+        "season": "Specials",
+        "eps_no": "Documentary",
+        "title": "STILL ALIVE - Mumbai Documentary",
+        "description": "A Mumbai documentary by Samay Raina. A personal, unfiltered look behind the comedy as Samay Raina navigates life and stand-up in Mumbai.",
+        "duration": "35min",
+        "guests": [],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i3.ytimg.com/vi/_IxqDcOiZJU/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/RBR88jXeL6id1oY/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/qajsmp206n2j"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Samay Raina", "Documentary"], "tags": ["documentary", "season-2", "samay-raina"], "genre": "Documentary" }
+    },
+    {
+        "id": "samay-raina-beerbiceps-kapil-show-segment",
+        "season": "Specials",
+        "eps_no": "Talk Show",
+        "title": "Talk Show Segment 01 | ft. Samay Raina, BeerBiceps",
+        "description": "Samay Raina and BeerBiceps appear in a special talk show segment from The Great Indian Kapil Show. Hilarious banter and candid conversations.",
+        "duration": "Not specified",
+        "guests": ["Samay Raina", "BeerBiceps"],
+        "hosts": [],
+        "thumbnail": "https://indiassgottlatent.freeforall.dev/img/dna7vi.webp",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/D9vKpxymG6FkzD2/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/db5hs5uhbubt"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Samay Raina", "BeerBiceps", "Kapil Show"], "tags": ["special", "talk-show", "comedy"], "genre": "Comedy" }
     }
 ]
 
@@ -932,7 +1062,7 @@ export const spotlite = [
     {
         "id": "indias-got-latent-bonus-ep-1-ft--arpit-bala",
         "title": "INDIA'S GOT LATENT ｜ BONUS EP 01 ft. Arpit, Bappa, Sahil and Amin",
-        "description": "Guests Arpit, Bappa, Sahil and Amin join Samay to hilariously critique India's latent talents.Catch all the behind-the-scenes fun in India's Got Latent Bonus Episode 1 featuring the hilarious antics of Arpit, Bappa, Sahil, and Amin! From candid moments to exclusive conversations, this special bonus episode offers an unfiltered look at your favorite personalities. Want more laughs and surprises? Unlock additional bonus episodes and access exclusive content with the India's Got Latent members-only feature. Stay in the loop with the latest controversy and trending moments. Stream now on Dailymotion or through the official India's Got Latent app. Don’t miss out on the fun!",
+        "description": "Guests Arpit, Bappa, Sahil and Amin join Samay to hilariously critique India's latent talents.Catch all the behind-the-scenes fun in India's Got Latent Bonus Episode 1 featuring the hilarious antics of Arpit, Bappa, Sahil, and Amin! From candid moments to exclusive conversations, this special bonus episode offers an unfiltered look at your favorite personalities. Want more laughs and surprises? Unlock additional bonus episodes and access exclusive content with the India's Got Latent members-only feature. Stay in the loop with the latest controversy and trending moments. Don’t miss out on the fun!",
         "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731032/MV5BNTJkYjczZTctNzg5MC00MjZmLTkzMDUtMGU0NTAyNmU4MzA2XkEyXkFqcGc._V1__dgg8km.jpg",
         "video_url": "https://res.cloudinary.com/dxds9rnrf/video/upload/v1777746453/igl-2_gtvkke.webm"
     },

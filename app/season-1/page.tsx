@@ -17,8 +17,27 @@ export const metadata: Metadata = {
 
 export default function Season1Page() {
     const season1Episodes = episodes.filter((ep) => ep.season === 1);
-    const mainEpisodes = season1Episodes.filter(ep => typeof ep.eps_no === 'number');
-    const bonusEpisodes = season1Episodes.filter(ep => typeof ep.eps_no !== 'number');
+    // Main episodes newest-first (EP 12 -> EP 1).
+    const mainEpisodes = season1Episodes
+        .filter(ep => typeof ep.eps_no === 'number')
+        .sort((a, b) => (b.eps_no as number) - (a.eps_no as number));
+    // Bonus / exclusive / deleted in okcdn.json listing order (bonus-1..6,
+    // Deepak Kalal exclusive, Raghu Ram exclusive, discarded, deleted).
+    const bonusOrder = [
+        "indias-got-latent-bonus-ep-1-ft--arpit-bala",
+        "indias-got-latent-bonus-ep-2-ft--badshah-siddhant-ch",
+        "indias-got-latent-bonus-ep-3-ft--avika-gor",
+        "indias-got-latent-bonus-ep-4-ft--seedhemaut-madhurv",
+        "indias-got-latent-bonus-ep-5-ft--rohanjoshi8016",
+        "indias-got-latent-bonus-ep-6-ft--ranveer",
+        "indias-got-latent-deepak-kalal-episode-bonus-moments",
+        "indias-got-latent-raghu-ram-episode-bonus-moments",
+        "indias-got-latent-discarded-ep-1-ft--aakashgupta-anubh",
+        "indias-got-latent-deleted-footage",
+    ];
+    const bonusEpisodes = season1Episodes
+        .filter(ep => typeof ep.eps_no !== 'number')
+        .sort((a, b) => bonusOrder.indexOf(a.id) - bonusOrder.indexOf(b.id));
 
     return (
         <div className="container mx-auto px-4 py-8 md:py-12 animate-in fade-in duration-500">

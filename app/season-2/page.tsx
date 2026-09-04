@@ -1,5 +1,6 @@
 import { episodes } from "@/lib/data";
 import { EpisodeCard } from "@/components/ui/episode-card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Sparkles } from "lucide-react";
 import { Metadata } from "next";
 import { siteConfig } from "@/lib/config";
@@ -16,6 +17,23 @@ export const metadata: Metadata = {
 
 export default function Season2Page() {
     const season2Episodes = episodes.filter((ep) => ep.season === 2);
+    // Main episodes newest-first (EP 6 -> EP 1).
+    const mainEpisodes = season2Episodes
+        .filter(ep => typeof ep.eps_no === 'number')
+        .sort((a, b) => (b.eps_no as number) - (a.eps_no as number));
+    // BTS / bonus in okcdn.json listing order (newest first).
+    const extrasOrder = [
+        "indias-got-latent-s2-bonus-ep-02-ft--badshah",
+        "indias-got-latent-s2-bts-04-ft--karan-aujla",
+        "indias-got-latent-s2-bonus-clip-01-ft--karan-aujla",
+        "indias-got-latent-s2-bonus-ep-01-ft--raghav-juyal",
+        "indias-got-latent-s2-bts-03-ft--raghu-ram",
+        "indias-got-latent-s2-bts-02-ft--chandan-prabhakar",
+        "indias-got-latent-s2-bts-01-ft--alia-bhatt",
+    ];
+    const extrasEpisodes = season2Episodes
+        .filter(ep => typeof ep.eps_no !== 'number')
+        .sort((a, b) => extrasOrder.indexOf(a.id) - extrasOrder.indexOf(b.id));
 
     return (
         <div className="container mx-auto px-4 py-8 md:py-12 animate-in fade-in duration-500 min-h-[60vh]">
@@ -41,11 +59,40 @@ export default function Season2Page() {
             </div>
 
             {season2Episodes.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10">
-                    {season2Episodes.map((episode, index) => (
-                        <EpisodeCard key={episode.id} episode={episode} index={index} />
-                    ))}
-                </div>
+                <Tabs defaultValue="main" className="w-full flex flex-col items-start">
+                    <TabsList className="bg-muted/60 p-1.5 rounded-2xl h-auto inline-flex shadow-sm border border-border/40 mb-10 w-full max-w-md">
+                        <TabsTrigger
+                            value="main"
+                            className="flex-1 rounded-xl text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
+                        >
+                            Main Episodes
+                        </TabsTrigger>
+                        <TabsTrigger
+                            value="extras"
+                            className="flex-1 rounded-xl text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
+                        >
+                            BTS & Extras
+                        </TabsTrigger>
+                    </TabsList>
+
+                    <TabsContent value="main" className="w-full mt-0 focus-visible:outline-none focus-visible:ring-0">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10">
+                            {mainEpisodes.map((ep, i) => <EpisodeCard key={ep.id} episode={ep} index={i} />)}
+                        </div>
+                    </TabsContent>
+
+                    <TabsContent value="extras" className="w-full mt-0 focus-visible:outline-none focus-visible:ring-0">
+                        {extrasEpisodes.length > 0 ? (
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10">
+                                {extrasEpisodes.map((ep, i) => <EpisodeCard key={ep.id} episode={ep} index={i} />)}
+                            </div>
+                        ) : (
+                            <div className="text-center py-20 text-muted-foreground text-sm font-medium bg-muted/20 rounded-xl border border-border border-dashed">
+                                No BTS or bonus episodes available yet.
+                            </div>
+                        )}
+                    </TabsContent>
+                </Tabs>
             ) : (
                 <div className="relative w-full aspect-[21/16] md:aspect-[32/15] lg:aspect-[32/12] rounded-xl overflow-hidden bg-card border border-border shadow-sm flex flex-col items-center justify-center group mt-12">
                     <div className="absolute inset-0 bg-gradient-to-br from-background via-muted/50 to-background opacity-90 transition-opacity duration-700" />
@@ -56,7 +103,7 @@ export default function Season2Page() {
                             Coming Soon
                         </h3>
                         <p className="text-sm md:text-base text-muted-foreground mt-6 font-medium uppercase tracking-widest">
-                            Stay tuned for the next season of India's Got Latent.
+                            Stay tuned for the next season of India&apos;s Got Latent.
                         </p>
                     </div>
                 </div>
