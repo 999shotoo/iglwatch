@@ -4,6 +4,10 @@ import WatchClient from "./watch-client";
 import { Metadata } from "next";
 import { siteConfig } from "@/lib/config";
 
+export function generateStaticParams() {
+  return episodes.map((episode) => ({ id: episode.id }));
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const episode = episodes.find((ep) => ep.id === id);

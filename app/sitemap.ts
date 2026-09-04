@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next'
 import { episodes } from '@/lib/data'
 import { siteConfig } from '@/lib/config'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url;
 

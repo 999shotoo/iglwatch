@@ -83,9 +83,9 @@ export default function RootLayout({
           <div className="max-w-screen-2xl mx-auto px-2 lg:px-8 flex flex-col min-h-screen">
             <Navbar />
             <div className="flex-1">
-              <PageTransition>
+              {/* <PageTransition> */}
                 {children}
-              </PageTransition>
+              {/* </PageTransition> */}
             </div>
             <Footer />
           </div>
