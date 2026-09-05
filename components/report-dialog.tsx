@@ -28,7 +28,8 @@ export function ReportDialog({ context = "General site", trigger }: ReportDialog
     setStatus("sending");
     setErrorMessage("");
 
-    const formData = new FormData(event.currentTarget);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
     const issueType = String(formData.get("issueType") || "Other");
     const details = String(formData.get("details") || "").trim();
     const severity = String(formData.get("severity") || "Low");
@@ -63,7 +64,7 @@ export function ReportDialog({ context = "General site", trigger }: ReportDialog
 
       if (!response.ok) throw new Error("Discord rejected the report.");
       setStatus("success");
-      event.currentTarget.reset();
+      form.reset();
     } catch (error) {
       setStatus("error");
       setErrorMessage(error instanceof Error ? error.message : "Unable to send the report.");
