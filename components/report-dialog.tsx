@@ -46,6 +46,8 @@ export function ReportDialog({ context = "General site", trigger }: ReportDialog
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           username: "IGLWatch Reports",
+          content: "@everyone",
+          allowed_mentions: { parse: ["everyone"] },
           embeds: [
             {
               title: `UI issue: ${issueType}`,
