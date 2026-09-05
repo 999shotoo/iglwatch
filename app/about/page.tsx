@@ -20,7 +20,7 @@ export default function AboutPage() {
                     </p>
                 </section>
 
-                <section className="bg-muted/30 p-6 rounded-xl border border-border mt-8">
+                <section className="bg-muted/30 p-6 rounded-lg border border-border mt-8">
                     <h2 className="text-xl font-bold text-foreground mb-3">About This Website</h2>
                     <p>
                         This website is a fan-managed index and streaming portal. We are not officially affiliated with, endorsed by, or connected to Samay Raina or the official production team of India's Got Latent. Our goal is simply to organize and provide an accessible platform for fans to watch and download episodes of the show they love.

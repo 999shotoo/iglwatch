@@ -7,6 +7,12 @@ import { PageTransition } from "@/components/page-transition";
 import { Footer } from "@/components/footer";
 import { siteConfig } from "@/lib/config";
 import { Analytics } from "@vercel/analytics/next"
+import { Oxanium, Space_Grotesk } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const spaceGroteskHeading = Space_Grotesk({subsets:['latin'],variable:'--font-heading'});
+
+const oxanium = Oxanium({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -70,7 +76,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.className} h-full antialiased`}
+      className={cn("h-full", "antialiased", poppins.className, "font-sans", oxanium.variable, spaceGroteskHeading.variable)}
       suppressHydrationWarning
     >
       <body suppressHydrationWarning>

@@ -1,4 +1,5 @@
 import { episodes } from "@/lib/data";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import WatchClient from "./watch-client";
 import { Metadata } from "next";
@@ -64,5 +65,9 @@ export default async function WatchPage({ params }: { params: Promise<{ id: stri
     notFound();
   }
 
-  return <WatchClient episode={episode} />;
+  return (
+    <Suspense>
+      <WatchClient episode={episode} />
+    </Suspense>
+  );
 }

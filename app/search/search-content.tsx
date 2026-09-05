@@ -26,7 +26,7 @@ export default function SearchContent() {
 
   return (
     <div className="container mx-auto px-4 py-8 md:py-12 animate-in fade-in duration-500 min-h-[60vh]">
-      <div className="relative mb-12 rounded-3xl overflow-hidden bg-card border border-border/50 shadow-sm">
+      <div className="relative mb-12 rounded-lg overflow-hidden bg-card border border-border/50 shadow-sm">
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
           <div className="absolute top-[-50%] right-[-10%] w-[70%] h-[150%] rounded-full bg-primary/5 blur-[120px]" />
           <div className="absolute top-[20%] left-[-20%] w-[60%] h-[120%] rounded-full bg-primary/5 blur-[100px]" />

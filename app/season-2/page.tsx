@@ -37,7 +37,7 @@ export default function Season2Page() {
 
     return (
         <div className="container mx-auto px-4 py-8 md:py-12 animate-in fade-in duration-500 min-h-[60vh]">
-            <div className="relative mb-12 rounded-3xl overflow-hidden bg-card border border-border/50 shadow-sm">
+            <div className="relative mb-12 rounded-lg overflow-hidden bg-card border border-border/50 shadow-sm">
                 <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                     <div className="absolute -top-[50%] -right-[10%] w-[70%] h-[150%] rounded-full bg-primary/5 blur-[120px]" />
                     <div className="absolute top-[20%] -left-[20%] w-[60%] h-[120%] rounded-full bg-primary/5 blur-[100px]" />
@@ -60,16 +60,16 @@ export default function Season2Page() {
 
             {season2Episodes.length > 0 ? (
                 <Tabs defaultValue="main" className="w-full flex flex-col items-start">
-                    <TabsList className="bg-muted/60 p-1.5 rounded-2xl h-auto inline-flex shadow-sm border border-border/40 mb-10 w-full max-w-md">
+                    <TabsList className="bg-muted/60 p-1.5 rounded-lg h-auto inline-flex shadow-sm border border-border/40 mb-10 w-full max-w-md">
                         <TabsTrigger
                             value="main"
-                            className="flex-1 rounded-xl text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
+                            className="flex-1 rounded-lg text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
                         >
                             Main Episodes
                         </TabsTrigger>
                         <TabsTrigger
                             value="extras"
-                            className="flex-1 rounded-xl text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
+                            className="flex-1 rounded-lg text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
                         >
                             BTS & Extras
                         </TabsTrigger>
@@ -87,14 +87,14 @@ export default function Season2Page() {
                                 {extrasEpisodes.map((ep, i) => <EpisodeCard key={ep.id} episode={ep} index={i} />)}
                             </div>
                         ) : (
-                            <div className="text-center py-20 text-muted-foreground text-sm font-medium bg-muted/20 rounded-xl border border-border border-dashed">
+                            <div className="text-center py-20 text-muted-foreground text-sm font-medium bg-muted/20 rounded-lg border border-border border-dashed">
                                 No BTS or bonus episodes available yet.
                             </div>
                         )}
                     </TabsContent>
                 </Tabs>
             ) : (
-                <div className="relative w-full aspect-[21/16] md:aspect-[32/15] lg:aspect-[32/12] rounded-xl overflow-hidden bg-card border border-border shadow-sm flex flex-col items-center justify-center group mt-12">
+                <div className="relative w-full aspect-[21/16] md:aspect-[32/15] lg:aspect-[32/12] rounded-lg overflow-hidden bg-card border border-border shadow-sm flex flex-col items-center justify-center group mt-12">
                     <div className="absolute inset-0 bg-gradient-to-br from-background via-muted/50 to-background opacity-90 transition-opacity duration-700" />
                     <div className="absolute inset-0 opacity-[0.03] text-foreground pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at center, currentColor 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
 

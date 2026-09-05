@@ -12,7 +12,7 @@ export function EpisodeCard({ episode, index = 0 }: { episode: any, index?: numb
         >
             <Link href={`/w/${episode.id}`}>
                 <div className="group relative flex flex-col cursor-pointer h-full">
-                    <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-black border border-border group-hover:border-primary/50 shadow-sm transition-all duration-700">
+                    <div className="relative aspect-video w-full rounded-lg overflow-hidden bg-black border border-border group-hover:border-primary/50 shadow-sm transition-all duration-700">
                         <Image
                             src={episode.thumbnail}
                             alt={episode.title}

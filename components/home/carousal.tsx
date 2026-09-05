@@ -13,6 +13,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { spotlite } from "@/lib/data";
+import { ReportDialog } from "@/components/report-dialog";
 
 export default function HomeCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,7 +53,7 @@ export default function HomeCarousel() {
 
     return (
         <div className="mx-1 lg:mx-0">
-            <section className="relative h-[50vh] md:h-[70vh] rounded-xl overflow-hidden">
+            <section className="relative h-[50vh] md:h-[70vh] rounded-lg overflow-hidden">
                 <AnimatePresence mode="wait" initial={false}>
                     <motion.div
                         key={currentIndex}
@@ -143,11 +144,14 @@ export default function HomeCarousel() {
                                             <Play className="mr-2 h-4 w-4" /> Watch Now
                                         </Button>
                                     </Link>
-                                    <Link href={`#`}>
-                                        <Button size="sm" variant="outline" className="px-6">
-                                            <Info className="mr-2 h-4 w-4" /> Report
-                                        </Button>
-                                    </Link>
+                                    <ReportDialog
+                                        context={`Spotlight: ${currentItem.title} (${currentItem.id})`}
+                                        trigger={
+                                            <Button size="sm" variant="outline" className="border-border bg-background/90 px-6 text-foreground hover:bg-background">
+                                                <Info className="mr-2 h-4 w-4" /> Report
+                                            </Button>
+                                        }
+                                    />
                                 </motion.div>
                             </div>
                         </div>

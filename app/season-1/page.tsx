@@ -41,7 +41,7 @@ export default function Season1Page() {
 
     return (
         <div className="container mx-auto px-4 py-8 md:py-12 animate-in fade-in duration-500">
-            <div className="relative mb-12 rounded-3xl overflow-hidden bg-card border border-border/50 shadow-sm">
+            <div className="relative mb-12 rounded-lg overflow-hidden bg-card border border-border/50 shadow-sm">
                 <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                     <div className="absolute -top-[50%] -left-[10%] w-[70%] h-[150%] rounded-full bg-primary/5 blur-[120px]" />
                     <div className="absolute top-[20%] -right-[20%] w-[60%] h-[120%] rounded-full bg-primary/5 blur-[100px]" />
@@ -63,16 +63,16 @@ export default function Season1Page() {
             </div>
 
             <Tabs defaultValue="main" className="w-full flex flex-col items-start">
-                <TabsList className="bg-muted/60 p-1.5 rounded-2xl h-auto inline-flex shadow-sm border border-border/40 mb-10 w-full max-w-md">
+                <TabsList className="bg-muted/60 p-1.5 rounded-lg h-auto inline-flex shadow-sm border border-border/40 mb-10 w-full max-w-md">
                     <TabsTrigger
                         value="main"
-                        className="flex-1 rounded-xl text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
+                        className="flex-1 rounded-lg text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
                     >
                         Main Episodes
                     </TabsTrigger>
                     <TabsTrigger
                         value="bonus"
-                        className="flex-1 rounded-xl text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
+                        className="flex-1 rounded-lg text-sm md:text-base font-bold px-6 py-3 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm transition-all duration-300"
                     >
                         Bonus & Exclusive
                     </TabsTrigger>
@@ -90,7 +90,7 @@ export default function Season1Page() {
                             {bonusEpisodes.map((ep, i) => <EpisodeCard key={ep.id} episode={ep} index={i} />)}
                         </div>
                     ) : (
-                        <div className="text-center py-20 text-muted-foreground text-sm font-medium bg-muted/20 rounded-xl border border-border border-dashed">
+                        <div className="text-center py-20 text-muted-foreground text-sm font-medium bg-muted/20 rounded-lg border border-border border-dashed">
                             No bonus episodes available yet.
                         </div>
                     )}

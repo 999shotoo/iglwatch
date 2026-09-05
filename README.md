@@ -16,6 +16,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## UI reports
+
+The report dialog on episode and spotlight pages sends UI issue reports to Discord. Configure the Discord webhook before running or deploying the site:
+
+```bash
+NEXT_PUBLIC_DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your-webhook-url
+```
+
+Because this project uses a static export, the webhook URL is included in browser code. Use a dedicated, restricted webhook and rotate it if it is abused.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

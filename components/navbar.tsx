@@ -82,7 +82,7 @@ export function Navbar() {
   return (
     <>
       <nav className="sticky top-0 z-50 w-full py-2">
-        <div className="flex h-16 items-center justify-between border rounded-2xl bg-background/95 backdrop-blur-md supports-backdrop-filter:bg-background/60 px-4 shadow-sm">
+        <div className="flex h-16 items-center justify-between border rounded-lg bg-background/95 backdrop-blur-md supports-backdrop-filter:bg-background/60 px-4 shadow-sm">
           <Link href="/" className="flex items-center space-x-2 shrink-0">
             <span className={`text-lg sm:text-xl md:text-2xl font-black tracking-tight ${unbounded.className} text-primary`}>{siteConfig.name}</span>
           </Link>
@@ -154,7 +154,7 @@ export function Navbar() {
               <form onSubmit={handleMobileSearch} className="relative w-full shadow-sm">
                 <Input
                   name="query"
-                  className="w-full h-14 text-base rounded-2xl pe-12 ps-12 bg-card border-border/60 focus-visible:bg-background focus-visible:ring-1 focus-visible:ring-primary"
+                  className="w-full h-14 text-base rounded-lg pe-12 ps-12 bg-card border-border/60 focus-visible:bg-background focus-visible:ring-1 focus-visible:ring-primary"
                   placeholder="Search episodes..."
                   type="search"
                 />

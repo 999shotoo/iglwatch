@@ -22,7 +22,7 @@ const legal = [
 export function Footer() {
   return (
     <footer className="w-full pb-6 pt-4 mt-8">
-      <div className="flex flex-col md:flex-row items-center justify-between border rounded-2xl bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 px-6 py-8 md:py-6 gap-6 shadow-sm">
+      <div className="flex flex-col md:flex-row items-center justify-between border rounded-lg bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 px-3 py-4 md:py-4 gap-6 shadow-sm">
         <div className="flex flex-col items-center md:items-start gap-2">
           <Link href="/" className="flex items-center space-x-2">
             <span className={`text-xl md:text-2xl font-black tracking-tight ${unbounded.className} text-primary`}>{siteConfig.name}</span>
@@ -59,11 +59,11 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="text-center mt-6">
+      {/* <div className="text-center mt-6">
         <p className="text-[10px] md:text-xs text-muted-foreground font-bold uppercase tracking-widest">
           © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
         </p>
-      </div>
+      </div> */}
     </footer>
   );
 }

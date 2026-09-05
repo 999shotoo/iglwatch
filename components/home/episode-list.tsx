@@ -63,7 +63,7 @@ export default function EpisodeList() {
                         </Link>
                     </div>
 
-                    <div className="relative w-full aspect-[21/16] md:aspect-[32/9] rounded-xl overflow-hidden bg-card border border-border shadow-sm flex flex-col items-center justify-center group cursor-not-allowed">
+                    <div className="relative w-full aspect-[21/16] md:aspect-[32/9] rounded-lg overflow-hidden bg-card border border-border shadow-sm flex flex-col items-center justify-center group cursor-not-allowed">
                         {/* Dark gradient overlay */}
                         <div className="absolute inset-0 bg-gradient-to-br from-background via-muted/50 to-background opacity-90 group-hover:opacity-100 transition-opacity duration-700" />
 

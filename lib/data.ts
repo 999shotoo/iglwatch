@@ -90,7 +90,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/1Q9DHXL6p"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -117,7 +117,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/CMU3HvOH5"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -145,7 +145,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/WrTNqP3K_"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -173,7 +173,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/sR_yg7jYi"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -200,7 +200,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/wTEJBL8O6"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -227,7 +227,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/ViQCKxOVm"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -254,7 +254,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/ZWldnMdOY"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -281,7 +281,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/7psVHOYNo"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -309,7 +309,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/-mqYLB-rl"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -336,7 +336,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/plhJ-zdZo"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -363,7 +363,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/aIKxhVTwA"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -390,7 +390,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/m650uFrUE"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -417,7 +417,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/1HmnqcvJl"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -444,7 +444,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/96wZsRBFn"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -471,7 +471,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/wlRaq4a1S"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -531,7 +531,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/JSNy6R1-d"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -558,7 +558,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/Vqp0HZXNk"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -585,7 +585,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/2b7B_gScv"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -612,7 +612,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://abyssplayer.com/xdYelwH6W"
             },
-                        {
+            {
                 "id": "google-drive",
                 "name": "google drive",
                 "type": "iframe",
@@ -790,7 +790,7 @@ export const episodes = [
         "duration": "50min",
         "guests": ["Orry", "Archana Puran Singh", "Sharon Verma", "Nishant Suri"],
         "hosts": ["Samay Raina"],
-        "thumbnail": "https://i.ytimg.com/vi/VJ9VC9OqdAA/hqdefault.jpg",
+        "thumbnail": "https://i.ytimg.com/vi/VJ9VC9OqdAA/maxresdefault.jpg",
         "downloadLink": "",
         "servers": [
             {
@@ -823,7 +823,7 @@ export const episodes = [
         "duration": "43min",
         "guests": ["Varun Dhawan", "Medha Shankar", "Nishant Tanwar", "Sharon Verma"],
         "hosts": ["Samay Raina"],
-        "thumbnail": "https://i.ytimg.com/vi/WE1zey_q8Ak/hqdefault.jpg",
+        "thumbnail": "https://i.ytimg.com/vi/WE1zey_q8Ak/maxresdefault.jpg",
         "downloadLink": "",
         "servers": [
             {
@@ -852,41 +852,76 @@ export const episodes = [
     //     "hosts": ["Samay Raina"],
     //     "thumbnail": "https://indiassgottlatent.freeforall.dev/img/4z062p.webp",
     //     "downloadLink": "",
-    //     "servers": [],
+    //     "servers": [
+    //         {
+    //             "id": "streamtape",
+    //             "name": "Streamtape",
+    //             "type": "iframe",
+    //             "link": "https://streamtape.com/e/0832yvpzAMTbpv8/"
+    //         },
+    //         {
+    //             "id": "lulustream",
+    //             "name": "Lulustream",
+    //             "type": "iframe",
+    //             "link": "https://luluvdo.com/e/vppdnu394dc2"
+    //         }
+    //     ],
     //     "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Alia Bhatt"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
     // },
-    // {
-    //     "id": "indias-got-latent-s2-bts-02-ft--chandan-prabhakar",
-    //     "season": 2,
-    //     "eps_no": "BTS 02",
-    //     "title": "BTS 02 | ft. Chandan Prabhakar, Harssh Limbachyaa, Kiku Sharda",
-    //     "description": "Behind the scenes from India's Got Latent Season 2 featuring Chandan Prabhakar, Harssh Limbachyaa, and Kiku Sharda. Unseen moments from the sets.",
-    //     "duration": "15min 13s",
-    //     "guests": ["Chandan Prabhakar", "Harssh Limbachyaa", "Kiku Sharda"],
-    //     "hosts": ["Samay Raina"],
-    //     "thumbnail": "https://indiassgottlatent.freeforall.dev/img/pfHrIXiqI4w.webp",
-    //     "downloadLink": "",
-    //     "servers": [],
-    //     "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Kiku Sharda"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
-    // },
-    // {
-    //     "id": "indias-got-latent-s2-bts-03-ft--raghu-ram",
-    //     "season": 2,
-    //     "eps_no": "BTS 03",
-    //     "title": "BTS 03 | ft. Raghu Ram, Tanmay Bhat, Vishal Dadlani",
-    //     "description": "Behind the scenes from India's Got Latent Season 2 featuring Raghu Ram, Tanmay Bhat, and Vishal Dadlani. Candid moments and unfiltered fun.",
-    //     "duration": "10min",
-    //     "guests": ["Raghu Ram", "Tanmay Bhat", "Vishal Dadlani"],
-    //     "hosts": ["Samay Raina"],
-    //     "thumbnail": "https://indiassgottlatent.freeforall.dev/img/eOIrKDKVZqE.webp",
-    //     "downloadLink": "",
-    //     "servers": [],
-    //     "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Raghu Ram"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
-    // },
-
-
-
-
+    {
+        "id": "indias-got-latent-s2-bts-02-ft--chandan-prabhakar",
+        "season": 2,
+        "eps_no": "BTS 02",
+        "title": "BTS 02 | ft. Chandan Prabhakar, Harssh Limbachyaa, Kiku Sharda",
+        "description": "Behind the scenes from India's Got Latent Season 2 featuring Chandan Prabhakar, Harssh Limbachyaa, and Kiku Sharda. Unseen moments from the sets.",
+        "duration": "15min 13s",
+        "guests": ["Chandan Prabhakar", "Harssh Limbachyaa", "Kiku Sharda"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i.ytimg.com/vi/pfHrIXiqI4w/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/0832yvpzAMTbpv8/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/vppdnu394dc2"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Kiku Sharda"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
+    },
+    {
+        "id": "indias-got-latent-s2-bts-03-ft--raghu-ram",
+        "season": 2,
+        "eps_no": "BTS 03",
+        "title": "BTS 03 | ft. Raghu Ram, Tanmay Bhat, Vishal Dadlani",
+        "description": "Behind the scenes from India's Got Latent Season 2 featuring Raghu Ram, Tanmay Bhat, and Vishal Dadlani. Candid moments and unfiltered fun.",
+        "duration": "10min",
+        "guests": ["Raghu Ram", "Tanmay Bhat", "Vishal Dadlani"],
+        "hosts": ["Samay Raina"],
+        "thumbnail": "https://i.ytimg.com/vi/eOIrKDKVZqE/maxresdefault.jpg",
+        "downloadLink": "",
+        "servers": [
+            {
+                "id": "streamtape",
+                "name": "Streamtape",
+                "type": "iframe",
+                "link": "https://streamtape.com/e/xbbPQbBRpehwX7/"
+            },
+            {
+                "id": "lulustream",
+                "name": "Lulustream",
+                "type": "iframe",
+                "link": "https://luluvdo.com/e/ms7ejd65ofe9"
+            }
+        ],
+        "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Raghu Ram"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
+    },
     {
         "id": "indias-got-latent-s2-bts-04-ft--karan-aujla",
         "season": 2,
@@ -911,7 +946,7 @@ export const episodes = [
                 "type": "iframe",
                 "link": "https://luluvdo.com/e/gilkk9yygich"
             }
-         ],
+        ],
         "metadata": { "keywords": ["India's Got Latent", "Season 2", "Behind the Scenes", "Karan Aujla"], "tags": ["bts", "season-2", "behind-the-scenes"], "genre": "Comedy" }
     },
     {
@@ -1031,7 +1066,7 @@ export const episodes = [
         "duration": "Not specified",
         "guests": ["Samay Raina", "BeerBiceps"],
         "hosts": [],
-        "thumbnail": "https://indiassgottlatent.freeforall.dev/img/dna7vi.webp",
+        "thumbnail": "https://i3.ytimg.com/vi/GrHFfT_K3OE/maxresdefault.jpg",
         "downloadLink": "",
         "servers": [
             {
