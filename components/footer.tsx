@@ -1,8 +1,5 @@
-"use client";
-
 import Link from "next/link";
-import { unbounded } from "@/lib/fonts";
-import { MonitorPlay } from "lucide-react";
+import { BrandMark } from "@/components/brand-mark";
 import { siteConfig } from "@/lib/config";
 
 const navigation = [
@@ -21,36 +18,40 @@ const legal = [
 
 export function Footer() {
   return (
-    <footer className="w-full pb-6 pt-4 mt-8">
-      <div className="flex flex-col md:flex-row items-center justify-between border rounded-lg bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 px-3 py-4 md:py-4 gap-6 shadow-sm">
-        <div className="flex flex-col items-center md:items-start gap-2">
-          <Link href="/" className="flex items-center space-x-2">
-            <span className={`text-xl md:text-2xl font-black tracking-tight ${unbounded.className} text-primary`}>{siteConfig.name}</span>
+    <footer className="relative mt-12 border-t border-border py-8">
+      <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+        <div className="flex flex-col gap-3">
+          <Link href="/" className="flex w-fit items-center gap-2" aria-label={`${siteConfig.name} home`}>
+            <BrandMark className="size-7 rounded-lg" />
+            <span className="text-base font-bold tracking-tight text-foreground">
+              {siteConfig.name}
+            </span>
           </Link>
-          <p className="text-sm text-muted-foreground text-center md:text-left max-w-xs font-medium">
-            Your premium destination for watching India's Got Latent episodes.
+          <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
+            A fan-made archive for India&apos;s Got Latent full episodes, bonus clips, and
+            exclusive footage.
           </p>
         </div>
 
-        <div className="flex flex-col items-center md:items-end gap-4">
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+        <div className="flex flex-col gap-4 md:items-end">
+          <div className="flex flex-wrap items-center gap-2">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold transition-colors hover:text-primary text-muted-foreground"
+                className="rounded-md border border-border bg-muted/40 px-3 py-1.5 text-xs font-semibold text-muted-foreground transition-colors hover:border-foreground/25 hover:bg-muted hover:text-foreground"
               >
                 {item.name}
               </Link>
             ))}
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
             {legal.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-xs font-medium transition-colors hover:text-foreground text-muted-foreground/80"
+                className="text-xs font-medium text-muted-foreground/70 transition-colors hover:text-foreground"
               >
                 {item.name}
               </Link>
@@ -59,11 +60,10 @@ export function Footer() {
         </div>
       </div>
 
-      {/* <div className="text-center mt-6">
-        <p className="text-[10px] md:text-xs text-muted-foreground font-bold uppercase tracking-widest">
-          © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
-        </p>
-      </div> */}
+      <p className="mt-8 max-w-3xl text-xs leading-relaxed text-muted-foreground/60">
+        © {new Date().getFullYear()} {siteConfig.name}. Not affiliated with the official
+        production. All episodes, artwork, and trademarks belong to their respective owners.
+      </p>
     </footer>
   );
 }

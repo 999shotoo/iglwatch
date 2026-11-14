@@ -1,10 +1,6 @@
 # IGLWatch
 
 <p align="center">
-  <img src="public/showcase.jpg" alt="IGLWatch logo" />
-</p>
-
-<p align="center">
   <strong>Watch India's Got Latent episodes in one curated fan portal.</strong>
 </p>
 
@@ -43,8 +39,9 @@ IGLWatch is a sleek, fan-managed streaming-style website built with Next.js for 
 .
 ├── app/                 # App router pages and routes
 ├── components/          # Reusable UI and layout components
-├── lib/                 # Shared config, fonts, and episode data
-├── public/              # Static assets and branding
+├── data/catalog.json    # Canonical show, season, episode, and spotlight data
+├── lib/                 # Shared config, types, and catalog helpers
+├── scripts/             # Local-only catalog dashboard
 ├── next.config.ts       # Next.js configuration
 ├── package.json         # Scripts and dependencies
 ├── tsconfig.json        # TypeScript config
@@ -80,21 +77,52 @@ Create a local `.env` file or update your environment with the required values:
 ```bash
 NEXT_PUBLIC_APP_URL=https://your-domain.example
 NEXT_PUBLIC_DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your-webhook-url
+# Optional: override the metadata sync key used by the local dashboard.
+TMDB_API_KEY=your-metadata-api-key
 ```
 
 ### Notes
 
 - `NEXT_PUBLIC_APP_URL` is used for site metadata and canonical URLs.
 - `NEXT_PUBLIC_DISCORD_WEBHOOK_URL` powers the UI report dialog used to send issue reports to Discord.
+- `TMDB_API_KEY` is only read by `npm run dashboard`. It is never bundled into the static site.
 - Because this project is statically exported, public environment variables are embedded into the client bundle. Use a dedicated, restricted Discord webhook and rotate it if it is ever exposed or abused.
+
+## Local Dashboard
+
+The catalog dashboard is a local-only Node server. It binds to `127.0.0.1` and is not part of the Next.js build or static export.
+
+```bash
+npm run dashboard
+```
+
+Open `http://127.0.0.1:4317`. From there you can:
+
+- Edit every episode's title, metadata, guests, and iframe/stream sources.
+- Add, remove, and reorder source links with an in-page preview.
+- Add or delete episodes manually.
+- Preview the latest metadata sync before anything is written. The review lists
+  which episodes will be added and which fields will change.
+- Keep manual edits: fields you change are marked as manual and are skipped by
+  later syncs until you clear the marker.
+- Merge extra episode context from the public okcdn feed, including new
+  episodes that are missing from the main metadata provider.
+- Keep existing episodes and sources. A sync never deletes either.
+
+Synced artwork uses provider image URLs at build time; the dashboard does not
+download or cache images locally. There is intentionally no `public/` image
+directory — every show, season, and episode image is an external URL.
+
+Set `DASHBOARD_PORT` if port `4317` is already in use.
 
 ## Available Scripts
 
 ```bash
-npm run dev      # Start local dev server
-npm run build    # Build production bundle
-npm run start    # Serve built app locally
-npm run lint     # Run ESLint checks
+npm run dev        # Start local dev server
+npm run dashboard  # Start the local catalog dashboard
+npm run build      # Build production bundle
+npm run start      # Serve built app locally
+npm run lint       # Run ESLint checks
 ```
 
 ## Production Build

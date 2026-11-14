@@ -1,11 +1,12 @@
-import { Poppins, Unbounded } from "next/font/google";
+import { Karla } from "next/font/google";
 
-export const poppins = Poppins({
-  weight: ["300", "400", "500", "600", "700"],
+/**
+ * Miruro uses the Karla variable typeface across its entire interface.
+ * Keeping a single family (with the full weight range) matches that
+ * restrained, content-first look.
+ */
+export const karla = Karla({
   subsets: ["latin"],
-});
-
-export const unbounded = Unbounded({
-  weight: ["700", "900"],
-  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
 });

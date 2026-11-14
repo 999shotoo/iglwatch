@@ -1,11 +1,11 @@
+import { PageHeader } from "@/components/page-header";
+
 export default function DisclaimerPage() {
     return (
-        <div className="container mx-auto px-4 py-12 md:py-16 max-w-4xl animate-in fade-in duration-500">
-            <h1 className="text-3xl md:text-5xl font-black tracking-tight text-foreground mb-8">
-                Disclaimer
-            </h1>
-            
-            <div className="space-y-6 text-muted-foreground leading-relaxed text-sm md:text-base">
+        <div className="max-w-3xl animate-in fade-in duration-500 py-5 md:py-7">
+            <PageHeader title="Disclaimer" />
+
+            <div className="space-y-5 text-sm leading-relaxed text-muted-foreground md:text-base">
                 <p>
                     The content featured on this platform is made available with the sole intention of preserving and sharing entertainment material that is otherwise inaccessible to the public. The videos showcased here are not restricted or banned by any government authorities. They were originally published on public platforms but later made private by their respective uploaders due to reasons unrelated to legal prohibitions.
                 </p>

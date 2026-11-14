@@ -1,18 +1,22 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
-import { poppins } from "@/lib/fonts";
-import { PageTransition } from "@/components/page-transition";
+import { karla } from "@/lib/fonts";
 import { Footer } from "@/components/footer";
 import { siteConfig } from "@/lib/config";
-import { Analytics } from "@vercel/analytics/next"
-import { Oxanium, Space_Grotesk } from "next/font/google";
-import { cn } from "@/lib/utils";
+import { show } from "@/lib/catalog";
+import { featuredSpotlight, playableEpisodes } from "@/lib/data";
+import { Analytics } from "@vercel/analytics/next";
 
-const spaceGroteskHeading = Space_Grotesk({subsets:['latin'],variable:'--font-heading'});
+const socialImage = show.backdropUrl || show.posterUrl;
+const siteIcon = show.posterUrl || show.backdropUrl;
 
-const oxanium = Oxanium({subsets:['latin'],variable:'--font-sans'});
+const watchHref = featuredSpotlight[0]
+  ? `/w/${featuredSpotlight[0].id}`
+  : playableEpisodes[0]
+    ? `/w/${playableEpisodes[0].id}`
+    : "/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -35,26 +39,30 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} | India's Got Latent Archive`,
     description: siteConfig.description,
     siteName: siteConfig.name,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: "India's Got Latent Archive",
-      },
-    ],
+    images: socialImage
+      ? [
+          {
+            url: socialImage,
+            width: 1280,
+            height: 720,
+            alt: "India's Got Latent Archive",
+          },
+        ]
+      : [],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} | India's Got Latent Full Archive`,
     description: siteConfig.description,
-    images: [siteConfig.ogImage],
+    images: socialImage ? [socialImage] : [],
   },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
+  icons: siteIcon
+    ? {
+        icon: siteIcon,
+        shortcut: siteIcon,
+        apple: siteIcon,
+      }
+    : undefined,
   robots: {
     index: true,
     follow: true,
@@ -68,6 +76,14 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+  ],
+  colorScheme: "dark light",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -76,24 +92,22 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", poppins.className, "font-sans", oxanium.variable, spaceGroteskHeading.variable)}
+      className={`${karla.variable} ${karla.className} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body suppressHydrationWarning>
+      <body className="min-h-dvh bg-background text-foreground" suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <div className="max-w-screen-2xl mx-auto px-2 lg:px-8 flex flex-col min-h-screen">
-            <Navbar />
-            <div className="flex-1">
-              {/* <PageTransition> */}
-                {children}
-              {/* </PageTransition> */}
+          <Navbar watchHref={watchHref} />
+          <div className="flex min-h-dvh flex-col pt-14 min-[900px]:pl-16">
+            <div className="mx-auto flex w-full max-w-[1800px] flex-1 flex-col px-3 sm:px-4 lg:px-6">
+              <div className="flex-1">{children}</div>
+              <Footer />
             </div>
-            <Footer />
           </div>
         </ThemeProvider>
         <Analytics />

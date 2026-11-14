@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { episodes } from '@/lib/data'
+import { playableEpisodes } from '@/lib/data'
 import { siteConfig } from '@/lib/config'
 
 export const dynamic = 'force-static'
@@ -25,8 +25,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1.0 : 0.8,
   }))
 
-  // Dynamic episode routes
-  const episodeRoutes = episodes.map((ep) => ({
+  // Only playable episodes get a page. Episodes without a source are not
+  // exported at all so they can never surface in search results.
+  const episodeRoutes = playableEpisodes.map((ep) => ({
     url: `${baseUrl}/w/${ep.id}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,

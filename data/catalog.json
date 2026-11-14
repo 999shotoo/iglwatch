@@ -1,0 +1,4460 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-14T06:25:20.194Z",
+  "show": {
+    "name": "India's Got Latent",
+    "alternateName": "IGLWatch",
+    "overview": "India's Got Latent is an Indian Hindi comedy talent show hosted by Samay Raina on YouTube. Inspired by the international Got Talent franchise and Kill Tony, it features a wide variety of acts including singing, dancing, magic, and comedy.",
+    "tagline": "",
+    "firstAirDate": "2024-06-14",
+    "lastAirDate": "2026-10-25",
+    "status": "Returning Series",
+    "inProduction": true,
+    "numberOfSeasons": 2,
+    "numberOfEpisodes": 20,
+    "rating": 9,
+    "voteCount": 14,
+    "genres": [
+      "Reality",
+      "Comedy"
+    ],
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "originCountry": [
+      "IN"
+    ],
+    "networks": [
+      "Netflix",
+      "YouTube"
+    ],
+    "creators": [
+      "Samay Raina"
+    ],
+    "cast": [
+      "Samay Raina"
+    ],
+    "posterPath": "/8jcdd5HqW4nhF2upVGFS0KJ6hdY.jpg",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8jcdd5HqW4nhF2upVGFS0KJ6hdY.jpg",
+    "backdropPath": "/3qS74RxSO4K9TaxSSHPHc1vCGFW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3qS74RxSO4K9TaxSSHPHc1vCGFW.jpg",
+    "logoPath": "/qTefYijBBx3PAl8ntJow6Duuukn.png",
+    "logoUrl": "https://image.tmdb.org/t/p/w500/qTefYijBBx3PAl8ntJow6Duuukn.png",
+    "imdbId": "tt33094114",
+    "instagramId": "indiasgotlatent",
+    "externalId": 262838
+  },
+  "seasons": [
+    {
+      "seasonNumber": 0,
+      "name": "Specials",
+      "overview": "Bonus Episodes and Deleted Episodes",
+      "airDate": "2024-08-12",
+      "rating": 0,
+      "episodeCount": 17,
+      "posterPath": "/5u75VOTFQAhB7dQK7mZ0ju7icOB.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/5u75VOTFQAhB7dQK7mZ0ju7icOB.jpg"
+    },
+    {
+      "seasonNumber": 1,
+      "name": "Season 1",
+      "overview": "Samay Raina and the guest judges hilariously critique the untapped, undeniably entertaining \"latent\" talents of aspiring performers, testing their self-awareness with a unique scoring system.",
+      "airDate": "2024-06-14",
+      "rating": 8.9,
+      "episodeCount": 12,
+      "posterPath": "/5u75VOTFQAhB7dQK7mZ0ju7icOB.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/5u75VOTFQAhB7dQK7mZ0ju7icOB.jpg"
+    },
+    {
+      "seasonNumber": 2,
+      "name": "Season 2",
+      "overview": "Samay Raina returns for another season of his unconventional comedy competition, in which contestants predict their own scores before performing.",
+      "airDate": "2026-06-20",
+      "rating": 4.3,
+      "episodeCount": 8,
+      "posterPath": "/CBh0hsJRmipyPLQDMsu1PdcNCn.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/CBh0hsJRmipyPLQDMsu1PdcNCn.jpg"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "indias-got-latent-ep-01-ft--raft-aarmusic",
+      "season": 1,
+      "eps_no": 1,
+      "title": "INDIA'S GOT LATENT ｜ EP 01 ft. raftaar",
+      "description": "Guests Raftaar and Sahil join Samay and Balraj to hilariously critique India's latent talents. Experience the first episode of India's Got Latent where aspiring performers get judged by a hilarious panel in this game show comedy series.",
+      "duration": "1hr 15min",
+      "guests": [
+        "Raftaar",
+        "Sahil"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777729442/673c6f459422f9fa90cff3ff_pysQmeEYOJk-HD-p-800_bnytkl.webp",
+      "downloadLink": "https://drive.usercontent.google.google.com/file/d/1Vf512OE3EV2B6O7pgrwJpiXL87lnTLvE/view?usp=drive_link",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676cf134a535fd386918"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/TZNHT4aZ0"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1Vf512OE3EV2B6O7pgrwJpiXL87lnTLvE/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 1",
+          "Raftaar",
+          "Comedy"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "game-show"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5552815,
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "name": "Episode 1",
+        "overview": "Guests Raftaar, Sahil join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-06-14",
+        "runtimeMinutes": 44,
+        "rating": 9,
+        "voteCount": 2,
+        "stillPath": "/tpMMuOSawkIS07oDGb55uNBJ6aI.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/tpMMuOSawkIS07oDGb55uNBJ6aI.jpg",
+        "guestStars": [
+          {
+            "externalId": 2149983,
+            "name": "Raftaar",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4906937,
+            "name": "Sahil Kale",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676cf134a535fd386918",
+        "dataId": "ep-01",
+        "title": "Episode 01 | ft. Raftaar",
+        "description": "India's Got Latent Episode 1 featuring Raftaar.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/5v1v1r.webp",
+        "localImage": "5v1v1r.webp",
+        "duration": "0h 43m 23s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-02-ft--gamerfleet",
+      "season": 1,
+      "eps_no": 2,
+      "title": "INDIA'S GOT LATENT ｜ EP 02 ft. GamerFleet JokeSingh KaranSinghMagic",
+      "description": "Guests GamerFleet and JokeSingh join Samay and Balraj to hilariously critique India's latent talents. Watch aspiring performers get judged in this hilarious episode of India's Got Latent.",
+      "duration": "1hr 06min",
+      "guests": [
+        "GamerFleet",
+        "JokeSingh"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777729623/673c6ffe8e5120e6761f0fe5_DLgcCTnMheg-HD-p-800_fv63ld.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1L3sq0rKu1aREx3zrgMDCqg8S0Ct9U-6g&export=download&confirm=t&uuid=b65a76b4-dd91-4b7f-adc3-dbb2eee2f347",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676cb912b9327f5a4bf5"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/bRAG8O-OG"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1L3sq0rKu1aREx3zrgMDCqg8S0Ct9U-6g/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 2",
+          "Gaming",
+          "Comedy"
+        ],
+        "tags": [
+          "episode",
+          "gaming",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5552846,
+        "seasonNumber": 1,
+        "episodeNumber": 2,
+        "name": "Episode 2",
+        "overview": "Guests Anshu, Nishant, Karan Singh join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-07-08",
+        "runtimeMinutes": 66,
+        "rating": 9,
+        "voteCount": 2,
+        "stillPath": "/bAE8cU3ABgaA1DrDgIDytPoHIXy.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/bAE8cU3ABgaA1DrDgIDytPoHIXy.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 2670194,
+            "name": "Nishant Tanwar",
+            "character": "Self",
+            "profilePath": "/toXo1fTNzr6bJ50oIFOarxl5ISQ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/toXo1fTNzr6bJ50oIFOarxl5ISQ.jpg"
+          },
+          {
+            "externalId": 4967846,
+            "name": "Anshu Bisht",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 6412957,
+            "name": "Karan Singh Magic",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676cb912b9327f5a4bf5",
+        "dataId": "ep-02",
+        "title": "Episode 02 | ft. GamerFleet",
+        "description": "India's Got Latent Episode 2 featuring GamerFleet.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/1wxwnb.webp",
+        "localImage": "1wxwnb.webp",
+        "duration": "1h 6m 9s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-03-ft--urfijaved-ashishsolanki",
+      "season": 1,
+      "eps_no": 3,
+      "title": "INDIA'S GOT LATENT ｜ EP 03 ft. Urfi Javed ashishsolanki_1 yashrajnt",
+      "description": "Guests Urfi Javed and Ashish Solanki join Samay and Balraj to hilariously critique India's latent talents. A fun-filled episode with entertainment and unexpected twists.",
+      "duration": "1hr 00min",
+      "guests": [
+        "Urfi Javed",
+        "Ashish Solanki"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730092/673c707dd1c60d5898ece212_xR_8_OHFo1k-HD-p-800_aa06fn.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1YqXUm7-1duhaXgVz80nUBOk9T2QisrOl&export=download&confirm=t&uuid=b1fe6c08-77a7-4923-95c7-fc8275da0ccc",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c8aaeb63c7a4ef62c"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/1Q9DHXL6p"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1YqXUm7-1duhaXgVz80nUBOk9T2QisrOl/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 3",
+          "Urfi Javed",
+          "Comedy"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5552850,
+        "seasonNumber": 1,
+        "episodeNumber": 3,
+        "name": "Episode 3",
+        "overview": "Guests Aashish, Urfi, Yashraj join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-07-28",
+        "runtimeMinutes": 65,
+        "rating": 9.5,
+        "voteCount": 2,
+        "stillPath": "/9zgk8fsEXHQXgOZ4PuNdJrywJEi.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/9zgk8fsEXHQXgOZ4PuNdJrywJEi.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 2183651,
+            "name": "Uorfi Javed",
+            "character": "Self",
+            "profilePath": "/aFb9hy08a5ZiZ7Xv31tba0I5mro.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/aFb9hy08a5ZiZ7Xv31tba0I5mro.jpg"
+          },
+          {
+            "externalId": 4423178,
+            "name": "Yashraj Mehra",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4686824,
+            "name": "Aashish Solanki",
+            "character": "Self",
+            "profilePath": "/41mSWX00T4paLGBzG93JUnjahMc.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/41mSWX00T4paLGBzG93JUnjahMc.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c8aaeb63c7a4ef62c",
+        "dataId": "ep-03",
+        "title": "Episode 03 | ft. Urfi Javed, Ashish Solanki",
+        "description": "India's Got Latent Episode 3 featuring Urfi Javed and Ashish Solanki.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/xavl0p.webp",
+        "localImage": "xavl0p.webp",
+        "duration": "1h 5m 18s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-04-ft--comedianmaheepsingh",
+      "season": 1,
+      "eps_no": 4,
+      "title": "INDIA'S GOT LATENT ｜ EP 04 ft. ComedianMaheepSingh ⁠TandonAmit neetipalta9490",
+      "description": "Guests Maheep Singh, Neeti Palta, and Amit Tandon join Samay and Balraj to hilariously critique India's latent talents. Watch this entertaining episode with amazing performances.",
+      "duration": "1hr 08min",
+      "guests": [
+        "Maheep Singh",
+        "Neeti Palta",
+        "Amit Tandon"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730132/673c70cd8620b96a2abc5a83_Vsx9a7-IXX4-HD-p-800_dsrqqd.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=167evy10IBAWsCcSG2HGMBvII2AzfpSVE&export=download&confirm=t&uuid=920bdab3-674b-49f6-b706-fd2591de03eb",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c98fe8b6afe50e2a7"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/CMU3HvOH5"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/167evy10IBAWsCcSG2HGMBvII2AzfpSVE/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 4",
+          "Maheep Singh"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5552861,
+        "seasonNumber": 1,
+        "episodeNumber": 4,
+        "name": "Episode 4",
+        "overview": "Guests Maheep, Neeti, Amit join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-08-11",
+        "runtimeMinutes": 65,
+        "rating": 10,
+        "voteCount": 2,
+        "stillPath": "/6E6ab8tSM9gU6FtwSbKgoCOp2HO.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/6E6ab8tSM9gU6FtwSbKgoCOp2HO.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 2967858,
+            "name": "Maheep Singh",
+            "character": "Self",
+            "profilePath": "/80MN0Zs5FeviYDnII4Yao9hUIDP.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/80MN0Zs5FeviYDnII4Yao9hUIDP.jpg"
+          },
+          {
+            "externalId": 2553568,
+            "name": "Amit Tandon",
+            "character": "Self",
+            "profilePath": "/6GPcLOtH4zTAC2ZzEEISpDTw75m.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/6GPcLOtH4zTAC2ZzEEISpDTw75m.jpg"
+          },
+          {
+            "externalId": 2328017,
+            "name": "Neeti Palta",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c98fe8b6afe50e2a7",
+        "dataId": "ep-04",
+        "title": "Episode 04 | ft. Maheep Singh",
+        "description": "India's Got Latent Episode 4 featuring Maheep Singh.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/h9krad.webp",
+        "localImage": "h9krad.webp",
+        "duration": "1h 4m 57s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-05-ft--kunalkamra-atulkhatrico",
+      "season": 1,
+      "eps_no": 5,
+      "title": "INDIA'S GOT LATENT ｜ EP 05 ft. KunalKamra AtulKhatriComedian",
+      "description": "Guests Kunal Kamra and Atul Khatri join Samay and Balraj to hilariously critique India's latent talents. A comedy-packed episode with incredible performances.",
+      "duration": "1hr 03min",
+      "guests": [
+        "Kunal Kamra",
+        "Atul Khatri"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730719/673c711d6081143c20e8e42b_m3O1lnPJszk-HD-p-800_vzbpxj.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1PsliTKoOtalbcg6TTfghhzMwxe-jJSex&export=download&confirm=t&uuid=1951b41c-5f3b-4451-a3b4-5b45024a6f03",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c62393b16a55735c0"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/WrTNqP3K_"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1PsliTKoOtalbcg6TTfghhzMwxe-jJSex/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 5",
+          "Kunal Kamra"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "stand-up"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5552869,
+        "seasonNumber": 1,
+        "episodeNumber": 5,
+        "name": "Episode 5",
+        "overview": "Guests Kunal, Atul join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-08-26",
+        "runtimeMinutes": 67,
+        "rating": 9,
+        "voteCount": 2,
+        "stillPath": "/6KgpGG2DHenHzoFMhmssvkzzGRw.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/6KgpGG2DHenHzoFMhmssvkzzGRw.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 1929755,
+            "name": "Kunal Kamra",
+            "character": "Self",
+            "profilePath": "/l4CUIUizAFWY6H4ROeor4GtZgXa.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/l4CUIUizAFWY6H4ROeor4GtZgXa.jpg"
+          },
+          {
+            "externalId": 1834314,
+            "name": "Atul Khatri",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c62393b16a55735c0",
+        "dataId": "ep-05",
+        "title": "Episode 05 | ft. Kunal Kamra, Atul Khatri",
+        "description": "India's Got Latent Episode 5 featuring Kunal Kamra and Atul Khatri.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/wonjl6.webp",
+        "localImage": "wonjl6.webp",
+        "duration": "1h 7m 26s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-06-ft--vipulgoyal-jokesingh",
+      "season": 1,
+      "eps_no": 6,
+      "title": "INDIA'S GOT LATENT ｜ EP 06 ft. VipulGoyal JokeSingh sonalithakkercomedy",
+      "description": "Guests Vipul Goyal, JokeSingh, and Sonali Thakker join Samay and Balraj for a hilarious episode. Watch talented performers get judged in this entertaining episode.",
+      "duration": "1hr 12min",
+      "guests": [
+        "Vipul Goyal",
+        "JokeSingh",
+        "Sonali Thakker"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730730/673c716de2335a231a6a0668_aQpJ7OgXVn8-HD-p-800_nubr8b.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=18bJ5w3gIg4Io_9LRfakgyoD5sPP6E1np&export=download&confirm=t&uuid=982e6b21-0d42-4b9b-b9dc-4e1c26029e1b",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c5ec2671d97cf1dd3"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/sR_yg7jYi"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/18bJ5w3gIg4Io_9LRfakgyoD5sPP6E1np/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 6",
+          "Vipul Goyal",
+          "Comedy"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5601161,
+        "seasonNumber": 1,
+        "episodeNumber": 6,
+        "name": "Episode 6",
+        "overview": "Guests Vipul, Nishant, Sonali join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-09-15",
+        "runtimeMinutes": 65,
+        "rating": 8.3,
+        "voteCount": 3,
+        "stillPath": "/oEJEp3ooAvQnno6SR3ejou0FVlL.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/oEJEp3ooAvQnno6SR3ejou0FVlL.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 2670194,
+            "name": "Nishant Tanwar",
+            "character": "Self",
+            "profilePath": "/toXo1fTNzr6bJ50oIFOarxl5ISQ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/toXo1fTNzr6bJ50oIFOarxl5ISQ.jpg"
+          },
+          {
+            "externalId": 1739874,
+            "name": "Vipul Goyal",
+            "character": "Self",
+            "profilePath": "/F5MJE7YG852iDzcvi1z3ikAgI7.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/F5MJE7YG852iDzcvi1z3ikAgI7.jpg"
+          },
+          {
+            "externalId": 1981899,
+            "name": "Sonali Thakker",
+            "character": "Self",
+            "profilePath": "/gRC9Wm5EYrKAMw8IHKcyaw4Pb2z.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/gRC9Wm5EYrKAMw8IHKcyaw4Pb2z.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c5ec2671d97cf1dd3",
+        "dataId": "ep-06",
+        "title": "Episode 06 | ft. Vipul Goyal, Joke Singh",
+        "description": "India's Got Latent Episode 6 featuring Vipul Goyal and Joke Singh.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/v99xxv.webp",
+        "localImage": "v99xxv.webp",
+        "duration": "1h 5m 28s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-07-ft--raviguptacomedy-rahgir",
+      "season": 1,
+      "eps_no": 7,
+      "title": "INDIA'S GOT LATENT ｜ EP 07 ft. raviguptacomedy RahgirLive comicsaurabh",
+      "description": "Guests Ravi Gupta, Rahgir, and Saurabh join Samay and Balraj to hilariously critique India's latent talents. An engaging episode with surprises and entertainment.",
+      "duration": "1hr 11min",
+      "guests": [
+        "Ravi Gupta",
+        "Rahgir",
+        "Saurabh"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730780/673c71d524f53988a2384b49_TNzpBP6B98c-HD-p-800_l5cl8w.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1VRuK3334f4ZaZ2AFAlujimPcTuVu7BKb&export=download&confirm=t&uuid=537fa1ea-e09c-4ef5-9b8e-20772ca78263",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676cdbaaca2133ee721b"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/wTEJBL8O6"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1VRuK3334f4ZaZ2AFAlujimPcTuVu7BKb/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 7",
+          "Ravi Gupta"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5643784,
+        "seasonNumber": 1,
+        "episodeNumber": 7,
+        "name": "Episode 7",
+        "overview": "Guests Ravi, Rahgir, Saurabh join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-09-16",
+        "runtimeMinutes": 62,
+        "rating": 8.3,
+        "voteCount": 3,
+        "stillPath": "/b3puctP3vGLyg7gr4sXxZ87ZlkY.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/b3puctP3vGLyg7gr4sXxZ87ZlkY.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4976662,
+            "name": "Ravi Gupta",
+            "character": "Self",
+            "profilePath": "/fh7XL4JQQzqncrzUQ6E4bix77UO.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/fh7XL4JQQzqncrzUQ6E4bix77UO.jpg"
+          },
+          {
+            "externalId": 4976667,
+            "name": "Rahgir",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4976668,
+            "name": "Saurabh Pandey",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676cdbaaca2133ee721b",
+        "dataId": "ep-07",
+        "title": "Episode 07 | ft. Ravi Gupta, Rahgir",
+        "description": "India's Got Latent Episode 7 featuring Ravi Gupta and Rahgir.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/dycm14.webp",
+        "localImage": "dycm14.webp",
+        "duration": "1h 1m 19s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-08-ft--aslipoonampandey-viditc",
+      "season": 1,
+      "eps_no": 8,
+      "title": "INDIA'S GOT LATENT ｜ EP 08 ft. aslipoonampandey viditchess vivekmagic",
+      "description": "Guests Poonam Pandey, Vidit Chess, and Vivek Magic join Samay and Balraj. Watch the hilariously talented contestants perform in front of the judges panel.",
+      "duration": "1hr 14min",
+      "guests": [
+        "Poonam Pandey",
+        "Vidit Chess",
+        "Vivek Magic"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777749080/1cOceNLaWja6KI2b6t0PNnBtxBd_stycfn.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1RtacSVIIJsgtVVtgtodDzFC8b3Ioc-qG&export=download&confirm=t&uuid=4cc14845-0085-4c8b-bb9e-f7935ead31ea",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676b2e8cca26baa7d2e7"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/ViQCKxOVm"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1RtacSVIIJsgtVVtgtodDzFC8b3Ioc-qG/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 8",
+          "Poonam Pandey"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5673615,
+        "seasonNumber": 1,
+        "episodeNumber": 8,
+        "name": "Episode 8",
+        "overview": "Guests Poonam, Vidit, Sagar, Vivek join Samay to hilariously critique India's latent talents.",
+        "airDate": "2024-10-13",
+        "runtimeMinutes": 55,
+        "rating": 9.5,
+        "voteCount": 2,
+        "stillPath": "/1cOceNLaWja6KI2b6t0PNnBtxBd.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/1cOceNLaWja6KI2b6t0PNnBtxBd.jpg",
+        "guestStars": [
+          {
+            "externalId": 1200049,
+            "name": "Poonam Pandey",
+            "character": "Self",
+            "profilePath": "/1VQ1cEr1nVNSzXfbkBuq3rQV4fO.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/1VQ1cEr1nVNSzXfbkBuq3rQV4fO.jpg"
+          },
+          {
+            "externalId": 4998506,
+            "name": "Vidit Gujrathi",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4998507,
+            "name": "Sagar Shah",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 3679913,
+            "name": "Vivek Desai",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676b2e8cca26baa7d2e7",
+        "dataId": "ep-08",
+        "title": "Episode 08 | ft. Poonam Pandey, Vidit C",
+        "description": "India's Got Latent Episode 8 featuring Poonam Pandey and Vidit C.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/b9cjfx.webp",
+        "localImage": "b9cjfx.webp",
+        "duration": "0h 54m 31s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-09-ft--deepakkalal-manandesai",
+      "season": 1,
+      "eps_no": 9,
+      "title": "INDIA'S GOT LATENT ｜ EP 09 ft. DeepakKalal MananDesai stanboss1",
+      "description": "Guests Deepak Kalal, Manan Desai, and StanBoss join Samay and Balraj to hilariously critique India's latent talents. A thrilling episode with amazing performances.",
+      "duration": "1hr 09min",
+      "guests": [
+        "Deepak Kalal",
+        "Manan Desai",
+        "StanBoss"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730800/673c72a60ea079d1d4ced44e_ILu4LcipWI0-HD_20_1_-p-800_rrexam.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1LaF53519Ow7kd3d271NK2_-gsGGmLJnz&export=download&confirm=t&uuid=3cb8c5c4-7b43-4e96-bc29-acfe2e95602f",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c2b36b8295078df6d"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/ZWldnMdOY"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1LaF53519Ow7kd3d271NK2_-gsGGmLJnz/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 9",
+          "Deepak Kalal"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5720109,
+        "seasonNumber": 1,
+        "episodeNumber": 9,
+        "name": "Episode 9",
+        "overview": "Guests Deepak, Manan, Agu join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-10-31",
+        "runtimeMinutes": 64,
+        "rating": 9.5,
+        "voteCount": 3,
+        "stillPath": "/bN0XvYJ8urMV42t2pU3w4hDIoQV.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/bN0XvYJ8urMV42t2pU3w4hDIoQV.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 5034417,
+            "name": "Deepak Kalal",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2299647,
+            "name": "Manan Desai",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 5034420,
+            "name": "Agu Stanley Chiedozie",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 5061546,
+            "name": "Prakash Kumar",
+            "character": "Puneet Superstar",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c2b36b8295078df6d",
+        "dataId": "ep-09",
+        "title": "Episode 09 | ft. Deepak Kalal, Manan Desai",
+        "description": "India's Got Latent Episode 9 featuring Deepak Kalal and Manan Desai.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/g4teuh.webp",
+        "localImage": "g4teuh.webp",
+        "duration": "1h 3m 59s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-10-ft--raghuram-tanmaybhat",
+      "season": 1,
+      "eps_no": 10,
+      "title": "INDIA'S GOT LATENT ｜ EP 10 ft. RaghuRam tanmaybhat Sidwarrier",
+      "description": "Guests Raghu Ram, Tanmay Bhat, and Sid Warrier join Samay and Balraj to hilariously critique India's latent talents. Watch this entertaining episode with comedy gold.",
+      "duration": "1hr 10min",
+      "guests": [
+        "Raghu Ram",
+        "Tanmay Bhat",
+        "Sid Warrier"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730813/673c72c371e03639ae5e62ae_buSdqtdn_4I-HD-p-800_yjw4py.webp",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1Nk9BEj4wvI7VhJmS5ngeU2MLyVjATvr9&export=download&confirm=t&uuid=757331dd-9c32-484b-838f-61e24013b2cd",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c23afe77917dc5943"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/7psVHOYNo"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1Nk9BEj4wvI7VhJmS5ngeU2MLyVjATvr9/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 10",
+          "Raghu Ram"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5760652,
+        "seasonNumber": 1,
+        "episodeNumber": 10,
+        "name": "Episode 10",
+        "overview": "Guests Tanmay, Raghu, Sid join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-11-16",
+        "runtimeMinutes": 68,
+        "rating": 8.5,
+        "voteCount": 3,
+        "stillPath": "/eRmp83JGi0MMU67EH0xrA3wX0eX.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/eRmp83JGi0MMU67EH0xrA3wX0eX.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 1489941,
+            "name": "Tanmay Bhat",
+            "character": "Self",
+            "profilePath": "/mheibIPjXDXYUjvReCnEeh8s674.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/mheibIPjXDXYUjvReCnEeh8s674.jpg"
+          },
+          {
+            "externalId": 1240692,
+            "name": "Raghu Ram",
+            "character": "Self",
+            "profilePath": "/bNWLAvxWSmibXtQu2bwmzbdW6WA.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/bNWLAvxWSmibXtQu2bwmzbdW6WA.jpg"
+          },
+          {
+            "externalId": 5062452,
+            "name": "Siddharth Warrier",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c23afe77917dc5943",
+        "dataId": "ep-10",
+        "title": "Episode 10 | ft. Raghu Ram, Tanmay Bhat",
+        "description": "India's Got Latent Episode 10 featuring Raghu Ram and Tanmay Bhat.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/37nxmd.webp",
+        "localImage": "37nxmd.webp",
+        "duration": "1h 8m 24s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-11-ft--bhartitv-lifeoflimbachiy",
+      "season": 1,
+      "eps_no": 11,
+      "title": "INDIA'S GOT LATENT ｜ EP 11 ft. bhartitv LifeOfLimbachiyaas TonyKakkar",
+      "description": "Guests Bharti Singh and Tony Kakkar join Samay and Balraj to hilariously critique India's latent talents. A fun-filled episode with laughs and entertainment.",
+      "duration": "1hr 07min",
+      "guests": [
+        "Bharti Singh",
+        "Tony Kakkar"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730822/Y0djQC5qcGc_kuvjkt.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1sY7fz5POukkGJ5x0-Oo1uJ_MXW-fI5l7&export=download&confirm=t&uuid=49cbc727-61e6-4d14-9a17-341dac367b12",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c4274763d6c8713cf"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/-mqYLB-rl"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1sY7fz5POukkGJ5x0-Oo1uJ_MXW-fI5l7/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 11",
+          "Bharti Singh"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5796484,
+        "seasonNumber": 1,
+        "episodeNumber": 11,
+        "name": "Episode 11",
+        "overview": "Guests Bharti, Harsh, Tony, Drew join Samay to hilariously critique India's latent talents.",
+        "airDate": "2024-12-08",
+        "runtimeMinutes": 75,
+        "rating": 7.7,
+        "voteCount": 3,
+        "stillPath": "/fYmcZFQP7CrBqJMclj1q3iCaU7r.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/fYmcZFQP7CrBqJMclj1q3iCaU7r.jpg",
+        "guestStars": [
+          {
+            "externalId": 1656028,
+            "name": "Bharti Singh",
+            "character": "Self",
+            "profilePath": "/plZJAk6xToOUiELg6pU3hOYt1te.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/plZJAk6xToOUiELg6pU3hOYt1te.jpg"
+          },
+          {
+            "externalId": 2209292,
+            "name": "Haarsh Limbachiyaa",
+            "character": "Self",
+            "profilePath": "/oV1hmEg8xxmGUq11OPR8cIboyMQ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/oV1hmEg8xxmGUq11OPR8cIboyMQ.jpg"
+          },
+          {
+            "externalId": 1838532,
+            "name": "Tony Kakkar",
+            "character": "Self",
+            "profilePath": "/jdgd1jJ7k6Jf5NaijyS5DBbK2Nl.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/jdgd1jJ7k6Jf5NaijyS5DBbK2Nl.jpg"
+          },
+          {
+            "externalId": 1312541,
+            "name": "Drew Hicks",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c4274763d6c8713cf",
+        "dataId": "ep-11",
+        "title": "Episode 11 | ft. Bharti Singh, Haarsh Limbachiyaa",
+        "description": "India's Got Latent Episode 11 featuring Bharti Singh and Haarsh Limbachiyaa.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/8j55ug.webp",
+        "localImage": "8j55ug.webp",
+        "duration": "1h 15m 10s"
+      }
+    },
+    {
+      "id": "indias-got-latent-ep-12-ft--rakhisawant-ashishs",
+      "season": 1,
+      "eps_no": 12,
+      "title": "INDIA'S GOT LATENT ｜ EP 12 ft. Rakhi Sawant ashishsolanki_1 ComedianMaheepSingh",
+      "description": "Guests Rakhi Sawant, Ashish Solanki, and Maheep Singh join Samay and Balraj to hilariously critique India's latent talents. The final main episode is packed with surprises.",
+      "duration": "1hr 16min",
+      "guests": [
+        "Rakhi Sawant",
+        "Ashish Solanki",
+        "Maheep Singh"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777730837/MV5BZGU2OWIwMTctNmNhYi00NzdlLWE1OWUtNGU5MjZkMTBlM2VhXkEyXkFqcGc._V1__t0h737.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1FiJcwVKENqTGfdUcpnhjY5tjw0qa9Kv4&export=download&confirm=t&uuid=552bb142-b591-4c0b-a5a5-95f15a536cf9",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676ce935fd57e597eaa8"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/plhJ-zdZo"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1FiJcwVKENqTGfdUcpnhjY5tjw0qa9Kv4/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Episode 12",
+          "Rakhi Sawant"
+        ],
+        "tags": [
+          "episode",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5781632,
+        "seasonNumber": 1,
+        "episodeNumber": 12,
+        "name": "Episode 12",
+        "overview": "Guests Rakhi, Maheep, Aashish, Yashraj join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-12-31",
+        "runtimeMinutes": 75,
+        "rating": 8,
+        "voteCount": 3,
+        "stillPath": "/kVbOKYTVPDjauXanoqgTEsnX9Fb.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/kVbOKYTVPDjauXanoqgTEsnX9Fb.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4423178,
+            "name": "Yashraj Mehra",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2967858,
+            "name": "Maheep Singh",
+            "character": "Self",
+            "profilePath": "/80MN0Zs5FeviYDnII4Yao9hUIDP.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/80MN0Zs5FeviYDnII4Yao9hUIDP.jpg"
+          },
+          {
+            "externalId": 4686824,
+            "name": "Aashish Solanki",
+            "character": "Self",
+            "profilePath": "/41mSWX00T4paLGBzG93JUnjahMc.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/41mSWX00T4paLGBzG93JUnjahMc.jpg"
+          },
+          {
+            "externalId": 86031,
+            "name": "Rakhi Sawant",
+            "character": "Self",
+            "profilePath": "/uTgCw0pcfqPf0HLb2vrcJvkwRTi.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/uTgCw0pcfqPf0HLb2vrcJvkwRTi.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676ce935fd57e597eaa8",
+        "dataId": "ep-12",
+        "title": "Episode 12 | ft. Rakhi Sawant, Ashish Solanki",
+        "description": "India's Got Latent Episode 12 featuring Rakhi Sawant and Ashish Solanki.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/p88fof.webp",
+        "localImage": "p88fof.webp",
+        "duration": "1h 14m 52s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-1-ft--arpit-bala",
+      "season": 1,
+      "eps_no": "bonus-1",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 01 ft. Arpit, Bappa, Sahil and Amin",
+      "description": "Guests Arpit, Bappa, Sahil and Amin join Samay to hilariously critique India's latent talents. Catch all the behind-the-scenes fun in India's Got Latent Bonus Episode 1 featuring the hilarious antics of Arpit, Bappa, Sahil, and Amin!",
+      "duration": "1hr 08min",
+      "guests": [
+        "Arpit",
+        "Bappa",
+        "Sahil",
+        "Amin"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731032/MV5BNTJkYjczZTctNzg5MC00MjZmLTkzMDUtMGU0NTAyNmU4MzA2XkEyXkFqcGc._V1__dgg8km.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1NI7fqpS_0SPBQ8373d67_1U22YKIoRUc&export=download&confirm=t&uuid=fcdf32fc-da69-42f1-9d76-371b0a8039d8",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c58c3b629cc87178d"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/aIKxhVTwA"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1NI7fqpS_0SPBQ8373d67_1U22YKIoRUc/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Bonus Episode",
+          "Behind-the-scenes",
+          "Comedy"
+        ],
+        "tags": [
+          "bonus",
+          "comedy",
+          "game-show",
+          "exclusive"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5652867,
+        "seasonNumber": 0,
+        "episodeNumber": 2,
+        "name": "Bonus EP 1",
+        "overview": "Guests Arpit Bala, Bhappa, Sahil, Amin join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-09-15",
+        "runtimeMinutes": 36,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/bv1Ob1le758GZtUDbbDyYY5lPox.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/bv1Ob1le758GZtUDbbDyYY5lPox.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906937,
+            "name": "Sahil Kale",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4985969,
+            "name": "Arpit Bala",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4985976,
+            "name": "Bhappa",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4985980,
+            "name": "Amin Jaz",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c58c3b629cc87178d",
+        "dataId": "bonus-01",
+        "title": "Bonus Segment 01 | ft. Arpit Bala",
+        "description": "Bonus segment 1 featuring Arpit Bala.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/zqtar6.webp",
+        "localImage": "zqtar6.webp",
+        "duration": "0h 36m 6s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-2-ft--badshah-siddhant-ch",
+      "season": 1,
+      "eps_no": "bonus-2",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 02 ft. Badshah, Siddhant, Khamba and Balraj",
+      "description": "Guests Badshah, Siddhant, Khamba join Samay and Balraj to hilariously critique India's latent talents. Experience exclusive moments in India's Got Latent Bonus Episode 2 with sensational entertainment and behind-the-scenes laughs.",
+      "duration": "1hr 04min",
+      "guests": [
+        "Badshah",
+        "Siddhant",
+        "Khamba",
+        "Balraj"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731037/MV5BMDYyNWRjOWYtNDc4MC00YzZjLTkxOGMtMjBmNTVmY2Y1NmYzXkEyXkFqcGc._V1__jgsfxo.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=19ipN4qquEu8jF_xOLEIzT_E3P749k4Hy&export=download&confirm=t&uuid=4a85837f-d8dd-4301-bd45-944b3a37453a",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c8aaeb63c7a4ef667"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/m650uFrUE"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/19ipN4qquEu8jF_xOLEIzT_E3P749k4Hy/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Bonus Episode",
+          "Badshah",
+          "Music"
+        ],
+        "tags": [
+          "bonus",
+          "comedy",
+          "music"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5652872,
+        "seasonNumber": 0,
+        "episodeNumber": 3,
+        "name": "Bonus EP 2",
+        "overview": "Guests Badshah, Siddhant, Khamba join Samay and Balraj to hilariously critique India's latent talents",
+        "airDate": "2024-10-06",
+        "runtimeMinutes": 52,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/tvV2c19S7NFDEQFa3tfKbLTPzi1.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/tvV2c19S7NFDEQFa3tfKbLTPzi1.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 2315636,
+            "name": "Badshah",
+            "character": "Self",
+            "profilePath": "/kPYZ56EGciSLe9nMVn5UaAZqGHD.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kPYZ56EGciSLe9nMVn5UaAZqGHD.jpg"
+          },
+          {
+            "externalId": 2242585,
+            "name": "Siddhant Chaturvedi",
+            "character": "Self",
+            "profilePath": "/9hsOatm8AtXf55ko7dWySVv9noZ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/9hsOatm8AtXf55ko7dWySVv9noZ.jpg"
+          },
+          {
+            "externalId": 1738900,
+            "name": "Gursimran Khamba",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c8aaeb63c7a4ef667",
+        "dataId": "bonus-02",
+        "title": "Bonus Segment 02 | ft. Badshah, Siddhant Chaturvedi",
+        "description": "Bonus segment 2 featuring Badshah and Siddhant Chaturvedi.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/zozibh.webp",
+        "localImage": "zozibh.webp",
+        "duration": "0h 52m 8s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-3-ft--avika-gor",
+      "season": 1,
+      "eps_no": "bonus-3",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 03 ft. Avika, Devesh, Shashwat and Balraj",
+      "description": "Guests Avika, Devesh, Shashwat join Samay and Balraj to hilariously critique India's latent talents. Packed with laughter, drama, and unforgettable moments in this special bonus episode.",
+      "duration": "1hr 04min",
+      "guests": [
+        "Avika",
+        "Devesh",
+        "Shashwat",
+        "Balraj"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731054/MV5BZTIwODRlNzYtNTM4My00Y2QwLTk1M2ItMWIwMmFlZDUzMTBjXkEyXkFqcGc._V1__rh1b2o.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1i9LCyV-icU4ZnpN0ZKMcnjVlZAQQnjGq&export=download&confirm=t&uuid=cc49b5fb-5a63-4c0d-adc3-434f150fb0ce",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c98fe8b6afe50e356"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/1HmnqcvJl"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1i9LCyV-icU4ZnpN0ZKMcnjVlZAQQnjGq/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Bonus Episode",
+          "Avika Gor"
+        ],
+        "tags": [
+          "bonus",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5701716,
+        "seasonNumber": 0,
+        "episodeNumber": 4,
+        "name": "Bonus EP 3",
+        "overview": "Guests Avika, Devesh, Shashwat join Samay and Balraj to hilariously critique India's latent talents",
+        "airDate": "2024-10-26",
+        "runtimeMinutes": 54,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/qDaok2Hyb3aUwsMlT5oDe5tRfKZ.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/qDaok2Hyb3aUwsMlT5oDe5tRfKZ.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 230024,
+            "name": "Avika Gor",
+            "character": "Self",
+            "profilePath": "/2HJXqe3Y98nw2lDESNmwAM6cfQ8.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/2HJXqe3Y98nw2lDESNmwAM6cfQ8.jpg"
+          },
+          {
+            "externalId": 4695528,
+            "name": "Devesh Dixit",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 5024198,
+            "name": "Shashwat Maheshwari",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c98fe8b6afe50e356",
+        "dataId": "bonus-03",
+        "title": "Bonus Segment 03 | ft. Avika Gor",
+        "description": "Bonus segment 3 featuring Avika Gor.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/eyst23.webp",
+        "localImage": "eyst23.webp",
+        "duration": "0h 54m 22s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-4-ft--seedhemaut-madhurv",
+      "season": 1,
+      "eps_no": "bonus-4",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 04 ft. SeedheMaut, Madhur, Kaustubh and Balraj",
+      "description": "Guests SeedheMaut, Madhur, Kaustubh join Samay and Balraj to hilariously critique India's latent talents. Experience dynamic performances and engaging conversations in this bonus episode.",
+      "duration": "1hr 04min",
+      "guests": [
+        "Seedhe Maut",
+        "Madhur",
+        "Kaustubh",
+        "Balraj"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731061/MV5BNmYzNmQwZWUtY2M3ZC00ZWJhLTgwOTYtZDJhOWMyODNlMWZmXkEyXkFqcGc._V1__wvgkrg.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=16cvxVe0R8VVHtwWAEVJe3fmLkgVinVlo&export=download&confirm=t&uuid=317ba9e5-09bf-4d9a-bcad-19c9d4af4dbb",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c8000507d4d256380"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/96wZsRBFn"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/16cvxVe0R8VVHtwWAEVJe3fmLkgVinVlo/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Bonus",
+          "Seedhe Maut",
+          "Rap"
+        ],
+        "tags": [
+          "bonus",
+          "music",
+          "rap",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5803840,
+        "seasonNumber": 0,
+        "episodeNumber": 7,
+        "name": "Bonus EP 4",
+        "overview": "Guests Calm, Encore, Madhur, Kaustub join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-12-01",
+        "runtimeMinutes": 72,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/3e4zsrt2f36ORrmUeMNodwiQNoZ.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/3e4zsrt2f36ORrmUeMNodwiQNoZ.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4797781,
+            "name": "Madhur Virli",
+            "character": "Self",
+            "profilePath": "/sIP0j8s6DPfXJX3COP5jpv7EX6y.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/sIP0j8s6DPfXJX3COP5jpv7EX6y.jpg"
+          },
+          {
+            "externalId": 5023272,
+            "name": "Kaustubh Agarwal",
+            "character": "Self",
+            "profilePath": "/q0bg9ol265w37bgumXFkwRtKiMx.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/q0bg9ol265w37bgumXFkwRtKiMx.jpg"
+          },
+          {
+            "externalId": 5093053,
+            "name": "Siddhant Sharma",
+            "character": "Calm",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4334130,
+            "name": "Abhijay Negi",
+            "character": "Encore ABJ",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c8000507d4d256380",
+        "dataId": "bonus-04",
+        "title": "Bonus Segment 04 | ft. Seedhe Maut, Madhur Virli",
+        "description": "Bonus segment 4 featuring Seedhe Maut and Madhur Virli.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/sykxlk.webp",
+        "localImage": "sykxlk.webp",
+        "duration": "1h 12m 24s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-5-ft--rohanjoshi8016",
+      "season": 1,
+      "eps_no": "bonus-5",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 05 ft. RohanJoshi, Sahil, Vaibhav, Chandni",
+      "description": "Guests Rohan, Sahil, Vaibhav, Chandni join Samay to hilariously critique India's latent talents. Endless entertainment with unexpected twists and laugh-out-loud moments.",
+      "duration": "1hr 04min",
+      "guests": [
+        "Rohan",
+        "Sahil",
+        "Vaibhav",
+        "Chandni"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731073/photo_yhdns4.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1cFIZYALtKzcp-TiGGrsHkcS-sqFzj51w&export=download&confirm=t&uuid=88f80451-b3d2-4dc7-aeda-7a999353ed42",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c19429418c7a0165c"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/wlRaq4a1S"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1cFIZYALtKzcp-TiGGrsHkcS-sqFzj51w/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Bonus",
+          "Rohan Joshi"
+        ],
+        "tags": [
+          "bonus",
+          "comedy",
+          "entertainment"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5853819,
+        "seasonNumber": 0,
+        "episodeNumber": 8,
+        "name": "Bonus EP 5",
+        "overview": "Guests Rohan, Sahil, Vaibhav, Chandni join Samay to hilariously critique India's latent talents.",
+        "airDate": "2024-12-25",
+        "runtimeMinutes": 89,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/AhDuBewVtHmvsvxCLn87G0KqYXs.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/AhDuBewVtHmvsvxCLn87G0KqYXs.jpg",
+        "guestStars": [
+          {
+            "externalId": 1738899,
+            "name": "Rohan Joshi",
+            "character": "Self",
+            "profilePath": "/2GVFLbPKKz86o3reZ7thC6xAcpK.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/2GVFLbPKKz86o3reZ7thC6xAcpK.jpg"
+          },
+          {
+            "externalId": 5096641,
+            "name": "Vaibhav Munjal",
+            "character": "Self",
+            "profilePath": "/5JQgwMDzHZz85SR2DD2ZHksEA3Z.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/5JQgwMDzHZz85SR2DD2ZHksEA3Z.jpg"
+          },
+          {
+            "externalId": 1834319,
+            "name": "Sahil Shah",
+            "character": "Self",
+            "profilePath": "/wtIcDOOGxjxgOXJa3MOoRf05dT0.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/wtIcDOOGxjxgOXJa3MOoRf05dT0.jpg"
+          },
+          {
+            "externalId": 5096642,
+            "name": "Chandni",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c19429418c7a0165c",
+        "dataId": "bonus-05",
+        "title": "Bonus Segment 05 | ft. Rohan Joshi",
+        "description": "Bonus segment 5 featuring Rohan Joshi.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/x6ieup.webp",
+        "localImage": "x6ieup.webp",
+        "duration": "1h 29m 5s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-6-ft--ranveer",
+      "season": 1,
+      "eps_no": "bonus-6",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 06 ft. Ashish, Ranveer, Jaspreet, Apoorva",
+      "description": "Guests Ashish, Ranveer, Jaspreet, Apoorva join Samay to hilariously critique India's latent talents. The most talked-about episode with fiery exchanges and unexpected revelations.",
+      "duration": "1hr 04min",
+      "guests": [
+        "Ashish",
+        "Ranveer",
+        "Jaspreet",
+        "Apoorva"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777748956/taMh8nV934ZwA8euEJc3P36koPg_uaj8o9.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=13AvE38Ex2T6tP5VFRHO9RbryBW2q5de8&export=download&confirm=t&uuid=1ae7f0dd-c4e4-4c1c-a4f0-ab2d83cf817d",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c23afe77917dc5942"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/92ffqA8XB"
+        },
+        {
+          "id": "gd-2",
+          "name": "GD-2",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1A0TtAawjAEF1PErbJLap6byn2yYlHZcM/preview"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/13AvE38Ex2T6tP5VFRHO9RbryBW2q5de8/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Bonus",
+          "Controversial"
+        ],
+        "tags": [
+          "bonus",
+          "comedy",
+          "controversial"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5958752,
+        "seasonNumber": 0,
+        "episodeNumber": 10,
+        "name": "Bonus EP 6",
+        "overview": "Guests Ashish, Ranveer, Jaspreet, Apoorva join Samay to hilariously critique India's latent talents.",
+        "airDate": "2025-02-08",
+        "runtimeMinutes": 63,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/taMh8nV934ZwA8euEJc3P36koPg.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/taMh8nV934ZwA8euEJc3P36koPg.jpg",
+        "guestStars": [
+          {
+            "externalId": 2336029,
+            "name": "Ashish Chanchlani",
+            "character": "Self",
+            "profilePath": "/3iB8v3xQBGwLbYFc1nnqMj8sktJ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/3iB8v3xQBGwLbYFc1nnqMj8sktJ.jpg"
+          },
+          {
+            "externalId": 3129584,
+            "name": "Ranveer Allahbadia",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 3485015,
+            "name": "Jaspreet Singh",
+            "character": "Self",
+            "profilePath": "/2fTQCaJkOCnsrs70ZAQzfBaSXJ1.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/2fTQCaJkOCnsrs70ZAQzfBaSXJ1.jpg"
+          },
+          {
+            "externalId": 5087599,
+            "name": "Apoorva Mukhija",
+            "character": "Self",
+            "profilePath": "/hLCo1JkEpYmIoirWKGN6vCGLGnV.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/hLCo1JkEpYmIoirWKGN6vCGLGnV.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c23afe77917dc5942",
+        "dataId": "bonus-06",
+        "title": "Bonus Segment 06 | ft. Ranveer Allahbadia",
+        "description": "Bonus segment 6 featuring Ranveer Allahbadia.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/vlhczg.webp",
+        "localImage": "vlhczg.webp",
+        "duration": "1h 3m 9s"
+      }
+    },
+    {
+      "id": "indias-got-latent-raghu-ram-episode-bonus-moments",
+      "season": 1,
+      "eps_no": "exclusive-1",
+      "title": "INDIA’S GOT LATENT Raghu Ram Episode Bonus Moments",
+      "description": "Guests Raghu, Tanmay, Sid warrior join Samay and Balraj to hilariously critique India's latent talents. Exclusive bonus moments from the Raghu Ram episode featuring uncut scenes and behind-the-scenes footage.",
+      "duration": "34min 07s",
+      "guests": [
+        "Raghu Ram",
+        "Tanmay Bhat",
+        "Sid Warrier"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731584/1_mzqonv.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1sSslDXlZmAk44H8v4OItfbPimHAUThZ_&export=download&confirm=t&uuid=0c174c43-0723-47ea-bd8b-412ade5c24d6",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676b4274763d6c87135a"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/JSNy6R1-d"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1sSslDXlZmAk44H8v4OItfbPimHAUThZ_/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Exclusive",
+          "Raghu Ram"
+        ],
+        "tags": [
+          "exclusive",
+          "bonus",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5767796,
+        "seasonNumber": 0,
+        "episodeNumber": 6,
+        "name": "Raghu Ram Episode Deleted Moments",
+        "overview": "EP 10 Deleted Moments.\n\nGuests Tanmay, Raghu, Sid join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-11-19",
+        "runtimeMinutes": 34,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/28mjInPnPvTqUTGRHxzhAluI1ME.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/28mjInPnPvTqUTGRHxzhAluI1ME.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 1489941,
+            "name": "Tanmay Bhat",
+            "character": "Self",
+            "profilePath": "/mheibIPjXDXYUjvReCnEeh8s674.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/mheibIPjXDXYUjvReCnEeh8s674.jpg"
+          },
+          {
+            "externalId": 1240692,
+            "name": "Raghu Ram",
+            "character": "Self",
+            "profilePath": "/bNWLAvxWSmibXtQu2bwmzbdW6WA.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/bNWLAvxWSmibXtQu2bwmzbdW6WA.jpg"
+          },
+          {
+            "externalId": 5062452,
+            "name": "Siddharth Warrier",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676b4274763d6c87135a",
+        "dataId": "extra-02",
+        "title": "Bonus Segment 08 | ft. Raghu Ram",
+        "description": "Extra segment featuring Raghu Ram.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/ckvmsi.webp",
+        "localImage": "ckvmsi.webp",
+        "duration": "0h 34m 7s"
+      }
+    },
+    {
+      "id": "indias-got-latent-deepak-kalal-episode-bonus-moments",
+      "season": 1,
+      "eps_no": "exclusive-2",
+      "title": "INDIA’S GOT LATENT Deepak Kalal Episode Bonus Moments",
+      "description": "Guests Deepak, Manan, Agu join Samay and Balraj to hilariously critique India's latent talents. Exclusive bonus moments from the Deepak Kalal episode featuring uncut scenes and behind-the-scenes footage.",
+      "duration": "36min 31s",
+      "guests": [
+        "Deepak Kalal",
+        "Manan Desai",
+        "Agu Stanley"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731593/2_t2ce5d.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=12XxIxEFWoU5iRRuwZpI9H4PVEEHlA2CL&export=download&confirm=t&uuid=f1099408-4a27-4d12-af03-d7a43fc52be3",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676cfb0e2d59c3fe99e8"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/Vqp0HZXNk"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/12XxIxEFWoU5iRRuwZpI9H4PVEEHlA2CL/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Exclusive",
+          "Bonus Moments",
+          "Deepak Kalal"
+        ],
+        "tags": [
+          "exclusive",
+          "bonus",
+          "behind-the-scenes"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5760335,
+        "seasonNumber": 0,
+        "episodeNumber": 5,
+        "name": "Deepak Kalal Episode Deleted Moments",
+        "overview": "EP 9 Deleted Moments.  Guests Deepak, Manan, Agu join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2024-11-02",
+        "runtimeMinutes": 37,
+        "rating": 8,
+        "voteCount": 1,
+        "stillPath": "/jD9R3FQ1iYjrP1c5zvCMMALBoJB.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/jD9R3FQ1iYjrP1c5zvCMMALBoJB.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": null,
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 5034417,
+            "name": "Deepak Kalal",
+            "character": null,
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2299647,
+            "name": "Manan Desai",
+            "character": null,
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 5034420,
+            "name": "Agu Stanley Chiedozie",
+            "character": null,
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676cfb0e2d59c3fe99e8",
+        "dataId": "extra-01",
+        "title": "Bonus Segment 07 | ft. Deepak Kalal",
+        "description": "Extra segment featuring Deepak Kalal.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/mi1fo1.webp",
+        "localImage": "mi1fo1.webp",
+        "duration": "0h 36m 31s"
+      }
+    },
+    {
+      "id": "indias-got-latent-discarded-ep-1-ft--aakashgupta-anubh",
+      "season": 1,
+      "eps_no": "discarded-1",
+      "title": "INDIA’S GOT LATENT  Discarded EP 1 ft AakashGupta Anubh",
+      "description": "Guests Aakash Gupta, Anubhav Singh Bassi join Samay and Balraj to hilariously critique India's latent talents. A complete episode that was originally discarded from the series but now available exclusively for fans.",
+      "duration": "27min 41s",
+      "guests": [
+        "Aakash Gupta",
+        "Anubhav Singh Bassi"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731412/3_cewrbm.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1u9N3dVNCkSCs4dwVpp8maLLmuQ_IOzfx&export=download&confirm=t&uuid=0eddee6e-20a0-40ea-be12-b8f55a1b58e4",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c5e72ba3125ce81a6"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/2b7B_gScv"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1u9N3dVNCkSCs4dwVpp8maLLmuQ_IOzfx/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Discarded Episode",
+          "Exclusive",
+          "Comedy"
+        ],
+        "tags": [
+          "exclusive",
+          "discarded",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5940986,
+        "seasonNumber": 0,
+        "episodeNumber": 9,
+        "name": "Discarded EP 1",
+        "overview": "Guests Aakash, Mallika, Pratyush, Anubhav, Gurleen, Yashraj join Samay and Balraj to hilariously critique India's latent talents.",
+        "airDate": "2025-01-26",
+        "runtimeMinutes": 27,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/lFA1jCpCyRZJQxLeQTWFDJznLvr.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/lFA1jCpCyRZJQxLeQTWFDJznLvr.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4423178,
+            "name": "Yashraj Mehra",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 3073847,
+            "name": "Aakash Gupta",
+            "character": "Self",
+            "profilePath": "/qzaaRwwh7XqwafojmZiUx2nAo4I.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/qzaaRwwh7XqwafojmZiUx2nAo4I.jpg"
+          },
+          {
+            "externalId": 2657110,
+            "name": "Pratyush Chaubey",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2657098,
+            "name": "Anubhav Singh Bassi",
+            "character": "Self",
+            "profilePath": "/DOVhWJRywcbPpVfa4VuZN90rFG.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/DOVhWJRywcbPpVfa4VuZN90rFG.jpg"
+          },
+          {
+            "externalId": 5023278,
+            "name": "Gurleen Pannu",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2317145,
+            "name": "Mallika Dua",
+            "character": "Self",
+            "profilePath": "/ePPOyIYtzfmFmFveaXz5gIu3sxR.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/ePPOyIYtzfmFmFveaXz5gIu3sxR.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a49676c5e72ba3125ce81a6",
+        "dataId": "extra-03",
+        "title": "Discarded Segment 01 | ft. Aakash Gupta, Anubhav Bassi",
+        "description": "Discarded segment featuring Aakash Gupta and Anubhav Bassi.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/p74kpp.webp",
+        "localImage": "p74kpp.webp",
+        "duration": "0h 27m 41s"
+      }
+    },
+    {
+      "id": "indias-got-latent-deleted-footage",
+      "season": 1,
+      "eps_no": "deleted-1",
+      "title": "INDIA'S GOT LATENT DELETED FOOTAGE!",
+      "description": "Exclusive unseen moments from India's Got Latent—deleted footages. A collection of the funniest and most surprising deleted scenes that didn't make it to the final episodes.",
+      "duration": "39 min",
+      "guests": [],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731647/4_i0sv2t.jpg",
+      "downloadLink": "https://drive.usercontent.google.com/download?id=1tqgo9rpQ-Q0TBbRVrZGeYGjZXbxGxlJe&export=download&confirm=t&uuid=6be242bc-72a6-4f5c-baae-cff325495eea",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a49676c63598c4c04197757"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/xdYelwH6W"
+        },
+        {
+          "id": "google-drive",
+          "name": "google drive",
+          "type": "iframe",
+          "link": "https://drive.google.com/file/d/1tqgo9rpQ-Q0TBbRVrZGeYGjZXbxGxlJe/preview"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Deleted Footage",
+          "Exclusive"
+        ],
+        "tags": [
+          "exclusive",
+          "deleted-footage",
+          "comedy",
+          "bonus"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 5767812,
+        "seasonNumber": 0,
+        "episodeNumber": 1,
+        "name": "Ep 1-3 Deleted Moments",
+        "overview": "Ep 1, 2 and 3 Deleted Moments.",
+        "airDate": "2024-08-12",
+        "runtimeMinutes": 39,
+        "rating": 4,
+        "voteCount": 1,
+        "stillPath": "/5HJvzfMPTeMfgGOnMz51XRwuJsZ.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/5HJvzfMPTeMfgGOnMz51XRwuJsZ.jpg",
+        "guestStars": []
+      },
+      "okcdn": {
+        "id": "6a49676c63598c4c04197757",
+        "dataId": "extra-04",
+        "title": "Deleted Footage",
+        "description": "Deleted footage compilation.",
+        "season": "s1",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/s654fa.webp",
+        "localImage": "s654fa.webp",
+        "duration": "0h 39m 31s"
+      }
+    },
+    {
+      "id": "samay-raina-still-alive-special",
+      "season": "Specials",
+      "eps_no": "Special",
+      "title": "Samay Raina - STILL ALIVE (Full Special)",
+      "description": "Samay Raina is back after a year. Watch Samay Raina's debut standup comedy special - Still Alive. A full-length comedy special showcasing Samay Raina's hilarious stand-up performance with stories, observations, and comedy gold.",
+      "duration": "1hr 21min",
+      "guests": [],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731810/maxresdefault_z7uvwz.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "youtube",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/LhpZJwUboeI"
+        },
+        {
+          "id": "abyss",
+          "name": "abyss",
+          "type": "iframe",
+          "link": "https://abyssplayer.com/kG2IM7-nH"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "Samay Raina",
+          "Stand-up Comedy",
+          "Special",
+          "Full Special"
+        ],
+        "tags": [
+          "stand-up",
+          "comedy",
+          "special",
+          "full-length"
+        ],
+        "genre": "Stand-up Comedy"
+      },
+      "okcdn": {
+        "id": "",
+        "dataId": "special-01",
+        "title": "Comedy Special 01 | Samay Raina - Still Alive",
+        "description": "Standup comedy special stream. Non-commercial collection.",
+        "season": "special",
+        "type": "youtube",
+        "youtubeId": "LhpZJwUboeI",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/5n7q0a.webp",
+        "localImage": "5n7q0a.webp",
+        "duration": null
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-01-ft--alia-bhatt-sharvari",
+      "season": 2,
+      "eps_no": 1,
+      "title": "INDIA'S GOT LATENT S2 EP1 ft. Alia Bhatt, Sharvari, Ashish Solanki",
+      "description": "Alia Bhatt and Sharvari join Samay Raina for the Season 2 premiere of India's Got Latent, where aspiring performers get hilariously judged by the panel. A star-studded season opener packed with laughs and unforgettable moments.",
+      "duration": "61 min",
+      "guests": [
+        "Alia Bhatt",
+        "Sharvari",
+        "Ashish Solanki"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/eHTXQW58WhA/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "youtube",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/eHTXQW58WhA"
+        },
+        {
+          "id": "streamtape",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/1"
+        },
+        {
+          "id": "lulustream",
+          "name": "Viduki",
+          "type": "iframe",
+          "link": "https://www.viduki.net/2/tv/262838/2/1?color=e01621"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Alia Bhatt",
+          "Sharvari"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7404868,
+        "seasonNumber": 2,
+        "episodeNumber": 1,
+        "name": "Episode 1 : Ft. Alia Bhatt, Sharvari Wagh & Aashish Solanki",
+        "overview": "Guest judges Alia Bhatt, Sharvari Wagh & Aashish Solanki join the panel as singers, comedians and impersonators compete on stage.",
+        "airDate": "2026-06-20",
+        "runtimeMinutes": 61,
+        "rating": 6,
+        "voteCount": 2,
+        "stillPath": "/ra5zQKLPrp7vrHGlC8QXQlgfbhW.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/ra5zQKLPrp7vrHGlC8QXQlgfbhW.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4686824,
+            "name": "Aashish Solanki",
+            "character": "Self",
+            "profilePath": "/41mSWX00T4paLGBzG93JUnjahMc.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/41mSWX00T4paLGBzG93JUnjahMc.jpg"
+          },
+          {
+            "externalId": 1108120,
+            "name": "Alia Bhatt",
+            "character": "Self",
+            "profilePath": "/lAgBZgHKTo6amIO9CfNxUbm1usH.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/lAgBZgHKTo6amIO9CfNxUbm1usH.jpg"
+          },
+          {
+            "externalId": 2518564,
+            "name": "Sharvari",
+            "character": "Self",
+            "profilePath": "/zAkx24qd7eH1Ck3ouBnPOysAOaJ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/zAkx24qd7eH1Ck3ouBnPOysAOaJ.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "",
+        "dataId": "s2-01",
+        "title": "Season 2 Episode 01 | ft. Alia Bhatt, Sharvari, Ashish Solanki",
+        "description": "Full episode online stream. Free community fan archive.",
+        "season": "s2",
+        "type": "youtube",
+        "youtubeId": "eHTXQW58WhA",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/2dfkpv.webp",
+        "localImage": "2dfkpv.webp",
+        "duration": null
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-02-ft--harssh-limbachiya-kiku-sharda",
+      "season": 2,
+      "eps_no": 2,
+      "title": "INDIA'S GOT LATENT S2 EP2 ft. Harssh Limbachiya, Kiku Sharda, Chandan Prabhakar",
+      "description": "Harssh Limbachiya, Kiku Sharda, and Chandan Prabhakar join Samay Raina to hilariously critique India's latent talents. Watch aspiring performers get judged in this entertaining Season 2 episode.",
+      "duration": "61 min",
+      "guests": [
+        "Harssh Limbachiya",
+        "Kiku Sharda",
+        "Chandan Prabhakar"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/c35fpGWqXnk/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "youtube",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/c35fpGWqXnk"
+        },
+        {
+          "id": "streamtape",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/2"
+        },
+        {
+          "id": "lulustream",
+          "name": "Viduki",
+          "type": "iframe",
+          "link": "https://www.viduki.net/2/tv/262838/2/2?color=e01621"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Kiku Sharda",
+          "Chandan Prabhakar"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7455577,
+        "seasonNumber": 2,
+        "episodeNumber": 2,
+        "name": "Episode 2 : Ft. Chandan Prabhakar, Kiku Sharda & Harssh Limbachiyaa",
+        "overview": "Guest judges Kiku Sharda, Chandan Prabhakar and Harssh Limbachiyaa join Samay as contestants showcase musical performances and variety acts.",
+        "airDate": "2026-07-03",
+        "runtimeMinutes": 61,
+        "rating": 5,
+        "voteCount": 2,
+        "stillPath": "/znMKKvtBsgnUGtfsPDQ6WP99FcT.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/znMKKvtBsgnUGtfsPDQ6WP99FcT.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 2209292,
+            "name": "Haarsh Limbachiyaa",
+            "character": "Self",
+            "profilePath": "/oV1hmEg8xxmGUq11OPR8cIboyMQ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/oV1hmEg8xxmGUq11OPR8cIboyMQ.jpg"
+          },
+          {
+            "externalId": 1632609,
+            "name": "Kiku Sharda",
+            "character": "Self",
+            "profilePath": "/j1yxHbF12tDRoTqqLVqdJzCo9ro.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/j1yxHbF12tDRoTqqLVqdJzCo9ro.jpg"
+          },
+          {
+            "externalId": 1141895,
+            "name": "Chandan Prabhakar",
+            "character": "Self",
+            "profilePath": "/crvtufbNE7ZXxR72AVDuAR5jBoB.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/crvtufbNE7ZXxR72AVDuAR5jBoB.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "",
+        "dataId": "s2-02",
+        "title": "Season 2 Episode 02 | ft. Harssh Limbachiya, Kiku Sharda, Chandan Prabhakar",
+        "description": "India's Got Latent Season 2 Episode 2 featuring Harssh Limbachiya, Kiku Sharda and Chandan Prabhakar.",
+        "season": "s2",
+        "type": "youtube",
+        "youtubeId": "c35fpGWqXnk",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/c35fpGWqXnk-MQ.webp",
+        "localImage": "c35fpGWqXnk-MQ.webp",
+        "duration": null
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-03-ft--raghu-ram-vishal-dadlani",
+      "season": 2,
+      "eps_no": 3,
+      "title": "INDIA'S GOT LATENT S2 EP3 ft. Raghu Ram, Vishal Dadlani, Tanmay Bhat, Yashraj",
+      "description": "Raghu Ram, Vishal Dadlani, Tanmay Bhat, and Yashraj join Samay Raina to hilariously critique India's latent talents. A comedy-packed Season 2 episode with incredible performances.",
+      "duration": "53m 43s",
+      "guests": [
+        "Raghu Ram",
+        "Vishal Dadlani",
+        "Tanmay Bhat",
+        "Yashraj"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/aSR1tndcaLE/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "youtube",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/aSR1tndcaLE"
+        },
+        {
+          "id": "streamtape",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/3"
+        },
+        {
+          "id": "lulustream",
+          "name": "Viduki",
+          "type": "iframe",
+          "link": "https://www.viduki.net/2/tv/262838/2/3?color=e01621"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Raghu Ram",
+          "Tanmay Bhat",
+          "Vishal Dadlani"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7459604,
+        "seasonNumber": 2,
+        "episodeNumber": 3,
+        "name": "Episode 3 : Ft. Vishal Dadlani, Raghu Ram, Tanmay Bhat & Yashraj",
+        "overview": "Tanmay Bhat, Raghu Ram, Vishal Dadlani and Yashraj join Samay as performers bring comedy, jump rope acrobatics and mimicry to the stage.",
+        "airDate": "2026-07-17",
+        "runtimeMinutes": 54,
+        "rating": 7,
+        "voteCount": 2,
+        "stillPath": "/tvgof4GuYHTiYXx51lzgbr3cDQn.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/tvgof4GuYHTiYXx51lzgbr3cDQn.jpg",
+        "guestStars": [
+          {
+            "externalId": 4423178,
+            "name": "Yashraj Mehra",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 1489941,
+            "name": "Tanmay Bhat",
+            "character": "Self",
+            "profilePath": "/mheibIPjXDXYUjvReCnEeh8s674.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/mheibIPjXDXYUjvReCnEeh8s674.jpg"
+          },
+          {
+            "externalId": 1240692,
+            "name": "Raghu Ram",
+            "character": "Self",
+            "profilePath": "/bNWLAvxWSmibXtQu2bwmzbdW6WA.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/bNWLAvxWSmibXtQu2bwmzbdW6WA.jpg"
+          },
+          {
+            "externalId": 53977,
+            "name": "Vishal Dadlani",
+            "character": "Self",
+            "profilePath": "/dJLXCgc4gTHzGtqgQduZ1DJ8ahG.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/dJLXCgc4gTHzGtqgQduZ1DJ8ahG.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "",
+        "dataId": "s2-03",
+        "title": "Season 2 Episode 03 | ft. Raghu Ram, Vishal Dadlani, Tanmay Bhat, Yashraj",
+        "description": "India's Got Latent Season 2 Episode 3 featuring Raghu Ram, Vishal Dadlani, Tanmay Bhat, and Yashraj.",
+        "season": "s2",
+        "type": "youtube",
+        "youtubeId": "aSR1tndcaLE",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/aSR1tndcaLE.webp",
+        "localImage": "aSR1tndcaLE.webp",
+        "duration": "53m 43s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-04-ft--karan-aujla-tanmay-bhat",
+      "season": 2,
+      "eps_no": 4,
+      "title": "INDIA'S GOT LATENT S2 EP4 ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+      "description": "Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua join Samay Raina to hilariously critique India's latent talents. An entertaining Season 2 episode with amazing performances.",
+      "duration": "53m 53s",
+      "guests": [
+        "Karan Aujla",
+        "Tanmay Bhat",
+        "Gurleen Pannu",
+        "Rahul Dua"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/B6NVvtIz9_Q/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "youtube",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/B6NVvtIz9_Q"
+        },
+        {
+          "id": "streamtape",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/4"
+        },
+        {
+          "id": "lulustream",
+          "name": "Viduki",
+          "type": "iframe",
+          "link": "https://www.viduki.net/2/tv/262838/2/4?color=e01621"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Karan Aujla",
+          "Tanmay Bhat",
+          "Rahul Dua"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7466900,
+        "seasonNumber": 2,
+        "episodeNumber": 4,
+        "name": "Episode 4 : Ft. Karan Aujla, Tanmay Bhat, Rahul Dua & Gurleen Pannu",
+        "overview": "Contestants showcase live music, parody songs and martial arts performances before guest judges Tanmay Bhat, Gurleen Pannu, Rahul Dua and Karan Aujla.",
+        "airDate": "2026-08-02",
+        "runtimeMinutes": 55,
+        "rating": 5,
+        "voteCount": 1,
+        "stillPath": "/bDSGyAwJvAtG5tWjRdPJQFM3IgJ.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/bDSGyAwJvAtG5tWjRdPJQFM3IgJ.jpg",
+        "guestStars": [
+          {
+            "externalId": 1489941,
+            "name": "Tanmay Bhat",
+            "character": "Self",
+            "profilePath": "/mheibIPjXDXYUjvReCnEeh8s674.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/mheibIPjXDXYUjvReCnEeh8s674.jpg"
+          },
+          {
+            "externalId": 5023278,
+            "name": "Gurleen Pannu",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4777031,
+            "name": "Karan Aujla",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2657097,
+            "name": "Rahul Dua",
+            "character": "Self",
+            "profilePath": "/hOGo07hZw2GHspLELoq84P6l83i.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/hOGo07hZw2GHspLELoq84P6l83i.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "",
+        "dataId": "s2-04",
+        "title": "INDIA'S GOT LATENT S2 EP4 ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "description": "India's Got Latent Season 2 Episode 4 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua.",
+        "season": "s2",
+        "type": "youtube",
+        "youtubeId": "B6NVvtIz9_Q",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/B6NVvtIz9_Q.webp",
+        "localImage": "B6NVvtIz9_Q.webp",
+        "duration": "53m 53s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-05-ft--orry-archana-puran-singh",
+      "season": 2,
+      "eps_no": 5,
+      "title": "INDIA'S GOT LATENT S2 EP5 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri",
+      "description": "Orry, Archana Puran Singh, Sharon Verma, and Nishant Suri join Samay Raina to hilariously critique India's latent talents. A fun-filled Season 2 episode with laughs and entertainment.",
+      "duration": "50min",
+      "guests": [
+        "Orry",
+        "Archana Puran Singh",
+        "Sharon Verma",
+        "Nishant Suri"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VJ9VC9OqdAA/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=VJ9VC9OqdAA"
+        },
+        {
+          "id": "youtube",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/VJ9VC9OqdAA"
+        },
+        {
+          "id": "streamtape",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/5"
+        },
+        {
+          "id": "lulustream",
+          "name": "Viduki",
+          "type": "iframe",
+          "link": "https://www.viduki.net/2/tv/262838/2/6?color=e01621"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Orry",
+          "Archana Puran Singh"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7466905,
+        "seasonNumber": 2,
+        "episodeNumber": 5,
+        "name": "Episode 5 : Ft. Orry, Archana Puran Singh, Sharon Verma & Nishant Suri",
+        "overview": "Contestants showcase live music, dance and rap performances before guest judges  Orry, Archana Puran Singh, Sharon Verma & Nishant Suri",
+        "airDate": "2026-08-28",
+        "runtimeMinutes": 54,
+        "rating": 3,
+        "voteCount": 1,
+        "stillPath": "/kAEfpmOlTmG9JDialhvT863O3HB.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/kAEfpmOlTmG9JDialhvT863O3HB.jpg",
+        "guestStars": [
+          {
+            "externalId": 4505934,
+            "name": "Orry",
+            "character": "Self",
+            "profilePath": "/1byTSep2BaV5xyVENV46DmF1IR1.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/1byTSep2BaV5xyVENV46DmF1IR1.jpg"
+          },
+          {
+            "externalId": 87304,
+            "name": "Archana Puran Singh",
+            "character": "Self",
+            "profilePath": "/uc6QJNnT8q0wNnZOZi0QW2hE1wq.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/uc6QJNnT8q0wNnZOZi0QW2hE1wq.jpg"
+          },
+          {
+            "externalId": 6439002,
+            "name": "Sharon Verma",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 3106031,
+            "name": "Nishant Suri",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "VJ9VC9OqdAA",
+        "dataId": "s2-05",
+        "title": "INDIA'S GOT LATENT S2 EP5 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri",
+        "description": "Season 2 Episode 05 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri.",
+        "season": "s2",
+        "type": "youtube",
+        "youtubeId": "VJ9VC9OqdAA",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/VJ9VC9OqdAA.webp",
+        "localImage": "VJ9VC9OqdAA.webp",
+        "duration": "0h 50m 0s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-06-ft--varun-dhawan-samay-raina",
+      "season": 2,
+      "eps_no": "Netflix Special",
+      "title": "INDIA'S GOT LATENT S2 EP6 ft. Varun Dhawan, Medha Shankar, Nishant Tanwar, Sharon Verma",
+      "description": "Varun Dhawan, Medha Shankar, Nishant Tanwar, and Sharon Verma join Samay Raina for an unforgettable Season 2 episode packed with laughs, live standup comedy, and chaotic talent.",
+      "duration": "43min",
+      "guests": [
+        "Varun Dhawan",
+        "Medha Shankar",
+        "Nishant Tanwar",
+        "Sharon Verma"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WE1zey_q8Ak/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a9ad189a0818f1f0a6267df"
+        },
+        {
+          "id": "streamtape",
+          "name": "Streamtape",
+          "type": "iframe",
+          "link": "https://streamtape.com/e/7Xv29GoVrrIAjRV/"
+        },
+        {
+          "id": "lulustream",
+          "name": "Lulustream",
+          "type": "iframe",
+          "link": "https://luluvdo.com/e/soctgp4evu1s"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Varun Dhawan",
+          "Medha Shankar"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7763760,
+        "seasonNumber": 0,
+        "episodeNumber": 14,
+        "name": "Netflix Exclusive Episode ft. Varun Dhawan, Medha Shankr, Nishant Tanwar & Sharon Verma",
+        "overview": "Guests Varun Dhawan, Medha Shankr, Sharon Verma & Nishant Tanwar join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-09-04",
+        "runtimeMinutes": 44,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/bhEXg8l0f1aDTL4dmy1nOAFjXYL.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/bhEXg8l0f1aDTL4dmy1nOAFjXYL.jpg",
+        "guestStars": [
+          {
+            "externalId": 2670194,
+            "name": "Nishant Tanwar",
+            "character": "Self",
+            "profilePath": "/toXo1fTNzr6bJ50oIFOarxl5ISQ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/toXo1fTNzr6bJ50oIFOarxl5ISQ.jpg"
+          },
+          {
+            "externalId": 6439002,
+            "name": "Sharon Verma",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 1108119,
+            "name": "Varun Dhawan",
+            "character": "Self",
+            "profilePath": "/gvvXYTpvO0Tu7naCDLL3tInyN2R.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/gvvXYTpvO0Tu7naCDLL3tInyN2R.jpg"
+          },
+          {
+            "externalId": 3112841,
+            "name": "Medha Shankr",
+            "character": "Self",
+            "profilePath": "/aVemlgs6LIf1GzrpTPjyoV14Y2s.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/aVemlgs6LIf1GzrpTPjyoV14Y2s.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a9ad189a0818f1f0a6267df",
+        "dataId": "s2-06",
+        "title": "INDIA'S GOT LATENT S2 EP6 ft. Varun Dhawan, Medha Shankar, Nishant Tanwar, Sharon Verma",
+        "description": "Season 2 Episode 06 ft. Varun Dhawan, Medha Shankar, Nishant Tanwar, Sharon Verma.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": "WE1zey_q8Ak",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/WE1zey_q8Ak.webp",
+        "localImage": "WE1zey_q8Ak.webp",
+        "duration": "0h 43m 0s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bts-02-ft--chandan-prabhakar",
+      "season": 2,
+      "eps_no": "BTS 02",
+      "title": "BTS 02 | ft. Chandan Prabhakar, Harssh Limbachyaa, Kiku Sharda",
+      "description": "Behind the scenes from India's Got Latent Season 2 featuring Chandan Prabhakar, Harssh Limbachyaa, and Kiku Sharda. Unseen moments from the sets.",
+      "duration": "15min 13s",
+      "guests": [
+        "Chandan Prabhakar",
+        "Harssh Limbachyaa",
+        "Kiku Sharda"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/pfHrIXiqI4w/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a4a0a800909a02b8128bd83"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Behind the Scenes",
+          "Kiku Sharda"
+        ],
+        "tags": [
+          "bts",
+          "season-2",
+          "behind-the-scenes"
+        ],
+        "genre": "Comedy"
+      },
+      "okcdn": {
+        "id": "6a4a0a800909a02b8128bd83",
+        "dataId": "s2-bts-02",
+        "title": "BTS 02 | ft. Chandan Prabhakar, Harssh Limbachyaa, Kiku Sharda",
+        "description": "Behind the scenes featuring Chandan Prabhakar, Harssh Limbachyaa, and Kiku Sharda.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/pfHrIXiqI4w.webp",
+        "localImage": "pfHrIXiqI4w.webp",
+        "duration": "0h 15m 13s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bts-03-ft--raghu-ram",
+      "season": 2,
+      "eps_no": "BTS 03",
+      "title": "BTS 03 | ft. Raghu Ram, Tanmay Bhat, Vishal Dadlani",
+      "description": "Behind the scenes from India's Got Latent Season 2 featuring Raghu Ram, Tanmay Bhat, and Vishal Dadlani. Candid moments and unfiltered fun.",
+      "duration": "10min",
+      "guests": [
+        "Raghu Ram",
+        "Tanmay Bhat",
+        "Vishal Dadlani"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/eOIrKDKVZqE/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a6765b27e26e1158fe969dc"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Behind the Scenes",
+          "Raghu Ram"
+        ],
+        "tags": [
+          "bts",
+          "season-2",
+          "behind-the-scenes"
+        ],
+        "genre": "Comedy"
+      },
+      "okcdn": {
+        "id": "6a6765b27e26e1158fe969dc",
+        "dataId": "s2-bts-03",
+        "title": "BTS 03 | ft. Raghu Ram, Tanmay Bhat, Vishal Dadlani",
+        "description": "Behind the scenes featuring Raghu Ram, Tanmay Bhat, and Vishal Dadlani.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/eOIrKDKVZqE.webp",
+        "localImage": "eOIrKDKVZqE.webp",
+        "duration": "0h 10m 0s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bts-04-ft--karan-aujla",
+      "season": 2,
+      "eps_no": "BTS 04",
+      "title": "Latent BTS ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+      "description": "Behind the scenes from India's Got Latent Season 2 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua. Exclusive backstage moments.",
+      "duration": "14min 48s",
+      "guests": [
+        "Karan Aujla",
+        "Tanmay Bhat",
+        "Gurleen Pannu",
+        "Rahul Dua"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/JpYbltLq2cs/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a76ebfabde0880a224707d6"
+        },
+        {
+          "id": "streamtape",
+          "name": "Streamtape",
+          "type": "iframe",
+          "link": "https://streamtape.com/e/p7MJopZ0A1IWPA/"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Behind the Scenes",
+          "Karan Aujla"
+        ],
+        "tags": [
+          "bts",
+          "season-2",
+          "behind-the-scenes"
+        ],
+        "genre": "Comedy"
+      },
+      "okcdn": {
+        "id": "6a76ebfabde0880a224707d6",
+        "dataId": "s2-bts-04",
+        "title": "Latent BTS ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "description": "Behind the scenes from India's Got Latent Season 2 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/JpYbltLq2cs.webp",
+        "localImage": "JpYbltLq2cs.webp",
+        "duration": "0h 14m 48s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bonus-ep-01-ft--raghav-juyal",
+      "season": 2,
+      "eps_no": "Bonus EP 1",
+      "title": "S2 Bonus EP1 | ft. Raghav Juyal, Munawar, Niharika NM, Rohan Joshi",
+      "description": "Season 2 bonus episode featuring Raghav Juyal, Munawar, Niharika NM, and Rohan Joshi. Exclusive moments and extra laughs from India's Got Latent.",
+      "duration": "57min 14s",
+      "guests": [
+        "Raghav Juyal",
+        "Munawar",
+        "Niharika NM",
+        "Rohan Joshi"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/q8amKPDt_iY/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a6771299e17237ef9696702"
+        },
+        {
+          "id": "streamtape",
+          "name": "okcdn (embed)",
+          "type": "iframe",
+          "link": "https://ok.ru/videoembed/18577217686045"
+        },
+        {
+          "id": "lulustream",
+          "name": "StreamRuby",
+          "type": "iframe",
+          "link": "https://nuvorel.top/embed-4gb2mywt6ye3.html"
+        },
+        {
+          "id": "server-mwfx0zx1",
+          "name": "Abyss",
+          "type": "iframe",
+          "link": "https://player.abyssplayer.com/zYKh4GzZk"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Bonus",
+          "Raghav Juyal"
+        ],
+        "tags": [
+          "bonus",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7601648,
+        "seasonNumber": 0,
+        "episodeNumber": 11,
+        "name": "S2 Bonus EP1 ft. Raghav Juyal, Munawar, Niharika NM, Rohan Joshi",
+        "overview": "Guests Raghav, Munawar, Niharika and Rohan join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-07-27",
+        "runtimeMinutes": 57,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/wC7frShPQxJoZ8QwuhpXC1kRkgg.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/wC7frShPQxJoZ8QwuhpXC1kRkgg.jpg",
+        "guestStars": [
+          {
+            "externalId": 1738899,
+            "name": "Rohan Joshi",
+            "character": "Self",
+            "profilePath": "/2GVFLbPKKz86o3reZ7thC6xAcpK.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/2GVFLbPKKz86o3reZ7thC6xAcpK.jpg"
+          },
+          {
+            "externalId": 1374676,
+            "name": "Raghav Juyal",
+            "character": "Self",
+            "profilePath": "/ncJa8IBYfDknQLpjeciaQy6dXkH.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/ncJa8IBYfDknQLpjeciaQy6dXkH.jpg"
+          },
+          {
+            "externalId": 4627560,
+            "name": "Munawar Faruqui",
+            "character": "Self",
+            "profilePath": "/gSKyKOF2hB2BurPaI3cKx5JzETD.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/gSKyKOF2hB2BurPaI3cKx5JzETD.jpg"
+          },
+          {
+            "externalId": 3721424,
+            "name": "Niharika NM",
+            "character": "Self",
+            "profilePath": "/u9fD9XNUSiw1b9pQoTYUyl9pWj4.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/u9fD9XNUSiw1b9pQoTYUyl9pWj4.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a6771299e17237ef9696702",
+        "dataId": "s2-bonus-ep1",
+        "title": "S2 Bonus EP1 | ft. Raghav Juyal, Munawar, Niharika NM, Rohan Joshi",
+        "description": "Season 2 Bonus episode featuring Raghav Juyal, Munawar, Niharika NM, and Rohan Joshi.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/q8amKPDt_iY.webp",
+        "localImage": "q8amKPDt_iY.webp",
+        "duration": "0h 57m 14s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bonus-ep-02-ft--badshah",
+      "season": 2,
+      "eps_no": "Bonus EP 2",
+      "title": "S2 Bonus EP2 | ft. Badshah, Sourav Joshi, Harssh Limbachiyaa, Rajat Sood",
+      "description": "Season 2 bonus episode featuring Badshah, Sourav Joshi, Harssh Limbachiyaa, and Rajat Sood. Extra chaos and exclusive behind-the-scenes fun.",
+      "duration": "40min",
+      "guests": [
+        "Badshah",
+        "Sourav Joshi",
+        "Harssh Limbachiyaa",
+        "Rajat Sood"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/otawyZaOxvs/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a79d5f8e611d23b16b21d63"
+        },
+        {
+          "id": "streamtape",
+          "name": "Streamtape",
+          "type": "iframe",
+          "link": "https://streamtape.com/e/vr7ZZyRm7mI49Yw/"
+        },
+        {
+          "id": "lulustream",
+          "name": "Lulustream",
+          "type": "iframe",
+          "link": "https://luluvdo.com/e/oaauifqz3acu"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Bonus",
+          "Badshah"
+        ],
+        "tags": [
+          "bonus",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7625129,
+        "seasonNumber": 0,
+        "episodeNumber": 13,
+        "name": "S2 Bonus EP2 ft. Badshah, Sourav Joshi, Harssh Limbachiyaa, Rajat Sood",
+        "overview": "Guests Badshah, Sourav, Harssh and Rajat join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-08-10",
+        "runtimeMinutes": 40,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/yFtoIwwQIZ4oGn2wcStEjjziu9a.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/yFtoIwwQIZ4oGn2wcStEjjziu9a.jpg",
+        "guestStars": [
+          {
+            "externalId": 2315636,
+            "name": "Badshah",
+            "character": "Self",
+            "profilePath": "/kPYZ56EGciSLe9nMVn5UaAZqGHD.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kPYZ56EGciSLe9nMVn5UaAZqGHD.jpg"
+          },
+          {
+            "externalId": 2209292,
+            "name": "Haarsh Limbachiyaa",
+            "character": "Self",
+            "profilePath": "/oV1hmEg8xxmGUq11OPR8cIboyMQ.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/oV1hmEg8xxmGUq11OPR8cIboyMQ.jpg"
+          },
+          {
+            "externalId": 5887009,
+            "name": "Sourav Joshi",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 5122299,
+            "name": "Rajat Sood",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a79d5f8e611d23b16b21d63",
+        "dataId": "s2-bonus-ep2",
+        "title": "S2 Bonus EP2 | ft. Badshah, Sourav Joshi, Harssh Limbachiyaa, Rajat Sood",
+        "description": "Season 2 Bonus episode featuring Badshah, Sourav Joshi, Harssh Limbachiyaa, and Rajat Sood.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/otawyZaOxvs.webp",
+        "localImage": "otawyZaOxvs.webp",
+        "duration": "0h 40m 0s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bonus-clip-01-ft--karan-aujla",
+      "season": 2,
+      "eps_no": "Bonus Clip 01",
+      "title": "Latent BONUS CLIP ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+      "description": "Bonus clip from India's Got Latent Season 2 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua. A short extra dose of latent energy.",
+      "duration": "8min 23s",
+      "guests": [
+        "Karan Aujla",
+        "Tanmay Bhat",
+        "Gurleen Pannu",
+        "Rahul Dua"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rI-Cj3Kitx4/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a6f8f217112c4615867f8a8"
+        },
+        {
+          "id": "streamtape",
+          "name": "Abyss",
+          "type": "iframe",
+          "link": "https://player.abyssplayer.com/b6qF8SEBR"
+        },
+        {
+          "id": "lulustream",
+          "name": "Streamtape",
+          "type": "iframe",
+          "link": "https://streamtape.com/e/qvKV1vxrGvcyb8/"
+        },
+        {
+          "id": "server-mwfvchf6",
+          "name": "StreamRuby",
+          "type": "iframe",
+          "link": "https://nuvorel.top/embed-2sygo67vd506.html"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Bonus Clip",
+          "Karan Aujla"
+        ],
+        "tags": [
+          "bonus",
+          "clip",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7666711,
+        "seasonNumber": 0,
+        "episodeNumber": 12,
+        "name": "Bonus Clip ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "overview": "Guests Karan, Tanmay, Gurleen and Rahul join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-08-02",
+        "runtimeMinutes": 8,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/qIUbpZK2SxhRxIHwnh2Nc6wUmBK.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/qIUbpZK2SxhRxIHwnh2Nc6wUmBK.jpg",
+        "guestStars": [
+          {
+            "externalId": 1489941,
+            "name": "Tanmay Bhat",
+            "character": "Self",
+            "profilePath": "/mheibIPjXDXYUjvReCnEeh8s674.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/mheibIPjXDXYUjvReCnEeh8s674.jpg"
+          },
+          {
+            "externalId": 5023278,
+            "name": "Gurleen Pannu",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4777031,
+            "name": "Karan Aujla",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 2657097,
+            "name": "Rahul Dua",
+            "character": "Self",
+            "profilePath": "/hOGo07hZw2GHspLELoq84P6l83i.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/hOGo07hZw2GHspLELoq84P6l83i.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a6f8f217112c4615867f8a8",
+        "dataId": "s2-bonus-clip-01",
+        "title": "Latent BONUS CLIP ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "description": "Bonus clip from India's Got Latent Season 2 featuring Karan Aujla, Tanmay Bhat, Gurleen Pannu, and Rahul Dua.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/rI-Cj3Kitx4.webp",
+        "localImage": "rI-Cj3Kitx4.webp",
+        "duration": "0h 8m 23s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-07-ft--nawazuddin-siddiqui-bhuvan-bam",
+      "season": 2,
+      "eps_no": 7,
+      "title": "INDIA'S GOT LATENT S2 EP7 | ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra, Kaustubh Agarwal",
+      "description": "Contestants showcase magic, musical performances and mimicry before guest judges Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra and Kaustubh Agarwal on India's Got Latent Season 2.",
+      "duration": "53 min",
+      "guests": [
+        "Nawazuddin Siddiqui",
+        "Bhuvan Bam",
+        "Mukesh Chhabra",
+        "Kaustubh Agarwal"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/w780/4ek1Ulb3OLDDSOlqqOJ1iQSecsJ.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6aad50f97039736e7082266c"
+        },
+        {
+          "id": "server-mwfsxeqf",
+          "name": "Youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/rkKZIMPecRA"
+        },
+        {
+          "id": "server-mwfsxkw3",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/8"
+        },
+        {
+          "id": "server-mwfsykan",
+          "name": "Viduki",
+          "type": "iframe",
+          "link": "https://www.viduki.net/2/tv/262838/2/8?color=e01621"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Episode 7",
+          "Nawazuddin Siddiqui",
+          "Bhuvan Bam"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7620330,
+        "seasonNumber": 2,
+        "episodeNumber": 7,
+        "name": "Episode 7 : Ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra, Kaustubh Agarwal",
+        "overview": "Contestants showcase magic, musical performances & mimicry before guest judges Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra & Kaustubh Agarwal.",
+        "airDate": "2026-09-18",
+        "runtimeMinutes": 53,
+        "rating": 2,
+        "voteCount": 1,
+        "stillPath": "/4ek1Ulb3OLDDSOlqqOJ1iQSecsJ.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/4ek1Ulb3OLDDSOlqqOJ1iQSecsJ.jpg",
+        "guestStars": [
+          {
+            "externalId": 5023272,
+            "name": "Kaustubh Agarwal",
+            "character": "Self",
+            "profilePath": "/q0bg9ol265w37bgumXFkwRtKiMx.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/q0bg9ol265w37bgumXFkwRtKiMx.jpg"
+          },
+          {
+            "externalId": 1108802,
+            "name": "Mukesh Chhabra",
+            "character": "Self",
+            "profilePath": "/f5XI2wJs2JPcd5FSECsdcnkyOMW.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/f5XI2wJs2JPcd5FSECsdcnkyOMW.jpg"
+          },
+          {
+            "externalId": 2336034,
+            "name": "Bhuvan Bam",
+            "character": "self",
+            "profilePath": "/jGMAuxzlfRE2PHUZ9lk94V5HqAV.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/jGMAuxzlfRE2PHUZ9lk94V5HqAV.jpg"
+          },
+          {
+            "externalId": 85047,
+            "name": "Nawazuddin Siddiqui",
+            "character": "Self",
+            "profilePath": "/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6aad50f97039736e7082266c",
+        "dataId": "s2-07",
+        "title": "INDIA'S GOT LATENT S2 EP7 ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra, Kaustubh Agarwal",
+        "description": "Season 2 Episode 07 ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra, Kaustubh Agarwal.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": "rkKZIMPecRA",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/rkKZIMPecRA.webp",
+        "localImage": "rkKZIMPecRA.webp",
+        "duration": "0h 50m 0s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-ep-08-ft--mc-stan-tanmay-bhat",
+      "season": 2,
+      "eps_no": 8,
+      "title": "INDIA'S GOT LATENT S2 EP8 | ft. MC Stan, Tanmay Bhat, Madhur Virli, Arpit Bala",
+      "description": "Contestants showcase dance, music, puppet performances and mimicry before guest judges MC Stan, Tanmay Bhat, Madhur Virli and Arpit Bala in the India's Got Latent Season 2 finale.",
+      "duration": "50 min",
+      "guests": [
+        "MC Stan",
+        "Tanmay Bhat",
+        "Madhur Virli",
+        "Arpit Bala"
+      ],
+      "hosts": [
+        "Samay Raina",
+        "Balraj"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Z4aMdO8K0XE/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "server-mwft2pt7",
+          "name": "Youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/Z4aMdO8K0XE"
+        },
+        {
+          "id": "server-mwft40zm",
+          "name": "TGVid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/9"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Episode 8",
+          "MC Stan",
+          "Tanmay Bhat"
+        ],
+        "tags": [
+          "episode",
+          "season-2",
+          "finale",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7620331,
+        "seasonNumber": 2,
+        "episodeNumber": 8,
+        "name": "Episode 8 : Ft. MC Stan, Tanmay Bhat, Madhur Virli, Arpit Bala",
+        "overview": "Contestants showcase dance, music, puppet performances & mimicry before guest judges MC Stan, Tanmay Bhat, Madhur Virli and Arpit Bala.",
+        "airDate": "2026-10-25",
+        "runtimeMinutes": 50,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/7bymBdMuhZFssd0OYXAL56rHayx.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/7bymBdMuhZFssd0OYXAL56rHayx.jpg",
+        "guestStars": [
+          {
+            "externalId": 4985969,
+            "name": "Arpit Bala",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 1489941,
+            "name": "Tanmay Bhat",
+            "character": "Self",
+            "profilePath": "/mheibIPjXDXYUjvReCnEeh8s674.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/mheibIPjXDXYUjvReCnEeh8s674.jpg"
+          },
+          {
+            "externalId": 4797781,
+            "name": "Madhur Virli",
+            "character": "Self",
+            "profilePath": "/sIP0j8s6DPfXJX3COP5jpv7EX6y.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/sIP0j8s6DPfXJX3COP5jpv7EX6y.jpg"
+          },
+          {
+            "externalId": 3971026,
+            "name": "MC Stan",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "overrides": [
+        "thumbnail"
+      ]
+    },
+    {
+      "id": "indias-got-latent-s2-bonus-ep-03-ft--deepak-kalal-ravi-gupta",
+      "season": 2,
+      "eps_no": "Bonus EP 3",
+      "title": "S2 Bonus EP3 | ft. Deepak Kalal, Ravi Gupta, Agu Stanley",
+      "description": "Season 2 bonus episode featuring Deepak Kalal, Ravi Gupta and Agu Stanley joining Samay to hilariously critique India's latent talents.",
+      "duration": "34 min",
+      "guests": [
+        "Deepak Kalal",
+        "Ravi Gupta",
+        "Agu Stanley"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/w780/dwpKziVkqzXSDBoY3MiX7IIq9u7.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6aa68187d576db122c00226f"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Bonus",
+          "Deepak Kalal",
+          "Ravi Gupta"
+        ],
+        "tags": [
+          "bonus",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7802145,
+        "seasonNumber": 0,
+        "episodeNumber": 15,
+        "name": "S2 Bonus EP3 ft. Deepak Kalal, Ravi Gupta and Agu Stanley",
+        "overview": "Guests Deepak Kalal, Ravi Gupta and Agu Stanley join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-09-13",
+        "runtimeMinutes": 34,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/dwpKziVkqzXSDBoY3MiX7IIq9u7.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/dwpKziVkqzXSDBoY3MiX7IIq9u7.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4976662,
+            "name": "Ravi Gupta",
+            "character": "Self",
+            "profilePath": "/fh7XL4JQQzqncrzUQ6E4bix77UO.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/fh7XL4JQQzqncrzUQ6E4bix77UO.jpg"
+          },
+          {
+            "externalId": 5034417,
+            "name": "Deepak Kalal",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 5034420,
+            "name": "Agu Stanley Chiedozie",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6aa68187d576db122c00226f",
+        "dataId": "s2-03-bonus",
+        "title": "INDIA'S GOT LATENT S2 Bonus EP 3 ft. Deepak Kalal, Ravi Gupta, Agu Stanley",
+        "description": "Season 2 Bonus Episode 03 ft. Deepak Kalal, Ravi Gupta, Agu Stanley.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": "fzyL44FH2fI",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/fzyL44FH2fI.webp",
+        "localImage": "fzyL44FH2fI.webp",
+        "duration": "0h 34m 27s"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-bonus-ep-04-ft--ayushmann-khurrana-suhani-shah",
+      "season": 2,
+      "eps_no": "Bonus EP 4",
+      "title": "S2 Bonus EP4 | ft. Ayushmann Khurrana, Suhani Shah, Kullu, Rajat Sood",
+      "description": "Season 2 bonus episode featuring Ayushmann Khurrana, Suhani Shah, Kullu and Rajat Sood joining Samay to hilariously critique India's latent talents.",
+      "duration": "34 min",
+      "guests": [
+        "Ayushmann Khurrana",
+        "Suhani Shah",
+        "Kullu",
+        "Rajat Sood"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/w780/qmgoyrUVcmmRoc0J4IAoYr8ijaQ.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6ab8f388c14cb415cd377a11"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Bonus",
+          "Ayushmann Khurrana",
+          "Suhani Shah"
+        ],
+        "tags": [
+          "bonus",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 7870676,
+        "seasonNumber": 0,
+        "episodeNumber": 16,
+        "name": "S2 Bonus EP4 ft. Ayushmann Khurrana, Suhani Shah, Kullu, Rajat Sood",
+        "overview": "Guests Ayushmann Khurrana, Suhani Shah, Kullu and Rajat Sood join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-09-27",
+        "runtimeMinutes": 34,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/qmgoyrUVcmmRoc0J4IAoYr8ijaQ.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/qmgoyrUVcmmRoc0J4IAoYr8ijaQ.jpg",
+        "guestStars": [
+          {
+            "externalId": 5122299,
+            "name": "Rajat Sood",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 1033157,
+            "name": "Ayushmann Khurrana",
+            "character": "Self",
+            "profilePath": "/qbdclvnDkJxPX7OQqmMY7w9ekBP.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/qbdclvnDkJxPX7OQqmMY7w9ekBP.jpg"
+          },
+          {
+            "externalId": 4961914,
+            "name": "Aditya Kulshreshtha",
+            "character": "Self",
+            "profilePath": "/2uRhfyh58LbAmE7BEUuq6yUo4uv.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/2uRhfyh58LbAmE7BEUuq6yUo4uv.jpg"
+          },
+          {
+            "externalId": 5886895,
+            "name": "Suhani Shah",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6ab8f388c14cb415cd377a11",
+        "dataId": "s2-08",
+        "title": "INDIA’S GOT LATENT S2 Bonus EP 4 ft. Ayushmann Khurrana, Suhani Shah, Kullu, Rajat Sood",
+        "description": "INDIA’S GOT LATENT S2 Bonus EP 4 ft. Ayushmann Khurrana, Suhani Shah, Kullu, Rajat Sood\nThank you for supporting the channel members!! ❤️\n",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": "NQ6gWHMvna8",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/NQ6gWHMvna8.webp",
+        "localImage": "NQ6gWHMvna8.webp",
+        "duration": "34m"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-netflix-exclusive-ft--huma-qureshi-krushna-abhishek",
+      "season": 2,
+      "eps_no": "Netflix Special",
+      "title": "Netflix Exclusive | ft. Huma Qureshi, Krushna Abhishek, Aashish Solanki",
+      "description": "Netflix exclusive episode featuring Huma Qureshi, Krushna Abhishek and Aashish Solanki joining Samay to hilariously critique India's latent talents.",
+      "duration": "38 min",
+      "guests": [
+        "Huma Qureshi",
+        "Krushna Abhishek",
+        "Aashish Solanki"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/w780/uW92k2GMoPJbYzejd1eEpzUFVyr.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6af71a2ef8ad2a174208fde1"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Netflix",
+          "Huma Qureshi",
+          "Krushna Abhishek"
+        ],
+        "tags": [
+          "netflix",
+          "special",
+          "season-2",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "meta": {
+        "externalId": 8120263,
+        "seasonNumber": 0,
+        "episodeNumber": 17,
+        "name": "Netflix Exclusive Episode ft. Huma Qureshi, Krushna Abhishek, Aashish Solanki, Balraj Ghai",
+        "overview": "Guests Huma Qureshi, Krushna Abhishek & Aashish Solanki join Samay to hilariously critique India's latent talents.",
+        "airDate": "2026-11-13",
+        "runtimeMinutes": 38,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/uW92k2GMoPJbYzejd1eEpzUFVyr.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/uW92k2GMoPJbYzejd1eEpzUFVyr.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 4686824,
+            "name": "Aashish Solanki",
+            "character": "Self",
+            "profilePath": "/41mSWX00T4paLGBzG93JUnjahMc.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/41mSWX00T4paLGBzG93JUnjahMc.jpg"
+          },
+          {
+            "externalId": 1108805,
+            "name": "Huma Qureshi",
+            "character": "Self",
+            "profilePath": "/nJWauZQdRjMJxwY3UP4SXrqh9CM.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/nJWauZQdRjMJxwY3UP4SXrqh9CM.jpg"
+          },
+          {
+            "externalId": 1055969,
+            "name": "Krishna Abhishek",
+            "character": "Self",
+            "profilePath": "/2wJ0f2nJXUdVQ7R6NHQdXiIu4YE.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/2wJ0f2nJXUdVQ7R6NHQdXiIu4YE.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6af71a2ef8ad2a174208fde1",
+        "dataId": "s2-09",
+        "title": "INDIA’S GOT LATENT S2 EP9 Ft. Huma Qureshi, Krushna Abhishek, Aashish Solanki, Balraj Ghai",
+        "description": "INDIA’S GOT LATENT S2 EP9 Ft. Huma Qureshi, Krushna Abhishek, Aashish Solanki, Balraj Ghai",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": "GTxMSPqtbRc",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/GTxMSPqtbRc.webp",
+        "localImage": "GTxMSPqtbRc.webp",
+        "duration": "50m"
+      }
+    },
+    {
+      "id": "indias-got-latent-s2-still-alive-mumbai-documentary",
+      "season": "Specials",
+      "eps_no": "Documentary",
+      "title": "STILL ALIVE - Mumbai Documentary",
+      "description": "A Mumbai documentary by Samay Raina. A personal, unfiltered look behind the comedy as Samay Raina navigates life and stand-up in Mumbai.",
+      "duration": "35min",
+      "guests": [],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/_IxqDcOiZJU/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a90552dc818bd75d4b2eff5"
+        },
+        {
+          "id": "streamtape",
+          "name": "Streamtape",
+          "type": "iframe",
+          "link": "https://streamtape.com/e/RBR88jXeL6id1oY/"
+        },
+        {
+          "id": "lulustream",
+          "name": "Lulustream",
+          "type": "iframe",
+          "link": "https://luluvdo.com/e/qajsmp206n2j"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Samay Raina",
+          "Documentary"
+        ],
+        "tags": [
+          "documentary",
+          "season-2",
+          "samay-raina"
+        ],
+        "genre": "Documentary"
+      },
+      "okcdn": {
+        "id": "6a90552dc818bd75d4b2eff5",
+        "dataId": "s2-stillalive",
+        "title": "STILL ALIVE - Mumbai Documentary",
+        "description": "Mumbai documentary by Samay Raina.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/_IxqDcOiZJU.webp",
+        "localImage": "_IxqDcOiZJU.webp",
+        "duration": "0h 35m 0s"
+      }
+    },
+    {
+      "id": "samay-raina-beerbiceps-kapil-show-segment",
+      "season": "Specials",
+      "eps_no": "Talk Show",
+      "title": "Talk Show Segment 01 | ft. Samay Raina, BeerBiceps",
+      "description": "Samay Raina and BeerBiceps appear in a special talk show segment from The Great Indian Kapil Show. Hilarious banter and candid conversations.",
+      "duration": "Not specified",
+      "guests": [
+        "Samay Raina",
+        "BeerBiceps"
+      ],
+      "hosts": [],
+      "thumbnail": "https://i3.ytimg.com/vi/GrHFfT_K3OE/maxresdefault.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=69f62c839e653d7783a6d1d5"
+        },
+        {
+          "id": "streamtape",
+          "name": "Streamtape",
+          "type": "iframe",
+          "link": "https://streamtape.com/e/D9vKpxymG6FkzD2/"
+        },
+        {
+          "id": "lulustream",
+          "name": "Lulustream",
+          "type": "iframe",
+          "link": "https://luluvdo.com/e/db5hs5uhbubt"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Samay Raina",
+          "BeerBiceps",
+          "Kapil Show"
+        ],
+        "tags": [
+          "special",
+          "talk-show",
+          "comedy"
+        ],
+        "genre": "Comedy"
+      },
+      "okcdn": {
+        "id": "69f62c839e653d7783a6d1d5",
+        "dataId": "kapil-01",
+        "title": "Talk Show Segment 01 | ft. Samay Raina, BeerBiceps",
+        "description": "The Great Indian Kapil Show — Season 4 Episode 14.",
+        "season": "special",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/dna7vi.webp",
+        "localImage": "dna7vi.webp",
+        "duration": null
+      }
+    },
+    {
+      "id": "indias-got-latent-episode-6-ft-rakhi-sawant-ashneer-grover-kushagra-srivastava",
+      "season": 2,
+      "eps_no": 6,
+      "title": "INDIA'S GOT LATENT S2 EP6 ft. Rakhi Sawant, Ashneer Grover, Kushagra Srivastava",
+      "description": "Contestants showcase their talents in guitar performance, stand-up comedy, robotics, karate, belly dancing, and mentalism before guest judges Rakhi Sawant, Ashneer Grover, and Kushagra Srivastava.",
+      "duration": "52min",
+      "guests": [
+        "Balraj Singh Ghai",
+        "Rakhi Sawant",
+        "Ashneer Grover",
+        "Kushagra Srivastava"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/w780/cGW744OcSPnd2GtrYWNY8aE7MFI.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a9d7adc5882d566ebfc00e6"
+        },
+        {
+          "id": "server-mwfskyzr",
+          "name": "Youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/zbIr24Tes7E"
+        },
+        {
+          "id": "server-mwfsmet2",
+          "name": "TGvid",
+          "type": "iframe",
+          "link": "https://tgvid.lovable.app/embed/tv/262838/2/7"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Episode 6",
+          "Rakhi Sawant",
+          "Ashneer Grover",
+          "Kushagra Srivastava"
+        ],
+        "tags": [
+          "episode",
+          "season-2"
+        ],
+        "genre": "Reality"
+      },
+      "meta": {
+        "externalId": 7620329,
+        "seasonNumber": 2,
+        "episodeNumber": 6,
+        "name": "Episode 6 : Ft. Rakhi Sawant, Ashneer Grover & Kushagra Srivastava",
+        "overview": "Contestants showcase their talents in guitar performance, stand-up comedy, robotics, karate, belly dancing, and mentalism before guest judges Rakhi Sawant, Ashneer Grover, and Kushagra Srivastava.",
+        "airDate": "2026-09-06",
+        "runtimeMinutes": 52,
+        "rating": 2,
+        "voteCount": 1,
+        "stillPath": "/cGW744OcSPnd2GtrYWNY8aE7MFI.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/cGW744OcSPnd2GtrYWNY8aE7MFI.jpg",
+        "guestStars": [
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          },
+          {
+            "externalId": 86031,
+            "name": "Rakhi Sawant",
+            "character": "Self",
+            "profilePath": "/uTgCw0pcfqPf0HLb2vrcJvkwRTi.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/uTgCw0pcfqPf0HLb2vrcJvkwRTi.jpg"
+          },
+          {
+            "externalId": 3354191,
+            "name": "Ashneer Grover",
+            "character": "Self",
+            "profilePath": "/w7s62EuOziaVaXuxUJc5No1Hioa.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/w7s62EuOziaVaXuxUJc5No1Hioa.jpg"
+          },
+          {
+            "externalId": 4689861,
+            "name": "Kushagra Srivastava",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6a9d7adc5882d566ebfc00e6",
+        "dataId": "s2-06-rakhi",
+        "title": "INDIA'S GOT LATENT S2 EP6 ft. Rakhi Sawant, Ashneer Grover, Kushagra Srivastava",
+        "description": "Season 2 Episode 06 ft. Rakhi Sawant, Ashneer Grover, Kushagra Srivastava.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/6a9d7adc5882d566ebfc00e6.webp",
+        "localImage": "6a9d7adc5882d566ebfc00e6.webp",
+        "duration": "0h 52m 26s"
+      }
+    },
+    {
+      "id": "indias-got-latent-bts-01-ft-alia-bhatt-sharvari-ashish-solanki",
+      "season": 2,
+      "eps_no": "BTS 01",
+      "title": "BTS 01 | ft. Alia Bhatt, Sharvari, Ashish Solanki",
+      "description": "Behind the scenes featuring Alia Bhatt, Sharvari, and Ashish Solanki.",
+      "duration": "17min",
+      "guests": [
+        "Alia Bhatt",
+        "Sharvari",
+        "Ashish Solanki"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://igl-8wky.freeforall.dev/img/4z062p.webp",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "okcdn",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6a4aace463598c4c04e00d80"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Alia Bhatt",
+          "Sharvari",
+          "Ashish Solanki"
+        ],
+        "tags": [
+          "episode",
+          "okcdn",
+          "bts",
+          "season-2"
+        ],
+        "genre": "Reality"
+      },
+      "okcdn": {
+        "id": "6a4aace463598c4c04e00d80",
+        "dataId": "s2-bts-01",
+        "title": "BTS 01 | ft. Alia Bhatt, Sharvari, Ashish Solanki",
+        "description": "Behind the scenes featuring Alia Bhatt, Sharvari, and Ashish Solanki.",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": null,
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/4z062p.webp",
+        "localImage": "4z062p.webp",
+        "duration": "0h 17m 35s"
+      }
+    }
+  ],
+  "spotlight": [
+    {
+      "id": "indias-got-latent-bonus-ep-6-ft--ranveer",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 06 ft. Ashish, Ranveer, Jaspreet, Apoorva",
+      "description": "Guests Ashish, Ranveer, Jaspreet, Apoorva join Samay to hilariously critique India's latent talents. The most talked-about episode with fiery exchanges and unexpected revelations.",
+      "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777748956/taMh8nV934ZwA8euEJc3P36koPg_uaj8o9.jpg",
+      "video_url": "https://res.cloudinary.com/dxds9rnrf/video/upload/v1777746450/igl-1_r7s4no.webm"
+    },
+    {
+      "id": "indias-got-latent-bonus-ep-1-ft--arpit-bala",
+      "title": "INDIA'S GOT LATENT ｜ BONUS EP 01 ft. Arpit, Bappa, Sahil and Amin",
+      "description": "Guests Arpit, Bappa, Sahil and Amin join Samay to hilariously critique India's latent talents.Catch all the behind-the-scenes fun in India's Got Latent Bonus Episode 1 featuring the hilarious antics of Arpit, Bappa, Sahil, and Amin! From candid moments to exclusive conversations, this special bonus episode offers an unfiltered look at your favorite personalities. Want more laughs and surprises? Unlock additional bonus episodes and access exclusive content with the India's Got Latent members-only feature. Stay in the loop with the latest controversy and trending moments. Don’t miss out on the fun!",
+      "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777731032/MV5BNTJkYjczZTctNzg5MC00MjZmLTkzMDUtMGU0NTAyNmU4MzA2XkEyXkFqcGc._V1__dgg8km.jpg",
+      "video_url": "https://res.cloudinary.com/dxds9rnrf/video/upload/v1777746453/igl-2_gtvkke.webm"
+    },
+    {
+      "id": "indias-got-latent-ep-08-ft--aslipoonampandey-viditc",
+      "title": "INDIA'S GOT LATENT ｜ EP 08 ft. aslipoonampandey viditchess vivekmagic",
+      "description": "Watch the hilariously talented contestants perform in front of the judges panel featuring Raftaar.",
+      "image_url": "https://res.cloudinary.com/dxds9rnrf/image/upload/v1777749080/1cOceNLaWja6KI2b6t0PNnBtxBd_stycfn.jpg",
+      "video_url": "https://res.cloudinary.com/dxds9rnrf/video/upload/v1777746445/igl-3_b3w4v9.webm"
+    }
+  ]
+}

@@ -98,7 +98,7 @@ export function ReportDialog({ context = "General site", trigger }: ReportDialog
             <div className="grid grid-cols-2 gap-3">
               <label className="space-y-1.5">
                 <span className="text-xs font-medium">Issue type</span>
-                <select name="issueType" defaultValue="Layout or visual" className="h-9 w-full rounded-md border border-input bg-background px-2 text-sm">
+                <select name="issueType" defaultValue="Layout or visual" className="h-9 w-full rounded-md border border-border/60 bg-muted/50 px-2 text-sm outline-none focus-visible:border-border">
                   <option>Layout or visual</option>
                   <option>Broken button or link</option>
                   <option>Video or playback</option>
@@ -110,7 +110,7 @@ export function ReportDialog({ context = "General site", trigger }: ReportDialog
               </label>
               <label className="space-y-1.5">
                 <span className="text-xs font-medium">Severity</span>
-                <select name="severity" defaultValue="Low" className="h-9 w-full rounded-md border border-input bg-background px-2 text-sm">
+                <select name="severity" defaultValue="Low" className="h-9 w-full rounded-md border border-border/60 bg-muted/50 px-2 text-sm outline-none focus-visible:border-border">
                   <option>Low</option>
                   <option>Medium</option>
                   <option>High</option>
@@ -120,7 +120,7 @@ export function ReportDialog({ context = "General site", trigger }: ReportDialog
 
             <label className="block space-y-1.5">
               <span className="text-xs font-medium">What happened?</span>
-              <textarea name="details" required minLength={10} rows={5} placeholder="Describe the issue and what you expected to happen..." className="w-full resize-y rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring" />
+              <textarea name="details" required minLength={10} rows={5} placeholder="Describe the issue and what you expected to happen..." className="w-full resize-y rounded-md border border-border/60 bg-muted/50 px-3 py-2 text-sm outline-none placeholder:text-muted-foreground/70 focus-visible:border-border" />
             </label>
 
             {status === "error" && <p className="text-xs text-destructive">{errorMessage}</p>}

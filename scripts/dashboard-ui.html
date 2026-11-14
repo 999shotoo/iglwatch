@@ -1,0 +1,2823 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Catalog Studio · IGLWatch</title>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var light = window.matchMedia("(prefers-color-scheme: light)").matches;
+          document.documentElement.dataset.theme =
+            stored === "light" || stored === "dark" ? stored : light ? "light" : "dark";
+        } catch (error) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0a0a0a;
+        --panel: #101010;
+        --panel-2: #151515;
+        --line: #242424;
+        --line-soft: #1c1c1c;
+        --text: #f5f5f5;
+        --muted: #8a8a8a;
+        --faint: #616161;
+        --accent: #f5f5f5;
+        --accent-ink: #0a0a0a;
+        --danger: #f87171;
+        --warn: #e0b878;
+        --good: #74d6a2;
+        --focus: #d4d4d4;
+        --backdrop: rgba(0, 0, 0, 0.74);
+        --toast-bg: #171717;
+        --shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+        --radius: 8px;
+        --radius-sm: 6px;
+      }
+
+      :root[data-theme="light"] {
+        color-scheme: light;
+        --bg: #fafafa;
+        --panel: #ffffff;
+        --panel-2: #f3f3f3;
+        --line: #e4e4e4;
+        --line-soft: #ededed;
+        --text: #111111;
+        --muted: #6b6b6b;
+        --faint: #929292;
+        --accent: #171717;
+        --accent-ink: #fafafa;
+        --danger: #b42318;
+        --warn: #8a5a00;
+        --good: #157347;
+        --focus: #171717;
+        --backdrop: rgba(17, 17, 17, 0.42);
+        --toast-bg: #ffffff;
+        --shadow: 0 18px 45px rgba(0, 0, 0, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        line-height: 1.45;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      button,
+      input,
+      select,
+      textarea {
+        font: inherit;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 2px;
+      }
+
+      ::selection {
+        background: var(--accent);
+        color: var(--accent-ink);
+      }
+
+      kbd {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 17px;
+        height: 17px;
+        padding: 0 5px;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        background: var(--panel-2);
+        color: var(--muted);
+        font-family: inherit;
+        font-size: 9px;
+        font-weight: 650;
+        line-height: 1;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        height: 64px;
+        padding: 0 18px;
+        border-bottom: 1px solid var(--line-soft);
+        background: var(--bg);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        min-width: 0;
+      }
+
+      .mark {
+        display: grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 9px;
+        background: var(--accent);
+        color: var(--accent-ink);
+        flex-shrink: 0;
+      }
+
+      .mark svg {
+        width: 58%;
+        height: 58%;
+      }
+
+      .brand h1 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 750;
+        letter-spacing: -0.01em;
+      }
+
+      .brand p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      .top-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+      }
+
+      .state {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        margin-right: 4px;
+        color: var(--muted);
+        font-size: 11px;
+        white-space: nowrap;
+      }
+
+      .state::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 999px;
+        background: var(--good);
+        flex-shrink: 0;
+      }
+
+      .state.dirty {
+        color: var(--warn);
+      }
+
+      .state.dirty::before {
+        background: var(--warn);
+      }
+
+      .state.busy {
+        color: var(--text);
+      }
+
+      .state.busy::before {
+        background: var(--text);
+        animation: pulse 1s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        50% {
+          opacity: 0.35;
+        }
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        min-height: 32px;
+        padding: 0 12px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--panel-2);
+        color: var(--text);
+        font-size: 12px;
+        font-weight: 650;
+        white-space: nowrap;
+        transition:
+          background-color 120ms ease,
+          border-color 120ms ease,
+          opacity 120ms ease;
+      }
+
+      .btn:hover {
+        background: var(--panel);
+        border-color: var(--muted);
+      }
+
+      .btn:active {
+        opacity: 0.8;
+      }
+
+      .btn.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--accent-ink);
+      }
+
+      .btn.primary:hover {
+        background: var(--accent);
+        border-color: var(--accent);
+        opacity: 0.86;
+      }
+
+      .btn.danger {
+        border-color: var(--line);
+        color: var(--danger);
+        background: transparent;
+      }
+
+      .btn.danger:hover {
+        background: var(--panel-2);
+        border-color: var(--danger);
+      }
+
+      .btn.icon {
+        width: 32px;
+        padding: 0;
+      }
+
+      .btn.small {
+        min-height: 28px;
+        padding: 0 9px;
+        font-size: 11px;
+      }
+
+      .btn svg {
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+      }
+
+      .workspace {
+        display: grid;
+        grid-template-columns: 336px minmax(0, 1fr);
+        gap: 12px;
+        height: calc(100dvh - 64px);
+        padding: 12px;
+      }
+
+      .panel {
+        min-height: 0;
+        border: 1px solid var(--line-soft);
+        border-radius: var(--radius);
+        background: var(--panel);
+      }
+
+      .list-panel {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      .list-tools {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .search-wrap {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+
+      .search-wrap > svg {
+        position: absolute;
+        left: 10px;
+        width: 14px;
+        height: 14px;
+        color: var(--faint);
+        pointer-events: none;
+      }
+
+      .search {
+        width: 100%;
+        height: 36px;
+        padding: 0 34px 0 32px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--bg);
+        color: var(--text);
+        outline: none;
+        transition: border-color 120ms ease;
+      }
+
+      .search::placeholder {
+        color: var(--faint);
+      }
+
+      .search:focus {
+        border-color: var(--muted);
+      }
+
+      .search-clear {
+        position: absolute;
+        right: 5px;
+        display: grid;
+        place-items: center;
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        border: 0;
+        border-radius: 4px;
+        background: var(--panel-2);
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1;
+      }
+
+      .search-clear:hover {
+        color: var(--text);
+      }
+
+      .search-clear[hidden] {
+        display: none;
+      }
+
+      .filters {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: 7px;
+      }
+
+      .filters select {
+        width: 100%;
+        min-width: 0;
+        height: 32px;
+        padding: 0 8px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--bg);
+        color: var(--text);
+        outline: none;
+      }
+
+      .filters select:focus {
+        border-color: var(--muted);
+      }
+
+      .filters .btn {
+        padding: 0 10px;
+      }
+
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+
+      .stat {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 3px 8px;
+        border: 1px solid var(--line-soft);
+        border-radius: 999px;
+        background: transparent;
+        color: var(--muted);
+        font-size: 10px;
+        font-weight: 550;
+        transition:
+          color 120ms ease,
+          border-color 120ms ease,
+          background-color 120ms ease;
+      }
+
+      .stat b {
+        color: var(--text);
+        font-weight: 700;
+      }
+
+      .stat:hover {
+        border-color: var(--line);
+        color: var(--text);
+      }
+
+      .stat.active {
+        border-color: var(--muted);
+        background: var(--panel-2);
+        color: var(--text);
+      }
+
+      .list-count {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        color: var(--faint);
+        font-size: 10px;
+      }
+
+      .list-count .shortcut {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+      }
+
+      .episode-list {
+        flex: 1;
+        overflow: auto;
+        padding: 6px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--line) transparent;
+      }
+
+      .ep-card {
+        display: grid;
+        grid-template-columns: 72px minmax(0, 1fr);
+        gap: 10px;
+        width: 100%;
+        margin: 0 0 3px;
+        padding: 7px;
+        border: 1px solid transparent;
+        border-radius: var(--radius-sm);
+        background: transparent;
+        color: var(--text);
+        text-align: left;
+        transition:
+          background-color 110ms ease,
+          border-color 110ms ease;
+      }
+
+      .ep-card:hover {
+        background: var(--panel-2);
+      }
+
+      .ep-card.active {
+        border-color: var(--line);
+        background: var(--panel-2);
+      }
+
+      .ep-text {
+        display: block;
+        min-width: 0;
+      }
+
+      .ep-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        margin-bottom: 2px;
+      }
+
+      .ep-num {
+        color: var(--muted);
+        font-size: 9.5px;
+        font-weight: 750;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .ep-card.active .ep-num {
+        color: var(--text);
+      }
+
+      .dot {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        color: var(--faint);
+        font-size: 9px;
+        white-space: nowrap;
+      }
+
+      .dot::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 999px;
+        background: currentColor;
+        flex-shrink: 0;
+      }
+
+      .dot.ok {
+        color: var(--good);
+      }
+
+      .dot.warn {
+        color: var(--warn);
+      }
+
+      .ep-title {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-size: 11.5px;
+        font-weight: 650;
+        line-height: 1.35;
+      }
+
+      .ep-meta {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 3px;
+        color: var(--faint);
+        font-size: 9.5px;
+      }
+
+      .tag {
+        padding: 0 5px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 8.5px;
+        font-weight: 650;
+        line-height: 1.5;
+        white-space: nowrap;
+      }
+
+      .tag.warn {
+        border-color: var(--line);
+        color: var(--warn);
+      }
+
+      .ep-thumb {
+        width: 72px;
+        height: 45px;
+        border-radius: var(--radius-sm);
+        font-size: 10px;
+      }
+
+      .editor-panel {
+        overflow: auto;
+        padding: 18px 20px 44px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--line) transparent;
+      }
+
+      .mobile-back {
+        display: none;
+        margin-bottom: 12px;
+      }
+
+      .card-preview {
+        display: grid;
+        grid-template-columns: minmax(190px, 270px) minmax(0, 1fr);
+        gap: 18px;
+        padding-bottom: 18px;
+        margin-bottom: 2px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .card-media {
+        display: block;
+      }
+
+      .card-thumb {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: var(--radius);
+        font-size: 20px;
+      }
+
+      .card-body {
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .eyebrow {
+        margin-bottom: 4px;
+        color: var(--muted);
+        font-size: 9px;
+        font-weight: 750;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .card-body h2 {
+        margin: 0;
+        font-size: 19px;
+        font-weight: 760;
+        line-height: 1.28;
+        letter-spacing: -0.01em;
+      }
+
+      .card-desc {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .chips,
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 9px;
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        padding: 2px 7px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 9.5px;
+        font-weight: 650;
+      }
+
+      .chip.good {
+        border-color: var(--line);
+        color: var(--good);
+      }
+
+      .chip.warn {
+        border-color: var(--line);
+        color: var(--warn);
+      }
+
+      .checks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 10px;
+      }
+
+      .check {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        color: var(--faint);
+        font-size: 9.5px;
+        font-weight: 600;
+      }
+
+      .check::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 999px;
+        background: currentColor;
+      }
+
+      .check.ok {
+        color: var(--muted);
+      }
+
+      .check.warn {
+        color: var(--warn);
+      }
+
+      .card-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: auto;
+        padding-top: 14px;
+      }
+
+      .section {
+        padding: 18px 0 2px;
+        border-top: 1px solid var(--line-soft);
+      }
+
+      .section-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 10px;
+      }
+
+      .section-head h3 {
+        margin: 0;
+        font-size: 10.5px;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .hint {
+        color: var(--faint);
+        font-size: 10px;
+      }
+
+      .field-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        min-width: 0;
+      }
+
+      .field.wide {
+        grid-column: 1 / -1;
+      }
+
+      .field.span-2 {
+        grid-column: span 2;
+      }
+
+      .field span {
+        color: var(--muted);
+        font-size: 10px;
+        font-weight: 600;
+      }
+
+      .field input,
+      .field textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--bg);
+        color: var(--text);
+        outline: none;
+        transition: border-color 120ms ease;
+      }
+
+      .field input {
+        height: 35px;
+        padding: 0 10px;
+      }
+
+      .field textarea {
+        min-height: 72px;
+        padding: 8px 10px;
+        resize: vertical;
+      }
+
+      .field input:focus,
+      .field textarea:focus {
+        border-color: var(--muted);
+      }
+
+      .field input::placeholder,
+      .field textarea::placeholder {
+        color: var(--faint);
+      }
+
+      .field .edited {
+        display: inline-block;
+        margin-left: 5px;
+        padding: 0 5px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--warn);
+        font-size: 8.5px;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .url-preview {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        color: var(--faint);
+        font-size: 10px;
+      }
+
+      .field-thumb-wrap {
+        display: inline-flex;
+      }
+
+      .field-thumb {
+        width: 88px;
+        height: 50px;
+        border-radius: var(--radius-sm);
+        font-size: 10px;
+      }
+
+      .source-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 8px;
+      }
+
+      .server-row {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding: 8px;
+        margin-bottom: 7px;
+        border: 1px solid var(--line-soft);
+        border-radius: var(--radius-sm);
+        background: var(--panel-2);
+      }
+
+      .server-index {
+        display: grid;
+        place-items: center;
+        width: 24px;
+        height: 24px;
+        border: 1px solid var(--line);
+        border-radius: 5px;
+        color: var(--faint);
+        font-size: 9.5px;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+
+      .server-fields {
+        display: grid;
+        grid-template-columns: 140px minmax(0, 1fr) 98px;
+        gap: 7px;
+        flex: 1;
+        min-width: 0;
+      }
+
+      .server-fields input,
+      .server-fields select {
+        width: 100%;
+        height: 32px;
+        padding: 0 8px;
+        border: 1px solid var(--line);
+        border-radius: 5px;
+        background: var(--bg);
+        color: var(--text);
+        outline: none;
+        transition: border-color 120ms ease;
+      }
+
+      .server-fields input:focus,
+      .server-fields select:focus {
+        border-color: var(--muted);
+      }
+
+      .server-btns {
+        display: flex;
+        gap: 5px;
+        flex-shrink: 0;
+      }
+
+      .empty-inline .btn {
+        margin-top: 8px;
+      }
+
+      .empty-inline,
+      .empty-editor,
+      .sync-empty {
+        padding: 18px;
+        border: 1px dashed var(--line);
+        border-radius: 8px;
+        color: var(--muted);
+        text-align: center;
+        font-size: 11.5px;
+      }
+
+      .empty-editor {
+        display: grid;
+        place-items: center;
+        height: 100%;
+        min-height: 300px;
+        border: 0;
+        padding: 24px;
+      }
+
+      .empty-card {
+        max-width: 330px;
+        text-align: center;
+      }
+
+      .empty-icon {
+        display: grid;
+        place-items: center;
+        width: 46px;
+        height: 46px;
+        margin: 0 auto 14px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        color: var(--muted);
+      }
+
+      .empty-icon svg {
+        width: 22px;
+        height: 22px;
+      }
+
+      .empty-editor strong {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--text);
+        font-size: 15px;
+      }
+
+      .empty-editor p {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 11.5px;
+        line-height: 1.55;
+      }
+
+      .meta-empty {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        padding: 11px;
+        border: 1px solid var(--line-soft);
+        border-radius: var(--radius-sm);
+        color: var(--muted);
+        font-size: 11.5px;
+      }
+
+      .override-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 10px;
+        padding: 8px 10px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--panel-2);
+        color: var(--muted);
+        font-size: 10.5px;
+      }
+
+      .guest-stars {
+        padding: 9px 10px;
+        border: 1px solid var(--line-soft);
+        border-radius: var(--radius-sm);
+      }
+
+      .guest-stars .hint {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .fold {
+        border-top: 1px solid var(--line-soft);
+      }
+
+      .fold summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 15px 0;
+        cursor: pointer;
+        list-style: none;
+        font-size: 10.5px;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .fold summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .fold summary small {
+        margin-left: auto;
+        color: var(--faint);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+
+      .fold summary::after {
+        content: "+";
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1;
+      }
+
+      .fold[open] summary::after {
+        content: "−";
+      }
+
+      .fold-body {
+        padding-bottom: 8px;
+      }
+
+      .card-thumb,
+      .ep-thumb,
+      .field-thumb {
+        position: relative;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        background: var(--panel-2);
+        border: 1px solid var(--line-soft);
+        color: var(--faint);
+        font-weight: 800;
+        letter-spacing: 0.04em;
+      }
+
+      .card-thumb img,
+      .ep-thumb img,
+      .field-thumb img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .thumb-fallback {
+        position: relative;
+        z-index: 0;
+      }
+
+      .toast {
+        position: fixed;
+        left: 50%;
+        bottom: 18px;
+        z-index: 40;
+        display: flex;
+        align-items: flex-start;
+        gap: 9px;
+        max-width: min(560px, calc(100vw - 32px));
+        padding: 10px 14px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--toast-bg);
+        box-shadow: var(--shadow);
+        font-size: 11.5px;
+        opacity: 0;
+        transform: translate(-50%, 10px);
+        pointer-events: none;
+        transition:
+          opacity 160ms ease,
+          transform 160ms ease;
+      }
+
+      .toast::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        margin-top: 4px;
+        border-radius: 999px;
+        background: var(--good);
+        flex-shrink: 0;
+      }
+
+      .toast.show {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+
+      .toast.error {
+        border-color: var(--line);
+        color: var(--text);
+      }
+
+      .toast.error::before {
+        background: var(--danger);
+      }
+
+      .toast.ok {
+        border-color: var(--line);
+      }
+
+      .overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 30;
+        display: none;
+        place-items: center;
+        padding: 20px;
+        background: var(--backdrop);
+      }
+
+      .overlay.open {
+        display: grid;
+      }
+
+      .preview,
+      .sync-card {
+        display: flex;
+        flex-direction: column;
+        width: min(860px, 100%);
+        max-height: min(82vh, 780px);
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .preview {
+        width: min(1100px, 100%);
+        height: min(720px, 100%);
+      }
+
+      .preview-head,
+      .sync-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 14px;
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .preview-head strong {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 12px;
+      }
+
+      .preview iframe {
+        flex: 1;
+        width: 100%;
+        border: 0;
+        background: #000;
+      }
+
+      .sync-head h2 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 760;
+      }
+
+      .sync-head p {
+        margin: 4px 0 0;
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      .sync-body {
+        flex: 1;
+        overflow: auto;
+        padding: 12px 14px 16px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--line) transparent;
+      }
+
+      .sync-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .sync-stat {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 5px;
+        padding: 4px 8px;
+        border: 1px solid var(--line-soft);
+        border-radius: 7px;
+        color: var(--muted);
+        font-size: 10.5px;
+      }
+
+      .sync-stat b {
+        color: var(--text);
+        font-size: 13px;
+      }
+
+      .sync-stat.added b {
+        color: var(--good);
+      }
+
+      .sync-stat.updated b {
+        color: var(--warn);
+      }
+
+      .sync-section + .sync-section {
+        margin-top: 14px;
+      }
+
+      .sync-section h3 {
+        margin: 0 0 7px;
+        font-size: 11px;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .sync-list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .sync-item {
+        padding: 8px 9px;
+        border: 1px solid var(--line-soft);
+        border-radius: 7px;
+      }
+
+      .sync-item-main {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .sync-title {
+        font-size: 11.5px;
+        font-weight: 650;
+      }
+
+      .sync-sub {
+        margin-top: 2px;
+        color: var(--faint);
+        font-size: 10px;
+      }
+
+      .sync-source {
+        display: inline-flex;
+        padding: 2px 6px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 8.5px;
+        font-weight: 750;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .sync-fields {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 5px;
+      }
+
+      .sync-field {
+        padding: 2px 6px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--warn);
+        font-size: 9px;
+      }
+
+      .sync-note {
+        padding: 9px 11px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--panel-2);
+        color: var(--warn);
+        font-size: 11px;
+      }
+
+      .sync-foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        padding: 11px 14px;
+        border-top: 1px solid var(--line-soft);
+      }
+
+      .sync-foot-actions {
+        display: flex;
+        gap: 7px;
+        flex-shrink: 0;
+      }
+
+      @media (max-width: 980px) {
+        body {
+          overflow: auto;
+        }
+
+        .workspace {
+          grid-template-columns: 1fr;
+          height: auto;
+          min-height: calc(100dvh - 64px);
+        }
+
+        .list-panel {
+          max-height: 46vh;
+        }
+
+        .editor-panel {
+          overflow: visible;
+        }
+
+        .field-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .server-row {
+          flex-wrap: wrap;
+        }
+
+        .server-index {
+          display: none;
+        }
+
+        .server-fields {
+          grid-template-columns: 1fr;
+          flex-basis: 100%;
+        }
+
+        .server-btns {
+          width: 100%;
+          justify-content: flex-end;
+        }
+
+        .mobile-back {
+          display: inline-flex;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .topbar {
+          height: auto;
+          min-height: 64px;
+          padding: 10px 12px;
+          flex-wrap: wrap;
+        }
+
+        .brand p {
+          display: none;
+        }
+
+        .state {
+          display: none;
+        }
+
+        .top-actions {
+          width: 100%;
+          justify-content: flex-end;
+        }
+
+        .workspace {
+          padding: 8px;
+          gap: 8px;
+        }
+
+        .editor-panel {
+          padding: 14px 12px 36px;
+        }
+
+        .card-preview {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+
+        .card-body h2 {
+          font-size: 17px;
+        }
+
+        .field-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .field.span-2 {
+          grid-column: auto;
+        }
+
+        .sync-foot {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .sync-foot-actions {
+          justify-content: flex-end;
+        }
+
+        .toast {
+          bottom: 12px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.001ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.001ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M8.6 6.4c0-.94 1.03-1.5 1.81-1l8.1 5.6c.7.48.7 1.52 0 2l-8.1 5.6c-.78.5-1.81-.06-1.81-1V6.4Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <div>
+          <h1>Catalog Studio</h1>
+          <p>Local catalog editor · previews use external image URLs</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <span id="saveState" class="state" role="status" aria-live="polite">All changes saved</span>
+        <a class="btn small" href="http://localhost:3000" target="_blank" rel="noreferrer">Open site</a>
+        <button id="themeToggle" type="button" class="btn small icon" aria-label="Toggle color theme" title="Toggle color theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+          </svg>
+        </button>
+        <button id="syncBtn" type="button" class="btn" title="Check TMDB and okcdn for updates">Sync</button>
+        <button id="saveBtn" type="button" class="btn primary" title="Save catalog (Ctrl+S)">Save</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="panel list-panel">
+        <div class="list-tools">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.2-3.2" />
+            </svg>
+            <input
+              id="search"
+              class="search"
+              type="search"
+              placeholder="Search episodes, guests, ids…"
+              autocomplete="off"
+              aria-label="Search episodes"
+            />
+            <button id="clearSearch" class="search-clear" type="button" aria-label="Clear search" hidden>×</button>
+          </div>
+          <div class="filters">
+            <select id="seasonFilter" aria-label="Filter by season"></select>
+            <select id="statusFilter" aria-label="Filter by status">
+              <option value="all">All statuses</option>
+              <option value="playable">Playable</option>
+              <option value="missing">No sources</option>
+              <option value="edited">Edited</option>
+            </select>
+            <button id="addBtn" type="button" class="btn primary" title="New episode">+ New</button>
+          </div>
+          <div id="stats" class="stats"></div>
+          <div class="list-count">
+            <span id="listCount">Loading…</span>
+            <span class="shortcut"><kbd>/</kbd> to search</span>
+          </div>
+        </div>
+        <div id="episodeList" class="episode-list"></div>
+      </aside>
+
+      <section id="editor" class="panel editor-panel" aria-label="Episode editor"></section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <div id="previewOverlay" class="overlay" role="dialog" aria-modal="true" aria-labelledby="previewTitle">
+      <div class="preview">
+        <div class="preview-head">
+          <strong id="previewTitle">Source preview</strong>
+          <button id="closePreview" type="button" class="btn small">Close</button>
+        </div>
+        <iframe id="previewFrame" src="about:blank" allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="syncOverlay" class="overlay" role="dialog" aria-modal="true" aria-labelledby="syncTitle">
+      <div class="sync-card">
+        <div class="sync-head">
+          <div>
+            <div class="eyebrow">Metadata sync</div>
+            <h2 id="syncTitle">Review changes before applying</h2>
+            <p id="syncSubtitle">Nothing has been written to data/catalog.json yet.</p>
+          </div>
+          <button id="closeSync" type="button" class="btn small">Cancel</button>
+        </div>
+        <div id="syncBody" class="sync-body"></div>
+        <div class="sync-foot">
+          <span id="syncFootNote" class="hint"></span>
+          <div class="sync-foot-actions">
+            <button id="discardSync" type="button" class="btn">Cancel</button>
+            <button id="applySync" type="button" class="btn primary">Apply changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const SITE_URL = "http://localhost:3000";
+
+      const state = {
+        catalog: null,
+        selectedId: null,
+        dirty: false,
+        saving: false,
+        syncing: false,
+        applyingSync: false,
+        pendingSync: null,
+        query: "",
+        season: "all",
+        statusFilter: "all",
+        folds: { metadata: false, advanced: false },
+      };
+
+      const $ = (selector) => document.querySelector(selector);
+      let toastTimer = null;
+      let lastFocusedElement = null;
+
+      const THEME_ICONS = {
+        dark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+        light:
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5 8.5 8.5 0 1 0 20.5 14.5Z"/></svg>',
+      };
+
+      function currentTheme() {
+        return document.documentElement.dataset.theme === "light" ? "light" : "dark";
+      }
+
+      function renderThemeToggle() {
+        const theme = currentTheme();
+        const button = $("#themeToggle");
+        if (!button) return;
+        button.innerHTML = THEME_ICONS[theme];
+        button.title = theme === "dark" ? "Switch to light theme" : "Switch to dark theme";
+        button.setAttribute(
+          "aria-label",
+          theme === "dark" ? "Switch to light theme" : "Switch to dark theme",
+        );
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", theme === "dark" ? "#0a0a0a" : "#fafafa");
+      }
+
+      function toggleTheme() {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = next;
+        try {
+          localStorage.setItem("theme", next);
+        } catch (error) {
+          /* Theme still applies for this session. */
+        }
+        renderThemeToggle();
+      }
+
+      function esc(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (character) => {
+          const entities = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+          return entities[character];
+        });
+      }
+
+      function seasonName(value) {
+        return typeof value === "number" ? "Season " + value : String(value);
+      }
+
+      function seasonKey(value) {
+        const number = Number(value);
+        return Number.isFinite(number) && String(value).trim() !== ""
+          ? number
+          : 1000 + String(value).charCodeAt(0);
+      }
+
+      function selectedEpisode() {
+        if (!state.catalog) return null;
+        return state.catalog.episodes.find((episode) => episode.id === state.selectedId) || null;
+      }
+
+      function sortedEpisodes() {
+        return [...state.catalog.episodes].sort((a, b) => {
+          const seasonDiff = seasonKey(a.season) - seasonKey(b.season);
+          if (seasonDiff) return seasonDiff;
+          const aNumber = typeof a.eps_no === "number" ? a.eps_no : 1000;
+          const bNumber = typeof b.eps_no === "number" ? b.eps_no : 1000;
+          if (aNumber !== bNumber) return aNumber - bNumber;
+          return String(a.eps_no).localeCompare(String(b.eps_no));
+        });
+      }
+
+      function episodeNumberLabel(episode) {
+        return typeof episode.eps_no === "number" ? "EP " + episode.eps_no : String(episode.eps_no || "—");
+      }
+
+      function imageUrl(value) {
+        const url = String(value || "").trim();
+        return /^https?:\/\//i.test(url) ? url : "";
+      }
+
+      function initials(value) {
+        const words = String(value || "IG")
+          .replace(/[^a-zA-Z0-9 ]+/g, " ")
+          .trim()
+          .split(/\s+/)
+          .filter(Boolean);
+        return ((words[0]?.[0] || "I") + (words[1]?.[0] || "G")).toUpperCase();
+      }
+
+      function thumbMarkup(url, label, className) {
+        const source = imageUrl(url);
+        const fallback = '<span class="thumb-fallback">' + esc(initials(label)) + "</span>";
+        const image = source
+          ? '<img src="' + esc(source) + '" alt="" loading="lazy" onerror="this.remove()" />'
+          : "";
+        return '<span class="' + className + '">' + image + fallback + "</span>";
+      }
+
+      function episodeChips(episode) {
+        const chips = [];
+        const sourceCount = (episode.servers || []).length;
+        chips.push(
+          '<span class="chip ' +
+            (sourceCount ? "good" : "warn") +
+            '">' +
+            sourceCount +
+            " source" +
+            (sourceCount === 1 ? "" : "s") +
+            "</span>",
+        );
+        if (episode.meta) chips.push('<span class="chip good">metadata</span>');
+        if (episode.duration) chips.push('<span class="chip">' + esc(episode.duration) + "</span>");
+        const guests = episode.guests || [];
+        for (const guest of guests.slice(0, 4)) {
+          chips.push('<span class="chip">' + esc(guest) + "</span>");
+        }
+        if (guests.length > 4) chips.push('<span class="chip">+' + (guests.length - 4) + "</span>");
+        return chips.join("");
+      }
+
+      function setDirty(value) {
+        state.dirty = value;
+        updateSaveState();
+      }
+
+      function updateSaveState() {
+        const element = $("#saveState");
+        if (!element) return;
+        element.classList.remove("dirty", "busy");
+        if (state.saving) {
+          element.textContent = "Saving…";
+          element.classList.add("busy");
+        } else if (state.syncing) {
+          element.textContent = "Checking for updates…";
+          element.classList.add("busy");
+        } else if (state.applyingSync) {
+          element.textContent = "Applying sync…";
+          element.classList.add("busy");
+        } else if (state.dirty) {
+          element.textContent = "Unsaved changes";
+          element.classList.add("dirty");
+        } else {
+          element.textContent = "All changes saved";
+        }
+        document.title =
+          (state.dirty && !state.saving && !state.syncing && !state.applyingSync ? "• " : "") +
+          "Catalog Studio · IGLWatch";
+      }
+
+      function toast(message, type) {
+        const element = $("#toast");
+        element.textContent = message;
+        element.className = "toast show " + (type || "ok");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => {
+          element.className = "toast";
+        }, 5200);
+      }
+
+      async function loadCatalog() {
+        const response = await fetch("/api/catalog", { cache: "no-store" });
+        const payload = await response.json();
+        if (!response.ok) throw new Error(payload.error || "Could not load the catalog.");
+        state.catalog = payload;
+        state.selectedId =
+          payload.episodes.find((episode) => episode.id === state.selectedId)?.id ||
+          payload.episodes[0]?.id ||
+          null;
+        renderAll();
+      }
+
+      function renderSeasonFilter() {
+        const options = new Map();
+        for (const season of state.catalog.seasons || []) {
+          options.set(String(season.seasonNumber), seasonName(season.seasonNumber));
+        }
+        for (const episode of state.catalog.episodes) {
+          if (!options.has(String(episode.season))) {
+            options.set(String(episode.season), seasonName(episode.season));
+          }
+        }
+        const entries = [...options.entries()].sort((a, b) => seasonKey(a[0]) - seasonKey(b[0]));
+        if (state.season !== "all" && !options.has(state.season)) state.season = "all";
+
+        const select = $("#seasonFilter");
+        select.innerHTML =
+          '<option value="all">All seasons</option>' +
+          entries
+            .map(([value, label]) => '<option value="' + esc(value) + '">' + esc(label) + "</option>")
+            .join("");
+        select.value = state.season;
+      }
+
+      function renderStats() {
+        const episodes = state.catalog.episodes;
+        const withSources = episodes.filter((episode) => (episode.servers || []).length > 0).length;
+        const sources = episodes.reduce((total, episode) => total + (episode.servers || []).length, 0);
+        $("#stats").innerHTML =
+          "<span><b>" + episodes.length + "</b> episodes</span>" +
+          "<span><b>" + withSources + "</b> playable</span>" +
+          "<span><b>" + sources + "</b> sources</span>";
+      }
+
+      function renderList() {
+        const query = state.query.trim().toLowerCase();
+        const episodes = sortedEpisodes().filter((episode) => {
+          if (state.season !== "all" && String(episode.season) !== state.season) return false;
+          if (!query) return true;
+          const haystack = [
+            episode.id,
+            episode.title,
+            episode.description,
+            seasonName(episode.season),
+            episode.eps_no,
+            ...(episode.guests || []),
+            ...(episode.hosts || []),
+            episode.meta?.name,
+            ...(episode.meta?.guestStars || []).map((guest) => guest.name),
+          ]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+          return haystack.includes(query);
+        });
+
+        const list = $("#episodeList");
+        const scroll = list.scrollTop;
+        if (!episodes.length) {
+          list.innerHTML = '<div class="empty-inline">No episodes match this filter.</div>';
+          return;
+        }
+
+        list.innerHTML = episodes
+          .map((episode) => {
+            const sourceCount = (episode.servers || []).length;
+            const sourceText = sourceCount ? sourceCount + " src" : "no src";
+            return (
+              '<button type="button" class="ep-card' +
+              (episode.id === state.selectedId ? " active" : "") +
+              '" data-episode="' +
+              esc(episode.id) +
+              '">' +
+              thumbMarkup(episode.thumbnail, episode.title, "ep-thumb") +
+              '<span class="ep-text">' +
+              '<span class="ep-top"><span class="ep-num">' +
+              esc(episodeNumberLabel(episode)) +
+              '</span><span class="dot ' +
+              (sourceCount ? "ok" : "warn") +
+              '">' +
+              esc(sourceText) +
+              "</span></span>" +
+              '<span class="ep-title">' +
+              esc(episode.title) +
+              "</span>" +
+              '<span class="ep-meta">' +
+              esc(seasonName(episode.season)) +
+              " · " +
+              (episode.meta ? "metadata" : "local") +
+              "</span>" +
+              "</span>" +
+              "</button>"
+            );
+          })
+          .join("");
+        list.scrollTop = scroll;
+      }
+
+      function field(label, path, value, options) {
+        const settings = options || {};
+        const attributes = [
+          'data-path="' + path + '"',
+          'value="' + esc(value ?? "") + '"',
+          settings.type ? 'type="' + settings.type + '"' : 'type="text"',
+          settings.type === "number" ? 'step="' + (settings.step || "any") + '"' : "",
+          settings.type === "number" || settings.list ? 'data-kind="' + (settings.list ? "list" : "number") + '"' : "",
+          settings.placeholder ? 'placeholder="' + esc(settings.placeholder) + '"' : "",
+        ]
+          .filter(Boolean)
+          .join(" ");
+        return (
+          '<label class="field ' +
+          (settings.className || "") +
+          '"><span>' +
+          esc(label) +
+          (settings.edited ? '<em class="edited" title="Manual edit kept during sync">edited</em>' : "") +
+          "</span><input " +
+          attributes +
+          " /></label>"
+        );
+      }
+
+      function area(label, path, value, options) {
+        const settings = options || {};
+        return (
+          '<label class="field ' +
+          (settings.className || "wide") +
+          '"><span>' +
+          esc(label) +
+          (settings.edited ? '<em class="edited" title="Manual edit kept during sync">edited</em>' : "") +
+          '</span><textarea data-path="' +
+          path +
+          '" placeholder="' +
+          esc(settings.placeholder || "") +
+          '">' +
+          esc(value ?? "") +
+          "</textarea></label>"
+        );
+      }
+
+      function section(title, body, hint) {
+        return (
+          '<section class="section"><div class="section-head"><h3>' +
+          esc(title) +
+          "</h3>" +
+          (hint ? '<span class="hint">' + esc(hint) + "</span>" : "") +
+          "</div>" +
+          body +
+          "</section>"
+        );
+      }
+
+      function fold(key, title, hint, body) {
+        const open = state.folds[key] ? " open" : "";
+        return (
+          '<details class="fold" data-fold="' +
+          key +
+          '"' +
+          open +
+          '><summary><span>' +
+          esc(title) +
+          "</span><small>" +
+          esc(hint || "") +
+          '</small></summary><div class="fold-body">' +
+          body +
+          "</div></details>"
+        );
+      }
+
+      function cardPreview(episode) {
+        return (
+          '<article class="card-preview">' +
+          '<div id="liveThumb" class="card-media">' +
+          thumbMarkup(episode.thumbnail, episode.title, "card-thumb") +
+          "</div>" +
+          '<div class="card-body">' +
+          '<div id="liveMeta" class="eyebrow">' +
+          esc(seasonName(episode.season)) +
+          " · " +
+          esc(episodeNumberLabel(episode)) +
+          "</div>" +
+          '<h2 id="liveTitle">' +
+          esc(episode.title || "Untitled episode") +
+          "</h2>" +
+          '<p id="liveDesc" class="card-desc">' +
+          esc(episode.description || "No description yet.") +
+          "</p>" +
+          '<div id="liveChips" class="chips">' +
+          episodeChips(episode) +
+          "</div>" +
+          '<div class="card-actions">' +
+          '<button type="button" class="btn small" data-preview-episode>Preview source</button>' +
+          '<a id="liveOpen" class="btn small" href="' +
+          SITE_URL +
+          "/w/" +
+          encodeURIComponent(episode.id) +
+          '" target="_blank" rel="noreferrer">Open page</a>' +
+          '<button type="button" class="btn small danger" data-delete-episode>Delete</button>' +
+          "</div>" +
+          "</div>" +
+          "</article>"
+        );
+      }
+
+      function serverRows(episode) {
+        const servers = episode.servers || [];
+        if (!servers.length) {
+          return '<div class="empty-inline">No iframe sources yet. Add one to make this episode playable.</div>';
+        }
+        return servers
+          .map((server, index) => {
+            const typeOptions = ["iframe", "embed", "external"]
+              .map(
+                (type) =>
+                  '<option value="' +
+                  type +
+                  '"' +
+                  ((server.type || "iframe") === type ? " selected" : "") +
+                  ">" +
+                  type +
+                  "</option>",
+              )
+              .join("");
+            return (
+              '<div class="server-row">' +
+              '<div class="server-fields">' +
+              '<input data-server-index="' +
+              index +
+              '" data-server-field="name" value="' +
+              esc(server.name) +
+              '" placeholder="Server name" aria-label="Server name" />' +
+              '<input data-server-index="' +
+              index +
+              '" data-server-field="link" value="' +
+              esc(server.link) +
+              '" placeholder="https://…" aria-label="Server link" />' +
+              '<select data-server-index="' +
+              index +
+              '" data-server-field="type" aria-label="Server type">' +
+              typeOptions +
+              "</select>" +
+              "</div>" +
+              '<div class="server-btns">' +
+              '<button type="button" class="btn small" data-preview-server="' +
+              index +
+              '">Preview</button>' +
+              '<button type="button" class="btn danger small" data-remove-server="' +
+              index +
+              '">Remove</button>' +
+              "</div>" +
+              "</div>"
+            );
+          })
+          .join("");
+      }
+
+      function metadataSection(episode) {
+        const meta = episode.meta;
+        if (!meta) {
+          return (
+            '<div class="meta-empty"><span>No synced metadata yet. Sync will fill it automatically, or add a manual block.</span><button type="button" class="btn small" data-add-meta>Add metadata</button></div>'
+          );
+        }
+        const overrides = new Set(episode.overrides || []);
+        const metaOverrideCount = [...overrides].filter((path) => path.startsWith("meta.")).length;
+        const guestStars = (meta.guestStars || []).length
+          ? meta.guestStars
+              .map(
+                (guest) =>
+                  '<span class="chip">' +
+                  esc(guest.name) +
+                  (guest.character ? " · " + esc(guest.character) : "") +
+                  "</span>",
+              )
+              .join("")
+          : '<span class="hint">No guest stars in the synced record.</span>';
+
+        return (
+          (metaOverrideCount
+            ? '<div class="override-actions"><span>' +
+              metaOverrideCount +
+              " metadata field" +
+              (metaOverrideCount === 1 ? " is" : "s are") +
+              ' protected from sync.</span><button type="button" class="btn small" data-clear-meta-overrides>Clear</button></div>'
+            : "") +
+          '<div class="field-grid">' +
+          field("Metadata title", "meta.name", meta.name, {
+            className: "span-2",
+            edited: overrides.has("meta.name"),
+          }) +
+          field("Air date", "meta.airDate", meta.airDate, {
+            type: "date",
+            edited: overrides.has("meta.airDate"),
+          }) +
+          field("Provider season", "meta.seasonNumber", meta.seasonNumber, {
+            type: "number",
+            step: "1",
+            edited: overrides.has("meta.seasonNumber"),
+          }) +
+          field("Provider episode", "meta.episodeNumber", meta.episodeNumber, {
+            type: "number",
+            step: "1",
+            edited: overrides.has("meta.episodeNumber"),
+          }) +
+          field("Runtime (minutes)", "meta.runtimeMinutes", meta.runtimeMinutes, {
+            type: "number",
+            step: "1",
+            edited: overrides.has("meta.runtimeMinutes"),
+          }) +
+          field("Rating", "meta.rating", meta.rating, {
+            type: "number",
+            step: "0.1",
+            edited: overrides.has("meta.rating"),
+          }) +
+          field("Vote count", "meta.voteCount", meta.voteCount, {
+            type: "number",
+            step: "1",
+            edited: overrides.has("meta.voteCount"),
+          }) +
+          field("Provider title id", "meta.externalId", meta.externalId, {
+            type: "number",
+            step: "1",
+            edited: overrides.has("meta.externalId"),
+          }) +
+          field("Still image URL", "meta.stillUrl", meta.stillUrl, {
+            className: "span-2",
+            edited: overrides.has("meta.stillUrl"),
+          }) +
+          '<div class="url-preview"><span>Still preview</span><span id="stillPreview" class="field-thumb-wrap">' +
+          thumbMarkup(meta.stillUrl, "Still", "field-thumb") +
+          "</span></div>" +
+          area("Metadata overview", "meta.overview", meta.overview, {
+            className: "wide",
+            edited: overrides.has("meta.overview"),
+          }) +
+          '<div class="field wide"><span>Synced guest stars</span><div class="guest-stars"><div class="pill-row">' +
+          guestStars +
+          "</div></div></div>" +
+          '<div class="field wide"><button type="button" class="btn danger small" data-remove-meta>Remove metadata block</button></div>' +
+          "</div>"
+        );
+      }
+
+      function advancedSection(episode) {
+        const overrides = new Set(episode.overrides || []);
+        return (
+          '<div class="field-grid">' +
+          field("Episode id", "id", episode.id, { className: "wide" }) +
+          field("Keywords (comma separated)", "metadata.keywords", (episode.metadata?.keywords || []).join(", "), {
+            className: "wide",
+            list: true,
+            edited: overrides.has("metadata.keywords"),
+          }) +
+          field("Tags (comma separated)", "metadata.tags", (episode.metadata?.tags || []).join(", "), {
+            className: "wide",
+            list: true,
+            edited: overrides.has("metadata.tags"),
+          }) +
+          field("Genre", "metadata.genre", episode.metadata?.genre || "", {
+            edited: overrides.has("metadata.genre"),
+          }) +
+          "</div>" +
+          '<p class="hint">The id is part of the static URL — keep it stable once published.</p>'
+        );
+      }
+
+      function renderEditor() {
+        const editor = $("#editor");
+        const episode = selectedEpisode();
+        if (!episode) {
+          editor.innerHTML =
+            '<div class="empty-editor"><div><strong>No episode selected</strong>Pick an episode on the left, or create a new one.</div></div>';
+          return;
+        }
+
+        const overrides = new Set(episode.overrides || []);
+        const metaHint = episode.meta ? "synced record" : "manual";
+
+        editor.innerHTML =
+          cardPreview(episode) +
+          section(
+            "Episode",
+            '<div class="field-grid">' +
+              field("Title", "title", episode.title, {
+                className: "wide",
+                edited: overrides.has("title"),
+              }) +
+              field("Season", "season", episode.season, { edited: overrides.has("season") }) +
+              field("Episode label", "eps_no", episode.eps_no, { edited: overrides.has("eps_no") }) +
+              field("Duration", "duration", episode.duration, {
+                placeholder: "e.g. 1hr 5min",
+                edited: overrides.has("duration"),
+              }) +
+              field("Thumbnail URL", "thumbnail", episode.thumbnail, {
+                className: "wide",
+                edited: overrides.has("thumbnail"),
+              }) +
+              '<div class="url-preview"><span>Thumbnail preview</span><span id="thumbPreview" class="field-thumb-wrap">' +
+              thumbMarkup(episode.thumbnail, episode.title, "field-thumb") +
+              "</span></div>" +
+              field("Download URL", "downloadLink", episode.downloadLink, {
+                className: "wide",
+                edited: overrides.has("downloadLink"),
+              }) +
+              "</div>",
+            "External image links only",
+          ) +
+          section(
+            "Content",
+            '<div class="field-grid">' +
+              area("Description", "description", episode.description, {
+                className: "wide",
+                edited: overrides.has("description"),
+              }) +
+              field("Guests (comma separated)", "guests", (episode.guests || []).join(", "), {
+                className: "wide",
+                list: true,
+                edited: overrides.has("guests"),
+              }) +
+              field("Hosts (comma separated)", "hosts", (episode.hosts || []).join(", "), {
+                className: "wide",
+                list: true,
+                edited: overrides.has("hosts"),
+              }) +
+              "</div>",
+          ) +
+          section(
+            "Sources",
+            '<div class="section-head"><h3>Iframe sources</h3><button type="button" class="btn small" data-add-server>+ Add source</button></div>' +
+              serverRows(episode),
+            "Preview opens in an overlay",
+          ) +
+          fold("metadata", "Metadata", metaHint, metadataSection(episode)) +
+          fold("advanced", "Advanced", "id & search fields", advancedSection(episode));
+      }
+
+      function refreshPreview(episode) {
+        const setText = (id, value) => {
+          const element = document.getElementById(id);
+          if (element) element.textContent = value;
+        };
+
+        setText("liveMeta", seasonName(episode.season) + " · " + episodeNumberLabel(episode));
+        setText("liveTitle", episode.title || "Untitled episode");
+        setText("liveDesc", episode.description || "No description yet.");
+
+        const chips = document.getElementById("liveChips");
+        if (chips) chips.innerHTML = episodeChips(episode);
+
+        const liveThumb = document.getElementById("liveThumb");
+        if (liveThumb) liveThumb.innerHTML = thumbMarkup(episode.thumbnail, episode.title, "card-thumb");
+
+        const thumbPreview = document.getElementById("thumbPreview");
+        if (thumbPreview) {
+          thumbPreview.innerHTML = thumbMarkup(episode.thumbnail, episode.title, "field-thumb");
+        }
+
+        const stillPreview = document.getElementById("stillPreview");
+        if (stillPreview) {
+          stillPreview.innerHTML = thumbMarkup(episode.meta?.stillUrl, "Still", "field-thumb");
+        }
+
+        const open = document.getElementById("liveOpen");
+        if (open) open.href = SITE_URL + "/w/" + encodeURIComponent(episode.id);
+      }
+
+      function renderAll() {
+        renderSeasonFilter();
+        renderStats();
+        renderList();
+        renderEditor();
+        updateSaveState();
+      }
+
+      function setPath(object, path, value) {
+        const parts = path.split(".");
+        let current = object;
+        for (let index = 0; index < parts.length - 1; index += 1) {
+          const part = parts[index];
+          if (!current[part] || typeof current[part] !== "object") current[part] = {};
+          current = current[part];
+        }
+        current[parts[parts.length - 1]] = value;
+      }
+
+      function markEditedField(input) {
+        const label = input.closest(".field")?.querySelector(":scope > span");
+        if (!label || label.querySelector(".edited")) return;
+        const badge = document.createElement("em");
+        badge.className = "edited";
+        badge.title = "Manual edit kept during sync";
+        badge.textContent = "edited";
+        label.appendChild(badge);
+      }
+
+      function addEpisode() {
+        const season =
+          state.season === "all"
+            ? typeof state.catalog.episodes[0]?.season === "number"
+              ? state.catalog.episodes[0].season
+              : 1
+            : /^\d+$/.test(state.season)
+              ? Number(state.season)
+              : state.season;
+        const id = "new-episode-" + Date.now().toString(36);
+        const episode = {
+          id,
+          season,
+          eps_no: "",
+          title: "Untitled episode",
+          description: "",
+          duration: "",
+          guests: [],
+          hosts: ["Samay Raina"],
+          thumbnail: "",
+          downloadLink: "",
+          servers: [],
+          metadata: { keywords: ["India's Got Latent"], tags: ["episode"], genre: "Comedy" },
+        };
+        state.catalog.episodes.push(episode);
+        state.selectedId = id;
+        state.season = "all";
+        setDirty(true);
+        renderAll();
+        toast("Episode added. Fill in the details, then save the catalog.", "ok");
+      }
+
+      function deleteEpisode() {
+        const episode = selectedEpisode();
+        if (!episode) return;
+        if (!confirm('Delete "' + episode.title + '" from the catalog?\n\nA later metadata sync can add it back if the source still lists it.')) return;
+        const ordered = sortedEpisodes();
+        const index = ordered.findIndex((item) => item.id === episode.id);
+        state.catalog.episodes = state.catalog.episodes.filter((item) => item.id !== episode.id);
+        const next = ordered[index + 1] || ordered[index - 1] || null;
+        state.selectedId = next ? next.id : state.catalog.episodes[0]?.id || null;
+        setDirty(true);
+        renderAll();
+        toast("Episode removed. Save to write the change.", "ok");
+      }
+
+      function addServer() {
+        const episode = selectedEpisode();
+        if (!episode) return;
+        episode.servers = episode.servers || [];
+        episode.servers.push({
+          id: "server-" + Date.now().toString(36),
+          name: "New source",
+          type: "iframe",
+          link: "",
+        });
+        setDirty(true);
+        renderEditor();
+        renderList();
+        renderStats();
+        const inputs = document.querySelectorAll('[data-server-field="link"]');
+        inputs[inputs.length - 1]?.focus();
+      }
+
+      function removeServer(index) {
+        const episode = selectedEpisode();
+        if (!episode || !episode.servers) return;
+        episode.servers.splice(index, 1);
+        setDirty(true);
+        renderEditor();
+        renderList();
+        renderStats();
+      }
+
+      function addMetadata() {
+        const episode = selectedEpisode();
+        if (!episode) return;
+        episode.meta = {
+          externalId: 0,
+          seasonNumber: typeof episode.season === "number" ? episode.season : 0,
+          episodeNumber: typeof episode.eps_no === "number" ? episode.eps_no : 0,
+          name: episode.title,
+          overview: episode.description,
+          airDate: null,
+          runtimeMinutes: null,
+          rating: 0,
+          voteCount: 0,
+          stillPath: null,
+          stillUrl: episode.thumbnail || null,
+          guestStars: [],
+        };
+        clearOverrides(episode, "meta.");
+        state.folds.metadata = true;
+        setDirty(true);
+        renderEditor();
+        renderList();
+        renderStats();
+      }
+
+      function removeMetadata() {
+        const episode = selectedEpisode();
+        if (!episode || !episode.meta) return;
+        if (!confirm("Remove the metadata block from this episode?")) return;
+        delete episode.meta;
+        clearOverrides(episode, "meta.");
+        setDirty(true);
+        renderEditor();
+        renderList();
+        renderStats();
+      }
+
+      function clearOverrides(episode, prefix) {
+        const next = (episode.overrides || []).filter((path) => !path.startsWith(prefix));
+        if (next.length) episode.overrides = next;
+        else delete episode.overrides;
+      }
+
+      function resetOverrides() {
+        const episode = selectedEpisode();
+        if (!episode || !(episode.overrides || []).length) return;
+        if (
+          !confirm(
+            "Clear the manual-edit markers on this episode?\n\nA later sync may then replace those fields with provider values.",
+          )
+        ) {
+          return;
+        }
+        delete episode.overrides;
+        setDirty(true);
+        renderEditor();
+        renderList();
+        renderStats();
+        toast("Manual-edit markers cleared. The next sync can refresh those fields.", "ok");
+      }
+
+      function clearMetaOverrides() {
+        const episode = selectedEpisode();
+        if (!episode || !episode.meta) return;
+        clearOverrides(episode, "meta.");
+        setDirty(true);
+        renderEditor();
+        renderList();
+        renderStats();
+        toast("Metadata fields are no longer protected. The next sync can refresh them.", "ok");
+      }
+
+      function openPreview() {
+        const episode = selectedEpisode();
+        const link = episode?.servers?.[0]?.link;
+        if (!link) {
+          toast("This episode has no source to preview.", "error");
+          return;
+        }
+        $("#previewTitle").textContent = episode.title + " · " + (episode.servers[0].name || "source");
+        $("#previewFrame").src = link;
+        $("#previewOverlay").classList.add("open");
+      }
+
+      function closePreview() {
+        $("#previewOverlay").classList.remove("open");
+        $("#previewFrame").src = "about:blank";
+      }
+
+      async function saveCatalog() {
+        if (state.saving) return;
+        state.saving = true;
+        updateSaveState();
+        try {
+          const response = await fetch("/api/catalog", {
+            method: "PUT",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(state.catalog),
+          });
+          const payload = await response.json();
+          if (!response.ok) throw new Error(payload.error || "Save failed.");
+          state.catalog = payload.catalog;
+          state.dirty = false;
+          renderAll();
+          toast("Saved to data/catalog.json. Run npm run build to publish the static site.", "ok");
+        } catch (error) {
+          toast(error.message, "error");
+        } finally {
+          state.saving = false;
+          updateSaveState();
+        }
+      }
+
+      const SYNC_FIELD_LABELS = {
+        title: "title",
+        thumbnail: "thumbnail",
+        description: "description",
+        duration: "duration",
+        guests: "guests",
+        hosts: "hosts",
+        meta: "metadata block",
+        "meta.name": "metadata title",
+        "meta.overview": "metadata overview",
+        "meta.airDate": "air date",
+        "meta.runtimeMinutes": "runtime",
+        "meta.rating": "rating",
+        "meta.voteCount": "vote count",
+        "meta.stillUrl": "still image",
+        "meta.stillPath": "still path",
+        "meta.guestStars": "guest stars",
+        "meta.seasonNumber": "provider season",
+        "meta.episodeNumber": "provider episode",
+        "meta.externalId": "provider id",
+      };
+
+      function syncFieldLabel(field) {
+        return SYNC_FIELD_LABELS[field] || field.replace(/^meta\./, "metadata ");
+      }
+
+      function syncSources(sources) {
+        return (sources || [])
+          .map((source) => '<span class="sync-source">' + esc(source) + "</span>")
+          .join(" ");
+      }
+
+      function syncItemHeader(item) {
+        return (
+          '<div class="sync-item-main"><div><div class="sync-title">' +
+          esc(item.title) +
+          '</div><div class="sync-sub">' +
+          esc(seasonName(item.season)) +
+          " · " +
+          esc(typeof item.eps_no === "number" ? "EP " + item.eps_no : item.eps_no || "—") +
+          " · " +
+          esc(item.id) +
+          "</div></div><div>" +
+          syncSources(item.sources) +
+          "</div></div>"
+        );
+      }
+
+      function renderSyncSummary(summary) {
+        const added = summary.addedEpisodes || [];
+        const updated = summary.updatedEpisodes || [];
+        const okcdn = summary.okcdn || {};
+        const transport =
+          summary.transport === "relay" ? "TMDB via relay" : summary.transport || "TMDB";
+        const parts = [];
+
+        parts.push(
+          '<div class="sync-stats">' +
+            '<span class="sync-stat added"><b>' +
+            added.length +
+            "</b> added</span>" +
+            '<span class="sync-stat updated"><b>' +
+            updated.length +
+            "</b> updated</span>" +
+            '<span class="sync-stat"><b>' +
+            (summary.unchanged || 0) +
+            "</b> unchanged</span>" +
+            '<span class="sync-stat"><b>' +
+            (summary.episodes || 0) +
+            "</b> total</span>" +
+            '<span class="sync-stat">' +
+            esc(transport) +
+            "</span>" +
+            '<span class="sync-stat">okcdn ' +
+            esc(okcdn.transport || "off") +
+            " · " +
+            (okcdn.fetched || 0) +
+            " items</span></div>",
+        );
+
+        if (okcdn.transport === "unavailable") {
+          parts.push(
+            '<div class="sync-note">The okcdn feed could not be reached, so this preview only includes TMDB data. ' +
+              esc(okcdn.error || "") +
+              "</div>",
+          );
+        }
+
+        if (!added.length && !updated.length) {
+          parts.push(
+            '<div class="sync-empty">No episode changes were found. Applying this sync only refreshes show and season-level context.</div>',
+          );
+        } else {
+          if (added.length) {
+            parts.push(
+              '<div class="sync-section"><h3>New episodes <span class="sync-source">' +
+                added.length +
+                '</span></h3><div class="sync-list">' +
+                added.map((item) => '<div class="sync-item">' + syncItemHeader(item) + "</div>").join("") +
+                "</div></div>",
+            );
+          }
+          if (updated.length) {
+            parts.push(
+              '<div class="sync-section"><h3>Updated episodes <span class="sync-source">' +
+                updated.length +
+                '</span></h3><div class="sync-list">' +
+                updated
+                  .map(
+                    (item) =>
+                      '<div class="sync-item">' +
+                      syncItemHeader(item) +
+                      '<div class="sync-fields">' +
+                      (item.fields || [])
+                        .map(
+                          (field) =>
+                            '<span class="sync-field">' + esc(syncFieldLabel(field)) + "</span>",
+                        )
+                        .join("") +
+                      "</div></div>",
+                  )
+                  .join("") +
+                "</div></div>",
+            );
+          }
+        }
+
+        $("#syncSubtitle").textContent =
+          "Review these changes. Nothing has been written to data/catalog.json yet.";
+        $("#syncFootNote").textContent =
+          (summary.overridesKept
+            ? summary.overridesKept + " manually edited metadata field(s) will be kept. "
+            : "") +
+          "Sources and episodes are never deleted by a sync.";
+        $("#syncBody").innerHTML = parts.join("");
+      }
+
+      function showSyncOverlay() {
+        $("#syncOverlay").classList.add("open");
+      }
+
+      function closeSyncOverlay(discard) {
+        $("#syncOverlay").classList.remove("open");
+        const token = state.pendingSync?.token;
+        state.pendingSync = null;
+        if (discard && token) {
+          fetch("/api/sync/discard", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ token }),
+          }).catch(() => {});
+        }
+      }
+
+      async function previewSync() {
+        if (state.syncing || state.applyingSync) return;
+        state.syncing = true;
+        updateSaveState();
+        try {
+          const response = await fetch("/api/sync/preview", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ catalog: state.catalog }),
+          });
+          const payload = await response.json();
+          if (!response.ok) throw new Error(payload.error || "Sync preview failed.");
+          state.pendingSync = payload;
+          renderSyncSummary(payload.summary);
+          showSyncOverlay();
+        } catch (error) {
+          toast(error.message, "error");
+        } finally {
+          state.syncing = false;
+          updateSaveState();
+        }
+      }
+
+      async function applyPendingSync() {
+        if (!state.pendingSync || state.applyingSync) return;
+        const token = state.pendingSync.token;
+        state.applyingSync = true;
+        updateSaveState();
+        const button = $("#applySync");
+        button.disabled = true;
+        button.textContent = "Applying…";
+        try {
+          const response = await fetch("/api/sync/apply", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ token }),
+          });
+          const payload = await response.json();
+          if (!response.ok) throw new Error(payload.error || "Could not apply the sync.");
+          state.catalog = payload.catalog;
+          state.dirty = false;
+          if (!state.catalog.episodes.some((episode) => episode.id === state.selectedId)) {
+            state.selectedId = state.catalog.episodes[0]?.id || null;
+          }
+          const summary = payload.summary || {};
+          state.pendingSync = null;
+          $("#syncOverlay").classList.remove("open");
+          renderAll();
+          toast(
+            "Sync applied: " +
+              (summary.added || 0) +
+              " added, " +
+              (summary.updated || 0) +
+              " updated, " +
+              (summary.episodes || state.catalog.episodes.length) +
+              " episodes total.",
+            "ok",
+          );
+        } catch (error) {
+          toast(error.message, "error");
+        } finally {
+          state.applyingSync = false;
+          button.disabled = false;
+          button.textContent = "Apply changes";
+          updateSaveState();
+        }
+      }
+
+      function bindEvents() {
+        $("#search").addEventListener("input", (event) => {
+          state.query = event.target.value;
+          renderList();
+        });
+
+        $("#seasonFilter").addEventListener("change", (event) => {
+          state.season = event.target.value;
+          renderList();
+        });
+
+        $("#addBtn").addEventListener("click", addEpisode);
+        $("#saveBtn").addEventListener("click", saveCatalog);
+        $("#syncBtn").addEventListener("click", previewSync);
+        $("#closePreview").addEventListener("click", closePreview);
+        $("#closeSync").addEventListener("click", () => closeSyncOverlay(true));
+        $("#discardSync").addEventListener("click", () => closeSyncOverlay(true));
+        $("#applySync").addEventListener("click", applyPendingSync);
+
+        $("#previewOverlay").addEventListener("click", (event) => {
+          if (event.target === $("#previewOverlay")) closePreview();
+        });
+
+        $("#syncOverlay").addEventListener("click", (event) => {
+          if (event.target === $("#syncOverlay")) closeSyncOverlay(true);
+        });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && $("#previewOverlay").classList.contains("open")) {
+            closePreview();
+          }
+          if (event.key === "Escape" && $("#syncOverlay").classList.contains("open")) {
+            closeSyncOverlay(true);
+          }
+          if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") {
+            event.preventDefault();
+            saveCatalog();
+          }
+        });
+
+        $("#episodeList").addEventListener("click", (event) => {
+          const card = event.target.closest("[data-episode]");
+          if (!card) return;
+          if (card.dataset.episode === state.selectedId) return;
+          if (state.dirty && !confirm("Discard unsaved changes and switch episodes?")) return;
+          state.selectedId = card.dataset.episode;
+          state.dirty = false;
+          renderAll();
+        });
+
+        $("#editor").addEventListener(
+          "toggle",
+          (event) => {
+            const details = event.target.closest?.("details[data-fold]");
+            if (details) state.folds[details.dataset.fold] = details.open;
+          },
+          true,
+        );
+
+        $("#editor").addEventListener("input", (event) => {
+          const input = event.target;
+          const episode = selectedEpisode();
+          if (!episode) return;
+
+          if (input.dataset.path) {
+            let value = input.value;
+            if (input.dataset.kind === "number") {
+              value = value === "" ? null : Number(value);
+            } else if (input.dataset.kind === "list") {
+              value = value
+                .split(",")
+                .map((item) => item.trim())
+                .filter(Boolean);
+            }
+            if (input.dataset.path === "id") {
+              state.selectedId = value;
+            }
+            setPath(episode, input.dataset.path, value);
+            if (input.dataset.path !== "id") {
+              const overrides = new Set(episode.overrides || []);
+              overrides.add(input.dataset.path);
+              episode.overrides = [...overrides];
+              markEditedField(input);
+            }
+            setDirty(true);
+            refreshPreview(episode);
+            renderStats();
+            renderList();
+            return;
+          }
+
+          if (input.dataset.serverIndex !== undefined && input.dataset.serverField) {
+            const index = Number(input.dataset.serverIndex);
+            if (!episode.servers?.[index]) return;
+            episode.servers[index][input.dataset.serverField] = input.value;
+            setDirty(true);
+            renderStats();
+            renderList();
+          }
+        });
+
+        $("#editor").addEventListener("change", (event) => {
+          const input = event.target;
+          if (input.dataset.path === "season" || input.dataset.path === "eps_no") {
+            renderList();
+          }
+        });
+
+        $("#editor").addEventListener("click", (event) => {
+          const button = event.target.closest("button");
+          if (!button) return;
+          const episode = selectedEpisode();
+          if (!episode) return;
+
+          if (button.hasAttribute("data-add-server")) {
+            addServer();
+          } else if (button.hasAttribute("data-remove-server")) {
+            removeServer(Number(button.dataset.removeServer));
+          } else if (button.hasAttribute("data-add-meta")) {
+            addMetadata();
+          } else if (button.hasAttribute("data-remove-meta")) {
+            removeMetadata();
+          } else if (button.hasAttribute("data-reset-overrides")) {
+            resetOverrides();
+          } else if (button.hasAttribute("data-clear-meta-overrides")) {
+            clearMetaOverrides();
+          } else if (button.hasAttribute("data-delete-episode")) {
+            deleteEpisode();
+          } else if (button.hasAttribute("data-preview-episode")) {
+            openPreview();
+          } else if (button.hasAttribute("data-open-server")) {
+            const index = Number(button.dataset.openServer);
+            const link = episode.servers?.[index]?.link;
+            if (link) window.open(link, "_blank", "noopener,noreferrer");
+            else toast("Add a link for this source first.", "error");
+          } else if (button.hasAttribute("data-preview-server")) {
+            const index = Number(button.dataset.previewServer);
+            const server = episode.servers?.[index];
+            if (!server?.link) {
+              toast("Add a link for this source first.", "error");
+              return;
+            }
+            $("#previewTitle").textContent = episode.title + " · " + (server.name || "source");
+            $("#previewFrame").src = server.link;
+            $("#previewOverlay").classList.add("open");
+          }
+        });
+
+        window.addEventListener("beforeunload", (event) => {
+          if (!state.dirty) return;
+          event.preventDefault();
+          event.returnValue = "";
+        });
+      }
+
+      async function boot() {
+        bindEvents();
+        try {
+          await loadCatalog();
+        } catch (error) {
+          $("#editor").innerHTML =
+            '<div class="empty-editor"><div><strong>Could not load the catalog</strong>' +
+            esc(error.message) +
+            "</div></div>";
+          toast(error.message, "error");
+        }
+      }
+
+      boot();
+    </script>
+  </body>
+</html>
