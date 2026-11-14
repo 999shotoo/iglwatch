@@ -2,7 +2,7 @@ import { PageHeader } from "@/components/page-header";
 
 export default function PrivacyPage() {
     return (
-        <div className="max-w-3xl animate-in fade-in duration-500 py-5 md:py-7">
+        <div className="max-w-full animate-in fade-in duration-500 py-5 md:py-7">
             <PageHeader
                 title="Privacy Policy"
                 description="Last updated: April 12, 2026"

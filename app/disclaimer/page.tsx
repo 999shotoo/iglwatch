@@ -2,7 +2,7 @@ import { PageHeader } from "@/components/page-header";
 
 export default function DisclaimerPage() {
     return (
-        <div className="max-w-3xl animate-in fade-in duration-500 py-5 md:py-7">
+        <div className="max-w-full animate-in fade-in duration-500 py-5 md:py-7">
             <PageHeader title="Disclaimer" />
 
             <div className="space-y-5 text-sm leading-relaxed text-muted-foreground md:text-base">

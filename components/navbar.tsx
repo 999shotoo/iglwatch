@@ -167,7 +167,7 @@ export function Navbar({ watchHref }: { watchHref: string }) {
         <div className="mb-3 flex flex-col items-center gap-2">
           <ModeToggle />
           {/*<a
-            href="https://discord.gg/R3xnmjarqM"
+            href="https://discord.gg/5AGCTmdq82"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Join Discord"
@@ -224,7 +224,7 @@ export function Navbar({ watchHref }: { watchHref: string }) {
 
           <div className="ml-auto flex items-center gap-1.5 min-[900px]:ml-0">
             <Link
-              href="https://discord.gg/R3xnmjarqM"
+              href="https://discord.gg/5AGCTmdq82"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden h-8 items-center gap-2 rounded-lg bg-[#5865F2] pl-3 pr-4 text-xs font-semibold text-white shadow-sm shadow-[#5865F2]/30 transition-all hover:bg-[#4752C4] hover:shadow-md hover:shadow-[#5865F2]/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5865F2] focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.98] md:inline-flex"
@@ -392,7 +392,7 @@ export function Navbar({ watchHref }: { watchHref: string }) {
                 </div>
                 <div className="mt-3">
                   <a
-                    href="https://discord.gg/R3xnmjarqM"
+                    href="https://discord.gg/5AGCTmdq82"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 w-full rounded-xl bg-[#5865F2] px-3 py-2 text-sm font-semibold text-white shadow-sm shadow-[#5865F2]/30 transition-all hover:bg-[#4752C4] hover:shadow-md hover:shadow-[#5865F2]/40 active:scale-[0.98]"

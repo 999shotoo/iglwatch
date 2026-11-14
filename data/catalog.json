@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T06:25:20.194Z",
+  "updatedAt": "2026-11-14T06:52:41.088Z",
   "show": {
     "name": "India's Got Latent",
     "alternateName": "IGLWatch",
@@ -4229,12 +4229,6 @@
           "name": "okcdn",
           "type": "iframe",
           "link": "https://clever-cucurucho-c6babf.netlify.app/?id=69f62c839e653d7783a6d1d5"
-        },
-        {
-          "id": "streamtape",
-          "name": "Streamtape",
-          "type": "iframe",
-          "link": "https://streamtape.com/e/D9vKpxymG6FkzD2/"
         },
         {
           "id": "lulustream",

@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   output: "export",
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;

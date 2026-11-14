@@ -2,7 +2,7 @@ import { PageHeader } from "@/components/page-header";
 
 export default function AboutPage() {
     return (
-        <div className="max-w-3xl animate-in fade-in duration-500 py-5 md:py-7">
+        <div className="max-w-full animate-in fade-in duration-500 py-5 md:py-7">
             <PageHeader
                 title="About India's Got Latent"
                 description="A fan-managed archive for one of India's most talked-about comedy shows."

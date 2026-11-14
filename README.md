@@ -1,6 +1,10 @@
 # IGLWatch
 
 <p align="center">
+  <img src="public/github-preview.jpg" alt="IGLWatch logo" />
+</p>
+
+<p align="center">
   <strong>Watch India's Got Latent episodes in one curated fan portal.</strong>
 </p>
 
