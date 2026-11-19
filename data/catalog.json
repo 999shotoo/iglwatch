@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T06:52:41.088Z",
+  "updatedAt": "2026-11-19T02:24:13.745Z",
   "show": {
     "name": "India's Got Latent",
     "alternateName": "IGLWatch",
@@ -11,9 +11,9 @@
     "status": "Returning Series",
     "inProduction": true,
     "numberOfSeasons": 2,
-    "numberOfEpisodes": 20,
+    "numberOfEpisodes": 21,
     "rating": 9,
-    "voteCount": 14,
+    "voteCount": 15,
     "genres": [
       "Reality",
       "Comedy"
@@ -72,7 +72,7 @@
       "overview": "Samay Raina returns for another season of his unconventional comedy competition, in which contestants predict their own scores before performing.",
       "airDate": "2026-06-20",
       "rating": 4.3,
-      "episodeCount": 8,
+      "episodeCount": 9,
       "posterPath": "/CBh0hsJRmipyPLQDMsu1PdcNCn.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w500/CBh0hsJRmipyPLQDMsu1PdcNCn.jpg"
     }
@@ -2988,7 +2988,7 @@
         "seasonNumber": 2,
         "episodeNumber": 5,
         "name": "Episode 5 : Ft. Orry, Archana Puran Singh, Sharon Verma & Nishant Suri",
-        "overview": "Contestants showcase live music, dance and rap performances before guest judges  Orry, Archana Puran Singh, Sharon Verma & Nishant Suri",
+        "overview": "Orry, Archana Puran Singh, Nishant Suri and Sharon Verma join Samay for a lively mix of Punjabi music, classical dance and rap performances.",
         "airDate": "2026-08-28",
         "runtimeMinutes": 54,
         "rating": 3,
@@ -3712,7 +3712,7 @@
         "seasonNumber": 2,
         "episodeNumber": 7,
         "name": "Episode 7 : Ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra, Kaustubh Agarwal",
-        "overview": "Contestants showcase magic, musical performances & mimicry before guest judges Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra & Kaustubh Agarwal.",
+        "overview": "Bhuvan Bam, Nawazuddin Siddiqui, Mukesh Chhabra and Kaustubh Agarwal join Samay as magic, music and mimicry take the stage.",
         "airDate": "2026-09-18",
         "runtimeMinutes": 53,
         "rating": 2,
@@ -3822,8 +3822,8 @@
         "runtimeMinutes": 50,
         "rating": 0,
         "voteCount": 0,
-        "stillPath": "/7bymBdMuhZFssd0OYXAL56rHayx.jpg",
-        "stillUrl": "https://image.tmdb.org/t/p/w780/7bymBdMuhZFssd0OYXAL56rHayx.jpg",
+        "stillPath": "/rkMv0bfDXPZ8DXCxj33SxitlCuN.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/rkMv0bfDXPZ8DXCxj33SxitlCuN.jpg",
         "guestStars": [
           {
             "externalId": 4985969,
@@ -4425,6 +4425,100 @@
         "thumbnail": "https://igl-8wky.freeforall.dev/img/4z062p.webp",
         "localImage": "4z062p.webp",
         "duration": "0h 17m 35s"
+      }
+    },
+    {
+      "id": "indias-got-latent-indias-got-latent-s2-ep9-ft-raftaar-balraj-ghai-sahil-kale",
+      "season": 2,
+      "eps_no": 9,
+      "title": "India's Got Latent S2 EP9 Ft. Raftaar, Balraj Ghai, Sahil Kale",
+      "description": "The OGs are back! Season one's fan favorites return for a special episode with Raftaar, Sahil Kale, Balraj Ghai and Samay.",
+      "duration": "50min",
+      "guests": [
+        "Raftaar",
+        "Sahil Kale",
+        "Balraj Singh Ghai"
+      ],
+      "hosts": [
+        "Samay Raina"
+      ],
+      "thumbnail": "https://image.tmdb.org/t/p/w780/r9mJJGHMJ2PodtnMPovhQyuxiaB.jpg",
+      "downloadLink": "",
+      "servers": [
+        {
+          "id": "server-mwmxd1iz",
+          "name": "youtube",
+          "type": "iframe",
+          "link": "https://www.youtube.com/embed/CswOUBuokjo"
+        },
+        {
+          "id": "server-mwmxegfu",
+          "name": "okcdn",
+          "type": "iframe",
+          "link": "https://clever-cucurucho-c6babf.netlify.app/?id=6af9c4955d30a00d59e0d97b"
+        }
+      ],
+      "metadata": {
+        "keywords": [
+          "India's Got Latent",
+          "Season 2",
+          "Raftaar",
+          "Sahil Kale",
+          "Balraj Singh Ghai"
+        ],
+        "tags": [
+          "episode",
+          "season-2"
+        ],
+        "genre": "Reality"
+      },
+      "meta": {
+        "externalId": 8133118,
+        "seasonNumber": 2,
+        "episodeNumber": 9,
+        "name": "Episode 9 : Ft. Raftaar, Balraj Ghai, Sahil Kale",
+        "overview": "The OGs are back! Season one's fan favorites return for a special episode with Raftaar, Sahil Kale, Balraj Ghai and Samay.",
+        "airDate": "2026-11-15",
+        "runtimeMinutes": 50,
+        "rating": 0,
+        "voteCount": 0,
+        "stillPath": "/r9mJJGHMJ2PodtnMPovhQyuxiaB.jpg",
+        "stillUrl": "https://image.tmdb.org/t/p/w780/r9mJJGHMJ2PodtnMPovhQyuxiaB.jpg",
+        "guestStars": [
+          {
+            "externalId": 2149983,
+            "name": "Raftaar",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4906937,
+            "name": "Sahil Kale",
+            "character": "Self",
+            "profilePath": null,
+            "profileUrl": null
+          },
+          {
+            "externalId": 4906905,
+            "name": "Balraj Singh Ghai",
+            "character": "Self",
+            "profilePath": "/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg",
+            "profileUrl": "https://image.tmdb.org/t/p/w185/kjD6qAlbCHJBocTLTsH0zmxhnpI.jpg"
+          }
+        ]
+      },
+      "okcdn": {
+        "id": "6af9c4955d30a00d59e0d97b",
+        "dataId": "s2-09-yt",
+        "title": "INDIA’S GOT LATENT S2 EP9 ft. Raftaar, Balraj Ghai, Sahil Kale",
+        "description": "",
+        "season": "s2",
+        "type": "okcdn",
+        "youtubeId": "CswOUBuokjo",
+        "thumbnail": "https://igl-8wky.freeforall.dev/img/CswOUBuokjo.webp",
+        "localImage": "CswOUBuokjo.webp",
+        "duration": "50m"
       }
     }
   ],
